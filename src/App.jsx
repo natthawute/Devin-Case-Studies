@@ -130,7 +130,7 @@ function Explorer() {
           counts={useCaseCounts}
           selected={useCase}
           onSelect={(name) => setUseCase(useCase === name ? null : name)}
-          limit={10}
+          limit={5}
         />
 
         <FacetBars
@@ -139,6 +139,7 @@ function Explorer() {
           selected={industry}
           onSelect={(name) => setIndustry(industry === name ? null : name)}
           getLabel={(name) => `${INDUSTRY_ICONS[name] || ''} ${name}`}
+          limit={5}
         />
       </div>
 
