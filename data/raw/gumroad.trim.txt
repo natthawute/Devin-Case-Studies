@@ -1,0 +1,29 @@
+[h1] How Devin Became Gumroad's #1 Contributor with 1,500+ Merged PRs
+[h2] About the company
+[p] Gumroad is an e-commerce platform that empowers creators to engage and sell products directly to their supporters. It was founded by Sahil Lavingia in 2011. Since then, Gumroad has developed multiple products like Flexile and Iffy that enable creators and founders to do more.
+[h2] Overview
+[p] Gumroad was founded in 2011 to help creators sell digital products directly to their audiences. The team piloted Devin with one engineering pod in December 2024 and expanded it across the entire company – both technical and non-technical teams – within weeks.
+[p] Today, Devin lives in Slack and GitHub as a shared teammate, turning ideas and tickets into ready-to-merge pull requests around the clock.
+[blockquote] “The best feeling was Devin working during my commute. Build was failing in Flexile production so I went to Slack on my phone, and tagged Devin to fix the failing build. I biked over to the office, saw build was passing so I just merged the fix. It worked perfectly.” Raul Popadineți, Senior Software Engineer, Flexile
+[p] “The best feeling was Devin working during my commute. Build was failing in Flexile production so I went to Slack on my phone, and tagged Devin to fix the failing build. I biked over to the office, saw build was passing so I just merged the fix. It worked perfectly.”
+[p] Raul Popadineți, Senior Software Engineer, Flexile
+[h2] How Gumroad Uses Devin
+[p] Devin is an integral part of Gumroad’s workflow support members of the engineering, product, customer support and marketing teams:
+[blockquote] “I used to keep feature ideas in my Apple Notes. Now I DM them to Devin and those ideas come back as draft PRs” – Seth Thompson, Software Engineer, Iffy
+[p] “I used to keep feature ideas in my Apple Notes. Now I DM them to Devin and those ideas come back as draft PRs”
+[p] – Seth Thompson, Software Engineer, Iffy
+[h2] How Devin works across Gumroad teams – from engineering to support
+[p] Timeline
+[p] Within weeks, Devin became a top contributor to Gumroad repositories. After 4 months, Devin merged 1,583 PRs with an >85% merge rate, ranking #1 contributor on repos like anti-work/gumroad , antiwork/flexile , and antiwork/gum.new .
+[h2] Shipping the Gumroad Helper bot
+[p] Gumroad was inspired by Devin’s Slack integration and built their own Helper bot. Devin not only served as the muse, but was critical in delivering the project. Devin merged 75 PRs for this project, building smaller features like adding a keyboard shortcut to the reply button , as well as taking a first-pass at several of the Helper’s key features including assign to AI and changing how the knowledge bank works . The project would have taken several weeks to deliver without Devin executing these tasks in the background while the engineers worked on the next set of more complex tasks.
+[h2] Turning ideas to PRs
+[p] Seth, the sole developer on Gumroad’s new content moderation tool Iffy, used to capture feature ideas in notes that often remained untouched or landed in a long ticket backlog. Now, he sends those ideas directly to Devin to turn them into a draft PR. Even if Devin simply opened a blank or early draft PR, this new workflow encourages Seth to finish the work, effectively becoming his new to do list.
+[p] For Iffy’s team-of-one, Devin provided significant leverage – helping to iterate on new features, managing configuration changes and even making a change to ~2,500 lines of code.
+[h2] Handing off the technical busywork to Devin
+[blockquote] “From the engineering perspective, it’s much easier to work from a starting point. The task has already been warmed up and you can either have Devin close the loop or you can take it over the finish line.” – Raul Popadineți, Senior Software Engineer, Flexile
+[p] “From the engineering perspective, it’s much easier to work from a starting point. The task has already been warmed up and you can either have Devin close the loop or you can take it over the finish line.”
+[p] – Raul Popadineți, Senior Software Engineer, Flexile
+[p] Raul, working on Flexile – Gumroad’s payroll and equity system for contractors – leverages Devin for a variety of rote tasks, from removing unnecessary code to fixing build failures (notably, Devin fixed a failing build in Flexile’s production environment while Raul was commuting to the office). This allows him to work on other priority projects while Devin handles general code maintenance.
+[p] Devin has also taken on tasks members of the marketing and support teams would usually escalate to engineering. Maddie from Marketing regularly makes updates to the website and simply kicks off a Devin session to complete tasks like copy changes. For Andie in Support, Devin is the default assistant when investigating user-reported bugs. In one support case, Devin was provided with the support ticket in the prompt and found an underlying currency conversion bug that broke their refund process. Devin helped pinpoint the exact issue and part of the code and proposed a draft resolution.
+[h2] Gumroad's Advice to teams onboarding Devin

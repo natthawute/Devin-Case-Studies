@@ -1,0 +1,34 @@
+[h1] How AngelList Completed a Redshift-to-Snowflake Migration 5.2x Faster with Devin
+[h2] About the company
+[p] AngelList is one of the largest fund-administration platforms in venture capital, with $171B in assets on platform across 25,000 funds and syndicates.
+[h2] Overview
+[p] By late 2025, AngelList had grown into one of the largest fund-administration platforms in venture capital, with $171B in assets on platform across 25,000 funds and syndicates. The Redshift-backed analytics stack that had powered that growth was now hitting concurrency limits, with queries queuing and timing out under load. As a result, AngelList’s data team committed to completing a Redshift-to-Snowflake migration by the end of Q1 2026.
+[p] By February 2026, AngelList had already migrated the data layer, over 2000 dbt models, to Snowflake. But the hardest part still lay ahead: migrating the BI layer. The data team needed to retarget, rewrite, and validate 14,000 Metabase cards (the charts and metrics powering LP reports and fund performance dashboards) across 40+ collections, most of which used Redshift-specific SQL or Metabase’s proprietary query language.
+[p] Beau Rothrock, a data engineer who’d joined AngelList just two months earlier, took ownership of the Metabase cutover — the final phase of the migration.
+[blockquote] “I remember when I started. There was just kind of a brief moment of terror about how that was actually going to happen. I knew I couldn’t do this all by myself.” Beau Rothrock, Data Engineer at AngelList
+[p] “I remember when I started. There was just kind of a brief moment of terror about how that was actually going to happen. I knew I couldn’t do this all by myself.”
+[p] Beau Rothrock, Data Engineer at AngelList
+[p] Without Devin, the Metabase migration was trending six months late, toward August or September, and would have required three or four additional engineers. With Devin, AngelList cut over to Snowflake on March 23, 2026 — 5.2× faster than the team estimated without Devin.
+[h2] Shifting From Using Devin as a Tool to a Teammate
+[p] Before writing any code, Thibaut, an engineering lead at AngelList, suggested Beau scope the problem with Devin first. Beau pointed Devin at all 40 top-level Metabase collections and asked it to create a project spec.
+[p] What came back surprised him. Devin worked across all of AngelList’s repositories simultaneously, tracing which dbt models produced which tables and which tables fed which Metabase queries. In an IDE, reasoning across a dozen codebases would mean checking out every repo locally and constantly switching workspaces. Devin held all of them in scope at once.
+[blockquote] “It really was much more like having a remote coworker rather than a sidebar in my IDE. Because Devin could see through multiple repositories the same way I could, it had better context on how to respond to my questions.” Beau Rothrock, Data Engineer at AngelList
+[p] “It really was much more like having a remote coworker rather than a sidebar in my IDE. Because Devin could see through multiple repositories the same way I could, it had better context on how to respond to my questions.”
+[p] Beau Rothrock, Data Engineer at AngelList
+[p] That changed how Beau approached the project. He had been planning to build a single monolithic tool to process cards sequentially. When he ran the approach by Devin, Devin pushed back: if the tool failed on casing, dialect, and data issues all in the same pipeline, every failure would block the entire run and require Beau to manually diagnose what went wrong.
+[p] Devin proposed a different architecture — a suite of composable tools, each handling one step of the migration. And because each tool operated on a single Metabase collection, the work could be partitioned across multiple agents running in parallel.
+[blockquote] “Devin actually is the one who suggested an improved approach to this migration process. And I realized I had a really good partner here.” Beau Rothrock, Data Engineer at AngelList
+[p] “Devin actually is the one who suggested an improved approach to this migration process. And I realized I had a really good partner here.”
+[p] Beau Rothrock, Data Engineer at AngelList
+[p] Together, they built five tools:
+[h2] Twenty Agents Running the Migration in Parallel
+[p] With the tooling ready, Beau launched the migration at scale. At peak, 20 Devin agents ran in parallel — each picking up a Metabase collection, cloning its cards to Snowflake, resolving dialect issues, and validating the results against Redshift.
+[p] Early runs exposed a bottleneck. To resolve casing differences between Redshift and Snowflake, Devin needed to map each Metabase card back to the dbt model that produced its underlying table. Rather than computing this mapping once up front, Devin was re-deriving it for every card — walking the full dbt dependency graph from scratch each time.
+[p] While this approach worked, it was not fast enough. Beau recognized that dbt natively generates a complete dependency graph of every model relationship in the project. He had Devin precompute it into a lookup table it could reference directly, instead of re-tracing the graph for each card.
+[p] The full manifest was too large for Devin to hold in a single context window. Devin proposed splitting it into two tiers: a compact top-level graph mapping every table to its upstream models, and deeper subgraphs for the staging and marts layers that loaded only on demand. Lineage tracing then collapsed from a full graph walk to a direct lookup — fast enough that twenty parallel agents could migrate all 14,000 cards in just three weeks.
+[h2] A Year of Work Delivered in Four Months
+[p] After cutover, AngelList decommissioned Redshift. The data layer for over 25,000 funds now runs on a modernized infrastructure built to scale. LP reports, fund performance dashboards, and compliance pipelines all run on Snowflake.
+[p] For Beau, four months into the job, this was the kind of impact most engineers spend years chasing. He had taken on the most difficult piece of a company-wide migration in his first quarter and attached his name to something hundreds of people across AngelList use every day.
+[blockquote] “Being able to have a really big impact in the company, especially in my first three months of employment — that’s a really big deal. We’ve now empowered people to use Devin in ways that they weren’t empowered before. It’s just really great to think about that I had something to do with that.” Beau Rothrock, Data Engineer at AngelList
+[p] “Being able to have a really big impact in the company, especially in my first three months of employment — that’s a really big deal. We’ve now empowered people to use Devin in ways that they weren’t empowered before. It’s just really great to think about that I had something to do with that.”
+[p] Beau Rothrock, Data Engineer at AngelList

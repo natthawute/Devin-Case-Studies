@@ -1,0 +1,24 @@
+[h1] How The Citation Group Measures Engineering ROI with Devin
+[h2] About the company
+[p] The Citation Group is a leading provider of compliance, risk management, and certification technology and services, spanning everything from HR and Health & Safety to ISO certification and cyber security. They support over 125,000 small and medium-sized businesses across the UK, Canada, Australia, and New Zealand.
+[h2] About The Citation Group
+[p] The Citation Group is the leading provider of compliance, risk management, and certification technology and services, supporting over 125,000 small and medium-sized businesses across the UK, Canada, Australia, and New Zealand. Backed by private equity and expanded through acquisition, the company faced the challenge of scaling engineering output while managing legacy systems, distributed teams, and accumulated tech debt.
+[h2] The Challenge: Establishing Trust in AI-Generated Code
+[p] Citation’s engineering leaders needed a reliable way to evaluate whether Devin was contributing production-quality work. Traditional metrics, such as sprint velocity, varied too much to isolate Devin’s impact.
+With distributed teams and partner developers, the concern was that AI-generated changes might not meet the same standards as human engineers, potentially adding technical debt instead of reducing it.
+[p] To validate quality, the team initially onboarded Devin to a set of projects and measured quality at the pull-request level. In the first three months, 271 Devin PRs were merged (at an 80% success rate) after senior engineer review.
+[p] “By tracking Devin’s pull requests directly, we finally had a clean, production-level signal of impact.” — Anthony Wray, AI Engineering Lead
+[h2] Structuring Work for Devin
+[p] Citation first onboarded Devin through a series of hackathons run by internal and partner teams. Each team designated a lead to document results and share practices. In these early projects, unstructured prompts often produced inconsistent results, but tasks scoped in Jira with clear requirements — and supplemented by documentation pulled directly into Devin sessions — generated PRs that passed review.
+[p] Three practices proved critical:
+[p] “Once we paired Devin with structured specs, the results became consistent. We built a rinse-and-repeat pattern that engineers could trust,” Wray explained.
+[h2] Use Cases in Practice
+[p] Once Devin’s workflow was established, Citation applied it across a range of projects:
+[h2] Scaling Adoption
+[p] Devin is now part of daily engineering practice at Citation. Engineers run more than 180 sessions each week, with over 1,200 sessions recorded in GitHub since rollout. What started as using Devin in scoped hackathon projects has scaled into steady, ongoing use in production across the engineering organization, with adoption also extending to business analysts and support teams.
+[p] “Devin isn’t just another tool. To get value, you have to change your ways of working. Once we did that, it started delivering results we wouldn’t have reached otherwise.” — Anthony Wray, AI Engineering Lead
+[h2] Looking Ahead
+[p] Citation plans to expand Devin’s role in platform modernization and legacy upgrades over the next twelve months. The team is also working on deeper process integration, including automated Jira scoping and standardized specification files to make AI-driven development more predictable.
+[p] For Anthony Wray, the significance goes beyond throughput.
+[p] “The real value is that it forces us to rethink process. You can’t just slap AI on the old way of working. You have to redesign for what’s possible now.” — Anthony Wray, AI Engineering Lead
+[h2] The Citation Group at a Glance

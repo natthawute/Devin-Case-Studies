@@ -1,0 +1,48 @@
+[h1] Devin contributes 25% of total code volume at Hamming
+[h2] About the company
+[p] Hamming is an automated QA platform for voice AI agents. Their platform provides comprehensive testing, monitoring, and debugging tools that help teams identify and proactively fix issues and failures in voice AI agents before they reach customers.
+[h2] Making tasks "Devinable"
+[p] For Hamming, speed is everything. As one of the fastest-moving engineering teams in the world, they measure their success by how much they can ship per week. With Devin contributing 25% of their total code volume and ranking as a top contributor alongside their best engineers, Hamming has redefined what engineering velocity looks like in the age of AI agents.
+[blockquote] “Speed is our primary metric… We measure how much our organization can ship per week, per month. And Devin is one of our top contributors, so it’s pretty obvious what the impact is to us.” —Sumanyu Sharma, Founder & CEO, Hamming
+[p] “Speed is our primary metric… We measure how much our organization can ship per week, per month. And Devin is one of our top contributors, so it’s pretty obvious what the impact is to us.”
+[p] —Sumanyu Sharma, Founder & CEO, Hamming
+[p] To ship fast in a complex codebase without adding bugs, Hamming developed a systematic methodology for identifying and creating “Devinable” tasks—well-bounded, clearly specified work with objective deliverables that Devin can execute with high accuracy.
+[p] With this framework, the Hamming team was able to delegate increasingly complex tasks to Devin that would otherwise take up engineering time (such as rebuilding large parts of their codebase).
+[blockquote] “We have a good feel for what is “Devinable”, what is not “Devinable” internally. That requires skill to know what the right boundaries are, how do you craft specs in a way that are concrete, that someone like Devin can execute.” —Sumanyu
+[p] “We have a good feel for what is “Devinable”, what is not “Devinable” internally. That requires skill to know what the right boundaries are, how do you craft specs in a way that are concrete, that someone like Devin can execute.”
+[p] —Sumanyu
+[p] Identifying “Devinable” tasks was just the beginning. Hamming realized that to truly leverage Devin’s capabilities, they needed to rethink their approach to software engineering. This led to a transformation in how they structure their codebase:
+[p] 1. Writing for AI agents, not just humans Hamming inverted the traditional approach to software development. Instead of writing code primarily for human consumption, they optimized their codebase for AI agents to understand, manipulate, and test.
+[p] 2. Functional over object-oriented They shifted toward functional programming patterns, recognizing that states are harder for both LLMs and humans to visualize and reason about.
+[p] 3. Test-driven and eval-driven development Testing became central to their philosophy, with comprehensive unit tests that help both human and AI developers understand expected behaviors.
+[blockquote] “We made our code base more functional, more self-documenting, added more unit tests, ironically using Devin to add more unit tests… These are things that have nothing specifically to do with Devin, but are just good engineering practices.” —Sumanyu
+[p] “We made our code base more functional, more self-documenting, added more unit tests, ironically using Devin to add more unit tests… These are things that have nothing specifically to do with Devin, but are just good engineering practices.”
+[p] —Sumanyu
+[h2] Hamming’s approach to real-time customer issue resolution
+[p] One of the most impactful uses of Devin at Hamming is for immediate customer issue resolution:
+[blockquote] “If customers report issues on the call, I often just create Devin sessions immediately right then and there so that they’re shipped to prod and fixed the same day. That turnaround time of having an idea and then proving it out or disproving it out is extremely valuable.” —Sumanyu
+[p] “If customers report issues on the call, I often just create Devin sessions immediately right then and there so that they’re shipped to prod and fixed the same day. That turnaround time of having an idea and then proving it out or disproving it out is extremely valuable.”
+[p] —Sumanyu
+[h2] Devin as a scout
+[p] Beyond traditional development tasks, Hamming uses Devin for exploration and experimentation. When the team has new product ideas but lacks time to fully scope them out, they send Devin as a “scout” to explore the solution space. Devin will quickly understand the codebase, search online for documentation, and try out different solutions to find the best approach.
+[blockquote] “Sometimes we have big ideas of things we want to do but don’t have time to fully scope all of them out or prove out a thesis. We’ve often sent Devins as scouts to just try it out and see what is the solution space.” —Sumanyu
+[p] “Sometimes we have big ideas of things we want to do but don’t have time to fully scope all of them out or prove out a thesis. We’ve often sent Devins as scouts to just try it out and see what is the solution space.”
+[p] —Sumanyu
+[p] This exploration capability has led to surprising discoveries, with Devin sometimes finding reusable functions and patterns in the codebase that the team had forgotten about:
+[blockquote] “Sometimes I feel like Devin has a better understanding of our code base than we do. Devin can sometimes find even functions that exist that none of us remember that we wrote like a year ago.” —Sumanyu
+[p] “Sometimes I feel like Devin has a better understanding of our code base than we do. Devin can sometimes find even functions that exist that none of us remember that we wrote like a year ago.”
+[p] —Sumanyu
+[h2] Impact on Hamming's engineering velocity
+[p] The impact of Devin on Hamming’s engineering velocity has been transformative:
+[blockquote] “If you use Devin well, it can be your top contributor. If it’s not, it’s probably a skill issue or a code base issue. If your code base is unfriendly for Devin, it’s also unfriendly for an engineer.” —Sumanyu
+[p] “If you use Devin well, it can be your top contributor. If it’s not, it’s probably a skill issue or a code base issue. If your code base is unfriendly for Devin, it’s also unfriendly for an engineer.”
+[p] —Sumanyu
+[h2] Eval-driven development and clear thinking
+[p] Hamming’s experience with Devin has shaped their vision for the future of software engineering. Rather than seeing AI as a threat to engineering jobs, they view it as an opportunity for unprecedented leverage and creativity.
+[blockquote] “I think the future of software engineering is actually quite bright. This is the best time to learn software engineering because you get enormous amounts of leverage. The future belongs to teams that are deeply thinking around what needs to be done because that’s the alpha of a human.” —Sumanyu
+[p] “I think the future of software engineering is actually quite bright. This is the best time to learn software engineering because you get enormous amounts of leverage. The future belongs to teams that are deeply thinking around what needs to be done because that’s the alpha of a human.”
+[p] —Sumanyu
+[p] Their philosophy extends to their own product development: just as they build testing infrastructure for voice agents, they apply the same rigorous testing principles to their own codebase, creating a virtuous cycle where better testing enables faster, more reliable development with Devin.
+[blockquote] “The future of software engineering is eval-driven development. If you can measure, therefore you can improve. Having clear thinking is kind of everything.” —Sumanyu
+[p] “The future of software engineering is eval-driven development. If you can measure, therefore you can improve. Having clear thinking is kind of everything.”
+[p] —Sumanyu

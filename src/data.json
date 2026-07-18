@@ -1,0 +1,1588 @@
+{
+ "cases": [
+  {
+   "slug": "ahead",
+   "url": "https://devin.ai/customers/ahead",
+   "company": "AHEAD",
+   "title": "From Writing Code to Designing Systems: How AHEAD Unlocked 8x-40x Faster Engineering",
+   "industry": "IT Services & Consulting",
+   "companySize": "Enterprise",
+   "region": "North America",
+   "about": "AHEAD is a technology services company that advises, implements, and manages cloud, data, and security solutions for enterprise clients across healthcare, finance, and manufacturing.",
+   "summary": "AHEAD ran a 'client zero' pilot across 8 production use cases (Terraform, Snowflake, Go, Salesforce, MuleSoft, Azure, dbt), got Devin fully productive in 2 days with 8x-40x time savings, and turned the playbooks into a client-facing AI development practice.",
+   "useCases": [
+    "DevOps & SRE",
+    "Feature Development",
+    "Testing & QA",
+    "CI/CD & Build Fixes",
+    "Workflow Automation & API"
+   ],
+   "metrics": [
+    {
+     "value": "8x-40x",
+     "label": "time savings vs manual baselines"
+    },
+    {
+     "value": "2 days",
+     "label": "for Devin to become fully productive"
+    },
+    {
+     "value": "3 APIs in 1 day",
+     "label": "vs 4 weeks previously (MuleSoft)"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "As soon as we started provisioning it like we would a developer, training it like we would a developer, everything changed.",
+     "attribution": "Matt Mierzejewski"
+    },
+    {
+     "text": "The pipeline’s failing in this repo. Can you go fix it? And by the way, I don’t want to get these on the weekend.",
+     "attribution": ""
+    },
+    {
+     "text": "I’m trying to turn our software engineers into product engineers. The machine is so much faster than we will ever be at entering code. I want people spending more time designing the software and giving the AI the guardrails it needs.",
+     "attribution": "Matt Mierzejewski"
+    },
+    {
+     "text": "Devin is the keystone of our AI Accelerated Development offering. Our customers are solving business problems, not just technical ones, and Devin lets us tackle both. The advisory, enablement, and customization we’ve built around it are what help the world’s biggest companies actually get there.",
+     "attribution": "Eric Kaplan, CTO, AHEAD"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Client Zero",
+     "paragraphs": [
+      "AHEAD ran a pilot with the company’s own internal engineering organization as client zero, with defined use cases, baselines, and success criteria. The pilot covered eight high-impact production use cases spanning Terraform, Snowflake, Go, Salesforce, MuleSoft, Azure, and dbt. Devin became fully productive within two business days, delivering 8x to 40x time savings measured against manual baselines.",
+      "During the pilot, two projects revealed something more fundamental about how engineers’ work itself was changing."
+     ]
+    },
+    {
+     "heading": "Salesforce unit test failure analysis",
+     "paragraphs": [
+      "After AHEAD trained Devin on the workflow, it owned the task end to end. The team gave Devin its own Salesforce user with two-factor authentication and it logs in and clears the OTP prompt on its own. From there, Devin navigates to the administrative deployment page through the UI, finds a failed deployment, analyzes the error logs, goes into the codebase, fixes the code, and opens a pull request. Doing all these steps autonomously with no human in the loop proved just how much complexity Devin could take on. Engineers moved from executing the fix to defining what a good fix looks like."
+     ]
+    },
+    {
+     "heading": "MuleSoft API documentation and testing",
+     "paragraphs": [
+      "A senior engineer used Devin to build three APIs in a single day, a process which previously took four weeks. When Devin encountered a connector integration issue it could not resolve directly, it navigated into the third-party connector’s packaged source code, diagnosed the problem, and fixed the implementation on its own. With Devin writing the APIs, engineers focused on reviewing and approving them.",
+      "In both cases, the pattern persisted: Devin handled the implementation while the human engineer handled the architecture and quality judgment."
+     ]
+    },
+    {
+     "heading": "The Shift",
+     "paragraphs": [
+      "While the productivity gains were significant, the cultural shift was much larger. The real unlock came when engineers started treating Devin like a team member.",
+      "On a Sunday night, a CI pipeline failed. Instead of logging in to diagnose it, Matt sent Devin a Teams message:",
+      "By the next morning, Devin had opened two ready-to-merge pull requests — one that fixed the broken code, one that rescheduled the pipeline to stop firing on weekends.",
+      "At AHEAD, the engineer’s job is transforming from pure implementation to strategically architecting what the implementation should be. Across the team, the question has evolved from whether to use Devin to why they would not."
+     ]
+    },
+    {
+     "heading": "Going to Market",
+     "paragraphs": [
+      "For AHEAD, the internal rollout was the blueprint for a client-facing practice. Devin sits inside a broader AI-accelerated development offering, where AHEAD advises clients on tool strategy and where to invest, trains their engineering organizations to adopt agentic development, delivers the work alongside them, and measures returns in terms a board can act on.",
+      "Each pilot use case equipped AHEAD with a library of reusable templates. AHEAD now has Devin playbooks for upgrading Terraform providers, evolving data models, provisioning Azure resources, Go services, and Salesforce and MuleSoft testing, each ready to run on client engagements.",
+      "That practice meets clients wherever they are. Some lean on AHEAD’s own engineers, who now run Devin daily across their codebases. Others bring AHEAD in to accelerate active engagements, compressing migrations and tech-debt work that used to define a project’s timeline. A growing number are turning to AHEAD to run Devin as an ongoing managed service. In every case, the methodology is the one AHEAD proved on itself, and the clients already in the field are seeing it hold up under real delivery."
+     ]
+    },
+    {
+     "heading": "What's Ahead?",
+     "paragraphs": [
+      "AHEAD is continuing to rollout Devin across its engineering organization and expanding to additional teams and verticals. With a strong foundation laid down, every new team onboards faster than the last.",
+      "The team is also using Devin’s scheduling capabilities to automate recurring, time-consuming tasks: analyzing vendor release notes against the codebase and surfacing code-change recommendations, evaluating package management overrides, and benchmarking new AI models against cost and performance thresholds.",
+      "Having proved Devin on its own engineering organization, AHEAD now brings that expertise to clients through a full set of services built around the platform:",
+      "Together, these help some of the world’s largest companies force-multiply their technology transformations, with Devin serving as the keystone of AHEAD’s AI Accelerated Development offering.",
+      "We’re excited to partner with AHEAD as they scale this new model of engineering across their vast client base. With existing deployments already driving meaningful results, AHEAD is refining its repeatable delivery playbook with every engagement. Organizations interested in deploying Devin at scale through a proven partner can connect with the AHEAD team directly."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "angellist",
+   "url": "https://devin.ai/customers/angellist",
+   "company": "AngelList",
+   "title": "How AngelList Completed a Redshift-to-Snowflake Migration 5.2x Faster with Devin",
+   "industry": "Fintech & Banking",
+   "companySize": "Scale-up",
+   "region": "North America",
+   "about": "AngelList is one of the largest fund-administration platforms in venture capital, with $171B in assets on platform across 25,000 funds and syndicates.",
+   "summary": "A single data engineer, two months into the job, migrated 14,000 Metabase cards from Redshift to Snowflake with 20 parallel Devin agents — finishing 5.2x faster than estimated and avoiding 3-4 additional hires.",
+   "useCases": [
+    "Code Migration & Modernization",
+    "Data Engineering",
+    "Parallel Agent Fleets",
+    "Architecture & System Design"
+   ],
+   "metrics": [
+    {
+     "value": "5.2x",
+     "label": "faster than the no-Devin estimate"
+    },
+    {
+     "value": "14,000",
+     "label": "Metabase cards migrated"
+    },
+    {
+     "value": "20",
+     "label": "Devin agents running in parallel at peak"
+    },
+    {
+     "value": "3 weeks",
+     "label": "to migrate all cards"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "I remember when I started. There was just kind of a brief moment of terror about how that was actually going to happen. I knew I couldn’t do this all by myself.",
+     "attribution": "Beau Rothrock, Data Engineer at AngelList"
+    },
+    {
+     "text": "It really was much more like having a remote coworker rather than a sidebar in my IDE. Because Devin could see through multiple repositories the same way I could, it had better context on how to respond to my questions.",
+     "attribution": "Beau Rothrock, Data Engineer at AngelList"
+    },
+    {
+     "text": "Devin actually is the one who suggested an improved approach to this migration process. And I realized I had a really good partner here.",
+     "attribution": "Beau Rothrock, Data Engineer at AngelList"
+    },
+    {
+     "text": "Being able to have a really big impact in the company, especially in my first three months of employment — that’s a really big deal. We’ve now empowered people to use Devin in ways that they weren’t empowered before. It’s just really great to think about that I had something to do with that.",
+     "attribution": "Beau Rothrock, Data Engineer at AngelList"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Overview",
+     "paragraphs": [
+      "By late 2025, AngelList had grown into one of the largest fund-administration platforms in venture capital, with $171B in assets on platform across 25,000 funds and syndicates. The Redshift-backed analytics stack that had powered that growth was now hitting concurrency limits, with queries queuing and timing out under load. As a result, AngelList’s data team committed to completing a Redshift-to-Snowflake migration by the end of Q1 2026.",
+      "By February 2026, AngelList had already migrated the data layer, over 2000 dbt models, to Snowflake. But the hardest part still lay ahead: migrating the BI layer. The data team needed to retarget, rewrite, and validate 14,000 Metabase cards (the charts and metrics powering LP reports and fund performance dashboards) across 40+ collections, most of which used Redshift-specific SQL or Metabase’s proprietary query language.",
+      "Beau Rothrock, a data engineer who’d joined AngelList just two months earlier, took ownership of the Metabase cutover — the final phase of the migration.",
+      "Without Devin, the Metabase migration was trending six months late, toward August or September, and would have required three or four additional engineers. With Devin, AngelList cut over to Snowflake on March 23, 2026 — 5.2× faster than the team estimated without Devin."
+     ]
+    },
+    {
+     "heading": "Shifting From Using Devin as a Tool to a Teammate",
+     "paragraphs": [
+      "Before writing any code, Thibaut, an engineering lead at AngelList, suggested Beau scope the problem with Devin first. Beau pointed Devin at all 40 top-level Metabase collections and asked it to create a project spec.",
+      "What came back surprised him. Devin worked across all of AngelList’s repositories simultaneously, tracing which dbt models produced which tables and which tables fed which Metabase queries. In an IDE, reasoning across a dozen codebases would mean checking out every repo locally and constantly switching workspaces. Devin held all of them in scope at once.",
+      "That changed how Beau approached the project. He had been planning to build a single monolithic tool to process cards sequentially. When he ran the approach by Devin, Devin pushed back: if the tool failed on casing, dialect, and data issues all in the same pipeline, every failure would block the entire run and require Beau to manually diagnose what went wrong.",
+      "Devin proposed a different architecture — a suite of composable tools, each handling one step of the migration. And because each tool operated on a single Metabase collection, the work could be partitioned across multiple agents running in parallel.",
+      "Together, they built five tools:"
+     ]
+    },
+    {
+     "heading": "Twenty Agents Running the Migration in Parallel",
+     "paragraphs": [
+      "With the tooling ready, Beau launched the migration at scale. At peak, 20 Devin agents ran in parallel — each picking up a Metabase collection, cloning its cards to Snowflake, resolving dialect issues, and validating the results against Redshift.",
+      "Early runs exposed a bottleneck. To resolve casing differences between Redshift and Snowflake, Devin needed to map each Metabase card back to the dbt model that produced its underlying table. Rather than computing this mapping once up front, Devin was re-deriving it for every card — walking the full dbt dependency graph from scratch each time.",
+      "While this approach worked, it was not fast enough. Beau recognized that dbt natively generates a complete dependency graph of every model relationship in the project. He had Devin precompute it into a lookup table it could reference directly, instead of re-tracing the graph for each card.",
+      "The full manifest was too large for Devin to hold in a single context window. Devin proposed splitting it into two tiers: a compact top-level graph mapping every table to its upstream models, and deeper subgraphs for the staging and marts layers that loaded only on demand. Lineage tracing then collapsed from a full graph walk to a direct lookup — fast enough that twenty parallel agents could migrate all 14,000 cards in just three weeks."
+     ]
+    },
+    {
+     "heading": "A Year of Work Delivered in Four Months",
+     "paragraphs": [
+      "After cutover, AngelList decommissioned Redshift. The data layer for over 25,000 funds now runs on a modernized infrastructure built to scale. LP reports, fund performance dashboards, and compliance pipelines all run on Snowflake.",
+      "For Beau, four months into the job, this was the kind of impact most engineers spend years chasing. He had taken on the most difficult piece of a company-wide migration in his first quarter and attached his name to something hundreds of people across AngelList use every day."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "bilt",
+   "url": "https://devin.ai/customers/bilt",
+   "company": "Bilt",
+   "title": "Devin helps Bilt engineers overcome coder's block and accelerate development",
+   "industry": "Fintech & Banking",
+   "companySize": "Scale-up",
+   "region": "North America",
+   "about": "Bilt helps renters earn rewards on rent payments, partnering with major real estate owners in a network of over 3 million rental units.",
+   "summary": "Bilt engineers use Devin as a collaborator for cross-repo features, GCP DevOps triage via playbooks, Figma-to-code workflows, and beating 'coder's block' — shipping 10x faster with an iterative culture.",
+   "useCases": [
+    "Feature Development",
+    "DevOps & SRE",
+    "Design-to-Code",
+    "Prototyping & Exploration",
+    "Documentation & Knowledge"
+   ],
+   "metrics": [
+    {
+     "value": "10x",
+     "label": "faster shipping with iterative Devin workflows"
+    },
+    {
+     "value": "Multi-repo",
+     "label": "feature implementations delegated to Devin"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Devin has gotten me back into coding. As an engineering leader, I got into this field to build things, and Devin has made that experience great again by handling the tedious parts.",
+     "attribution": "Will Laughlin, VP Engineering"
+    },
+    {
+     "text": "I use Devin for most implementations — at the very least to get started. The only things I don’t start with Devin are tasks that require 90% business context and 10% code changes.",
+     "attribution": "Cole Weis, Software Engineer"
+    },
+    {
+     "text": "Devin gets unfairly pigeon-holed as only being able to handle small tasks. But it’s excellent at explaining cross-repository interactions that would take a long time to figure out manually. Devin’s been super useful in helping implement features that span multiple repos.",
+     "attribution": "Haseeb Javed, Software Engineer"
+    },
+    {
+     "text": "You can use Devin as a starter to-do list. Even if you’re not sure what you want to implement and write Devin a vague prompt, it’ll do some of the upfront thinking for you and helps you get out of that coder’s block.",
+     "attribution": "Will Laughlin, VP Engineering"
+    },
+    {
+     "text": "Multitasking is a lot more approachable with Devin. You can use the gaps in your schedule with Devin, and you can actually ship code when it would have otherwise been unproductive buffer time.",
+     "attribution": "Will Laughlin, VP Engineering"
+    },
+    {
+     "text": "Devin has made tedious tasks less involved. You get more joy out of the sheer act of coding because all the things you need to do around coding like test writing are handled, and you can move faster to the next big problem.",
+     "attribution": "Haseeb Javed, Software Engineer"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "",
+     "paragraphs": [
+      "Bilt helps renters earn rewards on rent payments. Their platform allows users to earn points and build credit with no fees. Points can be redeemed for travel, fitness classes, rent credits, and more. Bilt has partnered with major real estate owners to create the Bilt Rewards Alliance, a network of over 3 million rental units."
+     ]
+    },
+    {
+     "heading": "Overview",
+     "paragraphs": [
+      "Bilt was founded in 2021 to help users earn rewards on monthly rent payments. In February 2025, Bilt rolled out Devin across the engineering team to help accelerate development. Initially, the Bilt team used Devin for one-shot, simple engineering tasks but they quickly realized Devin’s deep understanding of their codebase made it a meaningful contributor to more complex projects.",
+      "Today, Devin works alongside Bilt’s engineering team as a true collaborator:",
+      "— Will Laughlin, VP Engineering"
+     ]
+    },
+    {
+     "heading": "How Bilt uses Devin",
+     "paragraphs": [
+      "Devin supports Bilt’s technical teams across a range of functions:"
+     ]
+    },
+    {
+     "heading": "Scaling Devin from one-off tasks to core engineering partner",
+     "paragraphs": [
+      "— Cole Weis, Software Engineer"
+     ]
+    },
+    {
+     "heading": "From one-shot tasks to more complex workflows and projects",
+     "paragraphs": [
+      "Devin’s deep understanding of the Bilt codebase meant that the team could quickly ramp Devin up on more complex implementations that touched multiple repositories.",
+      "— Haseeb Javed, Software Engineer",
+      "The Bilt team is now delegating major code modernization projects, devops workflows, design-to-code, and product operations use cases to Devin. For example, the team created a GCP playbook to standardize instructions on how to navigate and pull the logs from Google Cloud. Devin now investigates GCP issues and proposes a first-pass fix. In many cases, Devin has “one-shotted” complex DevOps problems that would traditionally require significant engineering time.",
+      "Image: Devin reviewing error logs using Bilt’s GCP playbook.",
+      "Another workflow the Bilt team is working on with Devin is turning Figma designs into code. Russell, Frontend Engineer at Bilt, connected Devin to the Figma API, enabling it to download design files and generate functional frontend code using the company’s component library. This approach empowers designers to create high-fidelity prototypes in actual code rather than static Figma mockups.",
+      "Image: Devin building a dummy component from Bilt’s design library.",
+      "Along with daily summarizer which recaps codebase updates every week, the Bilt team has built out creative workflows and use cases that lean on Devin’s strengths: working in mature, complex repositories."
+     ]
+    },
+    {
+     "heading": "Breaking through \"Coder's Block\"",
+     "paragraphs": [
+      "One of Devin’s most valuable contributions so far at Bilt has been reducing the friction of getting started on any project. Rather than procrastinating on tasks or starting on projects from scratch, engineers now delegate the initial implementation to Devin.",
+      "– Will Laughlin, VP Engineering",
+      "The workflow typically follows one of two paths:",
+      "This iterative approach to working with Devin has allowed Bilt’s engineers ship 10x faster, leaning into their iterative engineering culture – break things down into small pieces, ship fast and deliver daily value."
+     ]
+    },
+    {
+     "heading": "Bilt's Advice to teams onboarding Devin",
+     "paragraphs": [
+      "Start with clear acceptance criteria: Break down problems and establish clear goals before involving Devin. You can use Ask Devin to help with the scoping part of the task.",
+      "Make your codebase AI-friendly:",
+      "Be creative: Experiment with new workflows (e.g. DevOps, Figma-to-code), and lean on features like playbooks and Ask Devin to delegate more complex projects to Devin."
+     ]
+    },
+    {
+     "heading": "",
+     "paragraphs": [
+      "Start working with Devin today – sign up for the Core or Team plan . Plug Devin into Slack, Linear and GitHub; watch ideas turn into merged PRs on your commute to work."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "crossmint",
+   "url": "https://devin.ai/customers/crossmint",
+   "company": "Crossmint (GOAT SDK)",
+   "title": "Scaling Open Source Development of GOAT with Devin",
+   "industry": "Web3 & Blockchain",
+   "companySize": "Startup",
+   "region": "North America",
+   "about": "Crossmint provides developer tools to bring applications and agents onchain; GOAT SDK is its community-owned library enabling AI agents to interact with blockchain tools.",
+   "summary": "Devin became the #1 contributor by PR count to the open-source GOAT SDK, handling routine protocol integrations (DEXScreener, Sui) with minimal context so human maintainers could focus on higher-order work.",
+   "useCases": [
+    "Open Source Maintenance",
+    "Feature Development"
+   ],
+   "metrics": [
+    {
+     "value": "#1",
+     "label": "contributor by PR count during trial"
+    },
+    {
+     "value": "8 PRs",
+     "label": "merged (next contributor: 4)"
+    }
+   ],
+   "quotes": [],
+   "sections": [
+    {
+     "heading": "",
+     "paragraphs": [
+      "Crossmint provides developer tools that help companies bring their applications, projects, and agents onchain. At the heart of their open-source initiatives is GOAT SDK, a community-owned library that enables AI agents to interact with blockchain tools."
+     ]
+    },
+    {
+     "heading": "Overview",
+     "paragraphs": [
+      "Crossming provides developer tools that help companies bring their applications, projects, and agents onchain. At the heart of our open-source initiatives is GOAT SDK , a community-owned library that enables AI agents to interact with blockchain tools—from making stablecoin payments to trading in decentralized markets, and more."
+     ]
+    },
+    {
+     "heading": "The Challenge",
+     "paragraphs": [
+      "As maintainers of GOAT SDK, we faced a classic scaling challenge. The library requires constant integration work to keep pace with new protocols and dApps entering the ecosystem. Despite having an active community of developers, the integration backlog was growing faster than our contributors could handle. We needed a solution that could scale our development efforts while maintaining code quality."
+     ]
+    },
+    {
+     "heading": "Enter Devin",
+     "paragraphs": [
+      "When Cognition provided us with Devin credits as part of their Open Source Initiative, we saw an opportunity to test an innovative hypothesis: Could we leverage AI to scale our open-source development while allowing human developers to focus on higher-order challenges?"
+     ]
+    },
+    {
+     "heading": "Implementation and Results",
+     "paragraphs": [
+      "The results have been remarkable. During our initial trial, Devin quickly became our #1 contributor by PR count (it merged 8 PRs, with the next contributor at 4). The majority of its contributions were high-quality and successfully merged. Two notable examples include:",
+      "Adding support for DEXScreener plugin",
+      "Link to session :",
+      "Implementing Sui blockchain integration",
+      "What’s particularly impressive is Devin’s ability to work with minimal context—often requiring just a link to integration documentation to produce working code."
+     ]
+    },
+    {
+     "heading": "What we learned about working with Devin",
+     "paragraphs": [
+      "Through our experience, we’ve identified three critical factors for success with Devin:",
+      "Proper Training: Ensure Devin has sufficient knowledge of your repository and workflows when starting a new task. The keys to achieving this are: (1) doing this iteratively (starting with easier tasks and spending time after each to build Devin’s knowledge), and (2) patience: not assuming that if Devin made a mistake it won’t be able to learn from it.",
+      "Clear Task Context: Provide sufficient background information and specific goals",
+      "Validation Planning: Establish clear criteria for success upfront"
+     ]
+    },
+    {
+     "heading": "What not to do with Devin",
+     "paragraphs": [
+      "The most common mistake we’ve observed is overestimating Devin’s capabilities, setting unrealistic expectations, and getting disappointed when it doesn’t work as expected. Developers have a tendency to approach Devin as a “superhuman” entity, which leads to:"
+     ]
+    },
+    {
+     "heading": "Ramping Devin Up",
+     "paragraphs": [
+      "While it’s still in early stages, we’re optimistic about Devin’s role in scaling our repository sustainably. This allows our human contributors to focus on critical areas where they add the most value:",
+      "By leveraging Devin for routine integration work, we’re creating a more efficient development ecosystem that benefits both our maintainers and the broader open-source community."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "evinova",
+   "url": "https://devin.ai/customers/evinova",
+   "company": "Evinova",
+   "title": "How Evinova accelerates regulated software delivery with Devin",
+   "industry": "Health & Life Sciences",
+   "companySize": "Enterprise",
+   "region": "Europe",
+   "about": "Evinova is a health tech company within the AstraZeneca group delivering digital and AI-native solutions to optimize the clinical development lifecycle, operating in a GxP-regulated environment.",
+   "summary": "In a GxP-regulated environment, Evinova uses Devin to draft regulatory documents (URS, DR plans) at ~90% accuracy in minutes instead of 35-40 hours, run an 'AutoFixer' bug-triage playbook 4x daily, and compress migrations and test automation timelines from quarters to weeks.",
+   "useCases": [
+    "Security & Vulnerability Remediation",
+    "Regulatory & Compliance Docs",
+    "Bug Fixes & Ticket Triage",
+    "Code Migration & Modernization",
+    "Testing & QA",
+    "Documentation & Knowledge"
+   ],
+   "metrics": [
+    {
+     "value": "35-40 hrs → minutes",
+     "label": "to draft regulatory documents at ~90% accuracy"
+    },
+    {
+     "value": "79",
+     "label": "bugs attempted by AutoFixer in 22 days (half merged clean)"
+    },
+    {
+     "value": "3 components in 1.5 days",
+     "label": "vs ~5 days each for stack migration"
+    },
+    {
+     "value": "Quarters → weeks",
+     "label": "to reach near-complete test automation coverage"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Evinova is helping life sciences customers deliver groundbreaking, industry-first outcomes for patients at record speed by harnessing the latest advances in AI. But we can’t credibly transform how our customers design and run clinical trials if we haven’t transformed how we build the software that runs them. Our promise to customers is simple: the software shaping the future of clinical development is built by a company already living in that AI-native future.",
+     "attribution": "Sean Connolly, Vice President, Chief Product and Technology Officer of Evinova"
+    },
+    {
+     "text": "The way Devin approached the problem and was able to iterate on its solution until it resolved the problem was ultimately why we decided to go with this tool.",
+     "attribution": "Shaun Phillips, Director of Engineering for the Study Designer team"
+    },
+    {
+     "text": "It was done in five to ten minutes. The cursory overview was 90% accurate.",
+     "attribution": "Sudha Panuganti, Senior Director of Product Engineering"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "",
+     "paragraphs": [
+      "Evinova is a separate health tech company within the AstraZeneca group that delivers intelligently designed digital and AI-native solutions to biopharma companies and contract research organizations to optimize the entire clinical development lifecycle from end to end."
+     ]
+    },
+    {
+     "heading": "The Challenge",
+     "paragraphs": [
+      "As an AI-native clinical trial technology company operating in a GxP-regulated environment, Evinova’s engineering organization holds itself to the highest standards: every line of code must be traceable, every change auditable, and every release defensible to regulators. Within that operating model, the team identified a clear opportunity to deploy AI agents against the structured, well-bounded work that surrounds product development — backlog triage, regulatory documentation such as User Requirement Specifications and Disaster Recovery Plans, and the coordinated migrations that come with running a modern platform at scale.",
+      "The opportunity was meaningful. Regulatory documents typically required 35 to 40 hours of cross-functional coordination across engineering, product, and QA to assemble the necessary context. Evinova saw a chance to compress that cycle significantly while raising consistency and traceability — freeing senior engineers to focus on the differentiated platform work that sets Evinova apart in the market.",
+      "The team had evaluated the leading AI coding tools and set a deliberately high bar: any solution would need to own a task end-to-end — read a ticket, explore the codebase, write the code, run the tests, and open a pull request — while preserving the full audit trail that GxP and 21 CFR Part 11 demand. That standard is what led Evinova to Cognition."
+     ]
+    },
+    {
+     "heading": "Why Devin",
+     "paragraphs": [
+      "Pete Nellius, who leads Future Product Discovery and AI initiatives at Evinova, championed bringing Devin into the organization. During the evaluation, the team tested every major AI coding tool against real engineering challenges. One test involved a complex task with dependencies on third-party libraries where none of the underlying logic existed. Devin was the only tool that completed it.",
+      "Other large regulated companies were already using Devin, which gave Evinova’s leadership confidence that the tool could meet their compliance and security requirements."
+     ]
+    },
+    {
+     "heading": "Use Case: GxP Documentation",
+     "paragraphs": [
+      "User Requirement Specifications are foundational regulatory artifacts. Producing one means pulling requirements from Jira, tracing them to the underlying code, organizing them into testable acceptance criteria, demonstrating test coverage and evidence, and formatting everything to a standard that makes regulatory audits routine. For a major software module, that work has historically taken 35 to 40 hours of senior engineering, product, and QA time — with much of that effort spent assembling context that lives across multiple systems and teams.",
+      "Accuracy under regulatory scrutiny was the central evaluation criteria across AI development tools. Evinova pointed Devin at the codebase and Jira and tasked it with generating URS documents directly from source. Devin produced structured first drafts at roughly 90% accuracy, shifting senior engineers from primary authors to reviewers — the role where their regulatory judgment is most valuable.",
+      "They used the same approach for Disaster Recovery Plans.",
+      "The team was able to refocus its time on edge cases, more complex DR scenarios, and more effective DR test cases and end to end simulations.",
+      "The outcome was a deeper, more meaningful alignment with key life sciences software regulations and a stronger set of plans and evidence for Evinova customers to leverage for clinical use qualification."
+     ]
+    },
+    {
+     "heading": "Use Case: Automated Bug Triage and Resolution",
+     "paragraphs": [
+      "Bug triage is exactly the kind of recurring, well-bounded engineering workflow where autonomous agents can compound value over time. Rather than treating it as a manual process to optimize, Phillips’s team designed it as a system: AutoFixer, a Devin playbook that runs four times a day and works through open Jira tickets end to end — reading the ticket, exploring the codebase, implementing a fix, running tests, and opening a pull request for human review.",
+      "The results validated the approach quickly. Within 22 days, AutoFixer had attempted 79 bugs — merging clean, review-ready fixes for half and getting engineers most of the way to resolution on another quarter. Phillips estimated a 100% return on his time investment: under two days of setup yielded three to four days of saved engineering effort, with compounding returns as the playbook continues to run. The pattern is portable by design — other squads can replicate the workflow against their own repositories with minimal configuration, turning a single team’s investment into a platform capability across Evinova engineering."
+     ]
+    },
+    {
+     "heading": "Use Case: Tech Stack Migration",
+     "paragraphs": [
+      "Evinova’s engineering organization continuously evolves its technology stack to stay at the frontier of AI-native software development. As part of that ongoing investment, the team migrated existing product components to a modern TypeScript/Next.js architecture — a stack better suited to the agent-driven development workflows, rapid iteration cycles, and composable UI patterns that define how leading AI-native products are built today. The work spans backend logic translation, API updates, UI reconstruction, and full validation, and a single component has historically required about five days of focused engineering time.",
+      "The team set out to migrate one component of a legacy product to test the feasibility of an agent-led migration. Devin completed three components in roughly a day and a half — touching 58 files across three repositories and surfacing only nine points where it needed engineer input. The pattern is now repeatable across the remaining components, allowing Evinova to advance its modernization roadmap at a pace that matches the speed of innovation in the broader AI-native ecosystem."
+     ]
+    },
+    {
+     "heading": "Use Case: Test Automation",
+     "paragraphs": [
+      "Comprehensive test automation is foundational to Evinova’s quality posture — the more coverage the team can build and maintain, the more confidently it can ship at the cadence regulated software demands. The team’s automation framework pairs Playwright with Cucumber-based BDD scenarios — a pattern that doubles as living regulatory documentation by mapping test coverage directly to user requirements — with test specifications managed in X-Ray and traceability anchored in Jira.",
+      "Evinova reframed test script development as another well-bounded workflow ready for agent ownership. Before Devin, the team projected two to three quarters to reach near-complete test automation coverage. Now, Panuganti said they’re looking at weeks."
+     ]
+    },
+    {
+     "heading": "What Comes Next",
+     "paragraphs": [
+      "Evinova is scaling the agent-led playbook across the organization. AutoFixer is expanding from bug resolution into feature development, and the workflow patterns are being rolled out to engineering teams across Evinova — turning early wins into a shared platform capability.",
+      "The impact extends beyond throughput. For Shaun Phillips, Devin has changed what’s possible from the engineering leadership seat. Senior leaders at Evinova spend much of their day in strategy, architecture, and people work — by design. Devin gives them a way to stay close to the code without competing for the same hours. “I would previously ping one of my lead engineers with questions,” Phillips said. “That question now goes straight into Devin and I get an immediate answer, without requiring a human engineer to be online, available, and context switch.”",
+      "It has also let him ship again and keep his engineering skills sharp. “Devin has given me, as an engineering manager, the ability to balance my leadership role and directly contribute to our products,” Phillips said. “I just ping Devin and provide human oversight as Devin handles the ticket end to end, and spits out a pull request on the other side.”",
+      "Most software organizations are bolting AI onto how they already work. In partnership with Cognition, Evinova is rebuilding the operating model itself — leaders shipping code alongside their teams, engineers freed for the work only humans can do, and capabilities that compound across squads rather than getting trapped inside them. In an industry where the pace of AI progress is outrunning most enterprise software organizations, that operating model - coupled with tools like Devin - is what lets Evinova ship clinical trial technology at the speed the moment demands — and what makes it the kind of engineering organization the best builders want to join."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "fefundinfo",
+   "url": "https://devin.ai/customers/fefundinfo",
+   "company": "FE fundinfo",
+   "title": "How FE fundinfo Scaled Eng Capacity with AI-Driven Automation Across 1,800 Repos",
+   "industry": "Fintech & Banking",
+   "companySize": "Enterprise",
+   "region": "Europe",
+   "about": "FE fundinfo is a leading financial data company connecting the investment industry across the UK, Europe and Asia Pacific, with 1,200+ employees and 200+ engineers across ~1,800 active repositories.",
+   "summary": "FE fundinfo deployed Devin across 1,800 repos to offload maintenance, dependency upgrades, and testing — building a scoring system to teach engineers delegation, automating end-to-end workflows, and targeting 2-4x engineering capacity.",
+   "useCases": [
+    "Technical Debt Cleanup",
+    "Testing & QA",
+    "Workflow Automation & API",
+    "Code Migration & Modernization",
+    "Project Planning"
+   ],
+   "metrics": [
+    {
+     "value": "1,800",
+     "label": "active repositories covered"
+    },
+    {
+     "value": "2-4x",
+     "label": "projected engineering capacity increase"
+    },
+    {
+     "value": "3 days / 2 weeks",
+     "label": "of manual QA work saved by one Devin-built tool"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Devin’s understanding of our codebases is substantially better than some other AI systems our teams use. It’s a very nuanced difference until you compare them side by side",
+     "attribution": "Richard Thorpe, Head of Engineering, FE fundinfo"
+    },
+    {
+     "text": "If we can open up the entire pipeline — not just coding — we can unlock more ideas, ship more features and grow the business faster.",
+     "attribution": "Richard Thorpe, Head of Engineering, FE fundinfo"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Overview",
+     "paragraphs": [
+      "As FE fundinfo’s platform expanded, engineering teams faced mounting pressure from maintenance work, security updates, dependency upgrades, testing coverage gaps, and technical debt remediation. Over time, this work began to crowd out new feature development.",
+      "The team had experimented with AI coding assistants embedded in IDEs, but saw limited productivity gains. While useful for local code suggestions, these tools lacked deep codebase understanding, required frequent developer intervention, and often failed to complete tasks end-to-end."
+     ]
+    },
+    {
+     "heading": "Why Devin",
+     "paragraphs": [
+      "Richard Thorpe, Head of Engineering at FE fundinfo, decided to pilot Devin — an autonomous AI software engineer designed to understand large codebase and execute work independently.",
+      "The goal was not incremental improvement, but a step-change: offloading engineering toil and enabling the organization to significantly increase engineering capacity."
+     ]
+    },
+    {
+     "heading": "Driving Adoption: A New Engineering Mindset",
+     "paragraphs": [
+      "Richard quickly realized that success with Devin required more than tool adoption — it required a mindset shift. Engineers needed to evolve from pure executors into coordinators who could effectively delegate work to an AI software engineer.",
+      "To support this transition, Richard developed a scoring system that trained engineers on how to work with Devin. Engineers were measured on dimensions such as:",
+      "This structured approach helped teams learn how to delegate effectively, making Devin adoption a quantifiable skill that could be taught, tracked, and optimized."
+     ]
+    },
+    {
+     "heading": "FE fundinfo’s Approach At A Glance",
+     "paragraphs": [
+      "AI Use Cases:",
+      "Rollout approach:",
+      "FE fundinfo built a scoring system to train engineers to work effectively with AI software engineers, tracking usage and outcomes.",
+      "Key Outcomes:"
+     ]
+    },
+    {
+     "heading": "Results: Unlocking New Engineering Capacity Through Automation",
+     "paragraphs": [
+      "With Devin in place, FE fundinfo began tackling long-standing backlogs that had accumulated over years. Developers were freed up to focus on new feature development and higher-level system design, while Devin took on engineering toil, including:",
+      "To maximize Devin’s impact, the team built an automation system using Replit that runs Devin “playbooks” across all 1,800 repositories. This system automatically:",
+      "This enabled true end-to-end automation, allowing Devin to complete entire workflows from identification through deployment with minimal human intervention."
+     ]
+    },
+    {
+     "heading": "From Coding to Complete Workflows: Reimagining Software Delivery",
+     "paragraphs": [
+      "FE fundinfo is now extending Devin beyond coding into the rest of the software development lifecycle, especially project planning.",
+      "QA engineers emerged as some of Devin’s strongest users, leveraging it to transform their testing workflows. One engineer built a tool that saved three days of manual work every two weeks , while others used Devin to convert freeform tests into stable, automatable suites that could run regularly and consistently. These improvements significantly increased testing coverage while reducing manual effort — allowing QA teams to focus on exploratory testing and strategic quality initiatives.",
+      "Richard believes this expansion across different functions and stages of the SDLC will drive further increases in engineering capacity.",
+      "The team now uses Devin not only to implement changes, but also to plan projects. In one emerging workflow, a product owner submits a problem statement, which is then passed to Devin. Devin returns a proposed project plan, identifying which tickets should be tackled by a human and which by Devin itself. A human reviews and approves the plan, after which Devin assigns out tickets and begins execution.",
+      "Richard envisions this approach could compress the SDLC to three core steps :",
+      "Low-risk changes could pass straight to production; medium-complexity work would require human PR review; and high-complexity projects would involve humans in both planning and review."
+     ]
+    },
+    {
+     "heading": "What’s Next: 2-4x Engineering Capacity",
+     "paragraphs": [
+      "As Devin becomes more deeply embedded across the SDLC, engineering roles at FE fundinfo are shifting from execution to coordination. Developers increasingly partner with Devin: they delegate routine work, focus their own time on the most complex and creative challenges, then review Devin’s output.",
+      "Richard Thorpe believes this new operating model could enable the engineering organization to double, if not quadruple, its output over the next 2-5 years .",
+      "This transformation goes beyond productivity gains. By offloading engineering toil and expanding capacity, FE fundinfo can accelerate feature delivery, reduce technical debt faster, and respond more quickly to market opportunities — strengthening its competitive position in the investment technology space."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "gumroad",
+   "url": "https://devin.ai/customers/gumroad",
+   "company": "Gumroad",
+   "title": "How Devin Became Gumroad's #1 Contributor with 1,500+ Merged PRs",
+   "industry": "E-commerce & Creator Economy",
+   "companySize": "Startup",
+   "region": "North America",
+   "about": "Gumroad is an e-commerce platform that empowers creators to engage and sell products directly to their supporters, founded by Sahil Lavingia in 2011.",
+   "summary": "Devin became Gumroad's #1 code contributor within 4 months, merging 1,583 PRs at an >85% merge rate while supporting engineering, product, marketing, and support teams via Slack and GitHub.",
+   "useCases": [
+    "Feature Development",
+    "Bug Fixes & Ticket Triage",
+    "Non-Engineer Enablement",
+    "CI/CD & Build Fixes"
+   ],
+   "metrics": [
+    {
+     "value": "1,583",
+     "label": "PRs merged in 4 months"
+    },
+    {
+     "value": ">85%",
+     "label": "merge rate"
+    },
+    {
+     "value": "#1",
+     "label": "contributor across Gumroad repos"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The best feeling was Devin working during my commute. Build was failing in Flexile production so I went to Slack on my phone, and tagged Devin to fix the failing build. I biked over to the office, saw build was passing so I just merged the fix. It worked perfectly.",
+     "attribution": "Raul Popadineți, Senior Software Engineer, Flexile"
+    },
+    {
+     "text": "I used to keep feature ideas in my Apple Notes. Now I DM them to Devin and those ideas come back as draft PRs",
+     "attribution": "Seth Thompson, Software Engineer, Iffy"
+    },
+    {
+     "text": "From the engineering perspective, it’s much easier to work from a starting point. The task has already been warmed up and you can either have Devin close the loop or you can take it over the finish line.",
+     "attribution": "Raul Popadineți, Senior Software Engineer, Flexile"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Overview",
+     "paragraphs": [
+      "Gumroad was founded in 2011 to help creators sell digital products directly to their audiences. The team piloted Devin with one engineering pod in December 2024 and expanded it across the entire company – both technical and non-technical teams – within weeks.",
+      "Today, Devin lives in Slack and GitHub as a shared teammate, turning ideas and tickets into ready-to-merge pull requests around the clock."
+     ]
+    },
+    {
+     "heading": "How Gumroad Uses Devin",
+     "paragraphs": [
+      "Devin is an integral part of Gumroad’s workflow support members of the engineering, product, customer support and marketing teams:",
+      "– Seth Thompson, Software Engineer, Iffy"
+     ]
+    },
+    {
+     "heading": "How Devin works across Gumroad teams – from engineering to support",
+     "paragraphs": [
+      "Timeline",
+      "Within weeks, Devin became a top contributor to Gumroad repositories. After 4 months, Devin merged 1,583 PRs with an >85% merge rate, ranking #1 contributor on repos like anti-work/gumroad , antiwork/flexile , and antiwork/gum.new ."
+     ]
+    },
+    {
+     "heading": "Shipping the Gumroad Helper bot",
+     "paragraphs": [
+      "Gumroad was inspired by Devin’s Slack integration and built their own Helper bot. Devin not only served as the muse, but was critical in delivering the project. Devin merged 75 PRs for this project, building smaller features like adding a keyboard shortcut to the reply button , as well as taking a first-pass at several of the Helper’s key features including assign to AI and changing how the knowledge bank works . The project would have taken several weeks to deliver without Devin executing these tasks in the background while the engineers worked on the next set of more complex tasks."
+     ]
+    },
+    {
+     "heading": "Turning ideas to PRs",
+     "paragraphs": [
+      "Seth, the sole developer on Gumroad’s new content moderation tool Iffy, used to capture feature ideas in notes that often remained untouched or landed in a long ticket backlog. Now, he sends those ideas directly to Devin to turn them into a draft PR. Even if Devin simply opened a blank or early draft PR, this new workflow encourages Seth to finish the work, effectively becoming his new to do list.",
+      "For Iffy’s team-of-one, Devin provided significant leverage – helping to iterate on new features, managing configuration changes and even making a change to ~2,500 lines of code."
+     ]
+    },
+    {
+     "heading": "Handing off the technical busywork to Devin",
+     "paragraphs": [
+      "– Raul Popadineți, Senior Software Engineer, Flexile",
+      "Raul, working on Flexile – Gumroad’s payroll and equity system for contractors – leverages Devin for a variety of rote tasks, from removing unnecessary code to fixing build failures (notably, Devin fixed a failing build in Flexile’s production environment while Raul was commuting to the office). This allows him to work on other priority projects while Devin handles general code maintenance.",
+      "Devin has also taken on tasks members of the marketing and support teams would usually escalate to engineering. Maddie from Marketing regularly makes updates to the website and simply kicks off a Devin session to complete tasks like copy changes. For Andie in Support, Devin is the default assistant when investigating user-reported bugs. In one support case, Devin was provided with the support ticket in the prompt and found an underlying currency conversion bug that broke their refund process. Devin helped pinpoint the exact issue and part of the code and proposed a draft resolution."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hamming",
+   "url": "https://devin.ai/customers/hamming",
+   "company": "Hamming",
+   "title": "Devin contributes 25% of total code volume at Hamming",
+   "industry": "AI & Developer Tools",
+   "companySize": "Startup",
+   "region": "North America",
+   "about": "Hamming is an automated QA platform for voice AI agents, providing testing, monitoring, and debugging tools to catch failures before they reach customers.",
+   "summary": "Hamming developed a methodology for identifying 'Devinable' tasks and restructured its codebase for AI agents (functional, self-documenting, test-driven) — with Devin now contributing 25% of total code volume and fixing customer issues same-day.",
+   "useCases": [
+    "Feature Development",
+    "Bug Fixes & Ticket Triage",
+    "Prototyping & Exploration",
+    "Testing & QA"
+   ],
+   "metrics": [
+    {
+     "value": "25%",
+     "label": "of total code volume contributed by Devin"
+    },
+    {
+     "value": "Same day",
+     "label": "customer-reported issues shipped to prod"
+    },
+    {
+     "value": "Top contributor",
+     "label": "alongside their best engineers"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Speed is our primary metric… We measure how much our organization can ship per week, per month. And Devin is one of our top contributors, so it’s pretty obvious what the impact is to us.",
+     "attribution": "Sumanyu Sharma, Founder & CEO, Hamming"
+    },
+    {
+     "text": "We have a good feel for what is “Devinable",
+     "attribution": ", what is not “Devinable” internally. That requires skill to know what the right boundaries are, how do you craft specs in a way that are concrete, that someone like Devin can execute.” —Sumanyu"
+    },
+    {
+     "text": "We made our code base more functional, more self-documenting, added more unit tests, ironically using Devin to add more unit tests… These are things that have nothing specifically to do with Devin, but are just good engineering practices.",
+     "attribution": "Sumanyu"
+    },
+    {
+     "text": "If customers report issues on the call, I often just create Devin sessions immediately right then and there so that they’re shipped to prod and fixed the same day. That turnaround time of having an idea and then proving it out or disproving it out is extremely valuable.",
+     "attribution": "Sumanyu"
+    },
+    {
+     "text": "Sometimes we have big ideas of things we want to do but don’t have time to fully scope all of them out or prove out a thesis. We’ve often sent Devins as scouts to just try it out and see what is the solution space.",
+     "attribution": "Sumanyu"
+    },
+    {
+     "text": "Sometimes I feel like Devin has a better understanding of our code base than we do. Devin can sometimes find even functions that exist that none of us remember that we wrote like a year ago.",
+     "attribution": "Sumanyu"
+    },
+    {
+     "text": "If you use Devin well, it can be your top contributor. If it’s not, it’s probably a skill issue or a code base issue. If your code base is unfriendly for Devin, it’s also unfriendly for an engineer.",
+     "attribution": "Sumanyu"
+    },
+    {
+     "text": "I think the future of software engineering is actually quite bright. This is the best time to learn software engineering because you get enormous amounts of leverage. The future belongs to teams that are deeply thinking around what needs to be done because that’s the alpha of a human.",
+     "attribution": "Sumanyu"
+    },
+    {
+     "text": "The future of software engineering is eval-driven development. If you can measure, therefore you can improve. Having clear thinking is kind of everything.",
+     "attribution": "Sumanyu"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "",
+     "paragraphs": [
+      "Hamming is an automated QA platform for voice AI agents. Their platform provides comprehensive testing, monitoring, and debugging tools that help teams identify and proactively fix issues and failures in voice AI agents before they reach customers."
+     ]
+    },
+    {
+     "heading": "Making tasks \"Devinable\"",
+     "paragraphs": [
+      "For Hamming, speed is everything. As one of the fastest-moving engineering teams in the world, they measure their success by how much they can ship per week. With Devin contributing 25% of their total code volume and ranking as a top contributor alongside their best engineers, Hamming has redefined what engineering velocity looks like in the age of AI agents.",
+      "—Sumanyu Sharma, Founder & CEO, Hamming",
+      "To ship fast in a complex codebase without adding bugs, Hamming developed a systematic methodology for identifying and creating “Devinable” tasks—well-bounded, clearly specified work with objective deliverables that Devin can execute with high accuracy.",
+      "With this framework, the Hamming team was able to delegate increasingly complex tasks to Devin that would otherwise take up engineering time (such as rebuilding large parts of their codebase).",
+      "—Sumanyu",
+      "Identifying “Devinable” tasks was just the beginning. Hamming realized that to truly leverage Devin’s capabilities, they needed to rethink their approach to software engineering. This led to a transformation in how they structure their codebase:",
+      "1. Writing for AI agents, not just humans Hamming inverted the traditional approach to software development. Instead of writing code primarily for human consumption, they optimized their codebase for AI agents to understand, manipulate, and test.",
+      "2. Functional over object-oriented They shifted toward functional programming patterns, recognizing that states are harder for both LLMs and humans to visualize and reason about.",
+      "3. Test-driven and eval-driven development Testing became central to their philosophy, with comprehensive unit tests that help both human and AI developers understand expected behaviors."
+     ]
+    },
+    {
+     "heading": "Hamming’s approach to real-time customer issue resolution",
+     "paragraphs": [
+      "One of the most impactful uses of Devin at Hamming is for immediate customer issue resolution:"
+     ]
+    },
+    {
+     "heading": "Devin as a scout",
+     "paragraphs": [
+      "Beyond traditional development tasks, Hamming uses Devin for exploration and experimentation. When the team has new product ideas but lacks time to fully scope them out, they send Devin as a “scout” to explore the solution space. Devin will quickly understand the codebase, search online for documentation, and try out different solutions to find the best approach.",
+      "This exploration capability has led to surprising discoveries, with Devin sometimes finding reusable functions and patterns in the codebase that the team had forgotten about:"
+     ]
+    },
+    {
+     "heading": "Impact on Hamming's engineering velocity",
+     "paragraphs": [
+      "The impact of Devin on Hamming’s engineering velocity has been transformative:"
+     ]
+    },
+    {
+     "heading": "Eval-driven development and clear thinking",
+     "paragraphs": [
+      "Hamming’s experience with Devin has shaped their vision for the future of software engineering. Rather than seeing AI as a threat to engineering jobs, they view it as an opportunity for unprecedented leverage and creativity.",
+      "Their philosophy extends to their own product development: just as they build testing infrastructure for voice agents, they apply the same rigorous testing principles to their own codebase, creating a virtuous cycle where better testing enables faster, more reliable development with Devin."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hippo",
+   "url": "https://devin.ai/customers/hippo",
+   "company": "Hippo",
+   "title": "Building the Future of Insurance with Hippo",
+   "industry": "Insurance",
+   "companySize": "Enterprise",
+   "region": "North America",
+   "about": "Hippo is a technology-native insurance platform driving growth across owned and partner MGAs, empowering customers to protect what matters most.",
+   "summary": "Hippo deploys Devin across its in-house engineering organization to build and test insurance software that holds up across all fifty states without multiplying manual effort — freeing engineers for product and risk work.",
+   "useCases": [
+    "Testing & QA",
+    "Feature Development",
+    "Regulatory & Compliance Docs"
+   ],
+   "metrics": [
+    {
+     "value": "50 states",
+     "label": "of regulatory complexity handled without multiplying manual effort"
+    },
+    {
+     "value": "~90%",
+     "label": "potential cut in testing/defect-resolution cycles (McKinsey est. for agentic AI)"
+    }
+   ],
+   "quotes": [],
+   "sections": [
+    {
+     "heading": "",
+     "paragraphs": [
+      "Hippo is a technology-native insurance platform, driving growth across owned and partner MGAs — empowering customers to protect what matters most."
+     ]
+    },
+    {
+     "heading": "Overview",
+     "paragraphs": [
+      "Hippo, a technology-native insurance group, has partnered with Cognition to deploy Devin, our AI software engineer, across its engineering organization.",
+      "The insurance industry is at a critical technological turning point that will make and break legacy brands. Early this year, McKinsey estimated that agentic AI can cut the testing and defect-resolution cycles at the core of insurance modernization—the work that has historically been the slowest and most expensive for carriers—by as much as 90 percent.",
+      "Insurance is also one of the most complex and heavily regulated industries out there, where every product has to hold up across fifty states, each with its own rules, filings, and edge cases, and the software behind it has to stay reliable and compliant as those rules change. That mix of complexity and criticality is exactly where AI software engineering creates the most leverage."
+     ]
+    },
+    {
+     "heading": "Hippo's Homegrown Advantage",
+     "paragraphs": [
+      "Hippo builds and owns its core technology in-house—its engineers own the systems that run the business across the full insurance lifecycle, from rate filings and underwriting through distribution and customer experience. That homegrown foundation matters more than ever in a market where most carriers still spend the majority of their IT budgets maintaining legacy systems instead of building new ones and it is what lets Hippo embed AI directly into the systems that run its business.",
+      "With Devin, Hippo's engineers can build and test software that holds up across all fifty states without multiplying manual effort, freeing them to spend more of their time on the product and risk work that moves the needle, including initiatives like Hannah, its AI-powered service representative, and partner data ingestion across its MGA network."
+     ]
+    },
+    {
+     "heading": "Insurance in the Agentic Era",
+     "paragraphs": [
+      "The carriers that shape the industry for the next decade will be the ones that can build and adapt software as quickly as the market and regulators move. In the agentic age, engineering capacity stops being the constraint. Its ability to launch a new product or enter a new state becomes a question of intent rather than headcount, and the gap between the carriers that can move at that speed and the ones still tied to legacy systems will only widen. For their customers, that means coverage and service that keep pace with their lives, and an industry that finally feels as modern as the people it protects.",
+      "We're proud to partner with Hippo as it builds toward a future where insurance is proactive, homeownership is effortless, so every homeowner stays protected no matter what life brings. We can't wait to see what its engineers build next."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "itau",
+   "url": "https://devin.ai/customers/itau",
+   "company": "Itaú Unibanco",
+   "title": "How Itaú Deployed AI Across the SDLC at Global-Finance Scale",
+   "industry": "Fintech & Banking",
+   "companySize": "Enterprise",
+   "region": "Latin America",
+   "about": "Itaú Unibanco is Brazil's largest bank with ~US$500B in assets, 70M+ customers, operations in 18 countries, and over 17,000 people working in tech.",
+   "summary": "One of the largest coordinated AI adoptions in global finance: 75% of Itaú's teams use Devin across migrations, security remediation, documentation, architecture design, code review, incident triage, and testing — driving 20-30% higher throughput.",
+   "useCases": [
+    "Code Migration & Modernization",
+    "Security & Vulnerability Remediation",
+    "Documentation & Knowledge",
+    "Testing & QA",
+    "Incident Response",
+    "Feature Development",
+    "Code Review"
+   ],
+   "metrics": [
+    {
+     "value": "20-30%",
+     "label": "increase in throughput bank-wide"
+    },
+    {
+     "value": "~70%",
+     "label": "of security vulnerabilities resolved automatically"
+    },
+    {
+     "value": "6x",
+     "label": "faster .NET → Java migration at 5x lower cost"
+    },
+    {
+     "value": "<50% → ~90%+",
+     "label": "test coverage improvement"
+    },
+    {
+     "value": "75%",
+     "label": "of teams use Devin"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "In today’s landscape of rapid technological evolution and fierce competition, speed is the ultimate competitive advantage. AI is the critical enabler that allows us to dramatically accelerate our ability to respond to customer needs and deliver innovative solutions faster than ever before, securing a decisive market position for our customers and shareholders. And for that, Devin is an important strategic investment.",
+     "attribution": "Carlos Eduardo Mazzei, CTO at Itaú"
+    },
+    {
+     "text": "As people get familiar with Devin, they naturally expand how they collaborate with it",
+     "attribution": "Roberto Frossard, Head of Itaú’s Institute of Science and Technology"
+    },
+    {
+     "text": "For us, the value is in helping our engineers learn faster, explore more paths, and unlock work that normally takes much longer",
+     "attribution": "Roberto Frossard, Head of Itaú’s Institute of Science and Technology"
+    },
+    {
+     "text": "Working with the Cognition team has been exceptional. Cognition has been able to address super-complex problems at outstanding speed and product quality, backed by a team that is technically outstanding. We are excited to build this future together and to explore new ways to collaborate and learn along the way.",
+     "attribution": "Carlos Eduardo Mazzei, CTO at Itaú"
+    },
+    {
+     "text": "The Cognition team is always responsive and ready to dig into technical challenges. Customer-centricity is a core value at Itaú, and Cognition has shown the same commitment by partnering with us to explore new ways of working, enhance developer experience and help us deliver the best products to our customers.",
+     "attribution": "Gabriel Pegorelli, Head of Developer Experience of Itaú"
+    },
+    {
+     "text": "Developers at Itaú have been excited by how far Devin can go. We’ve seen it handle problems we initially thought were too complex, especially for teams working across massive codebases where most other products struggle to absorb that amount of context.",
+     "attribution": "Stéfano Georgetti, Product Manager for Emerging Technologies at Itaú"
+    },
+    {
+     "text": "In 10–15 minutes, I have a complete architecture proposal I can walk into a meeting with. Others react to it instead of starting from zero.",
+     "attribution": "Abner das Dores, Solutions Architect Lead"
+    },
+    {
+     "text": "You have to think of it as a companion, not just a tool.",
+     "attribution": "Roberto Frossard, Head of Itaú’s Institute of Science and Technology (ICTi)"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "",
+     "paragraphs": [
+      "Itaú Unibanco is Brazil's largest bank with estimated US$ 500B in assets, over 70 million customers, operations across 18 countries, and one of the largest engineering organizations in Latin America, with over 17,000 people working in tech."
+     ]
+    },
+    {
+     "heading": "Overview",
+     "paragraphs": [
+      "Itaú’s rollout of Devin represents one of the largest coordinated AI adoptions within a financial institution globally, touching the entire software development lifecycle."
+     ]
+    },
+    {
+     "heading": "How Itaú evaluated Devin",
+     "paragraphs": [
+      "Itaú initially attempted traditional A/B testing - comparing teams using Devin against those without. But this approach assumed Devin was a tool you apply to discrete tasks. In practice, teams interacted with Devin much more organically: once they understood its capabilities, they continuously discovered new ways it could support their work.",
+      "So Itaú shifted to measuring what happens when teams fully commit. One squad adopted Devin broadly across their workflow and delivered two releases in three months - double what had originally been planned. Engineers were able to tackle long-standing items in the backlog, move faster on complex tasks, and spend more time on higher-impact work that usually gets postponed.",
+      "Within five months, demand grew so rapidly that a waitlist of nearly 1,000 developers formed. Nine months later, Itaú and Cognition partnered to expand Devin to everyone working with technology at the bank. Today, 75% of teams use Devin. Even the bank’s CTO, Cadu, uses Devin daily.",
+      "This transformation was enabled by close partnership with Cognition."
+     ]
+    },
+    {
+     "heading": "Deep Dive",
+     "paragraphs": [
+      "Itaú uses Devin in two ways:",
+      "Across the bank, Itaú saw a 20-30% increase in throughput and 10-15% reduction in cycle time , with outsized impact in the use cases below."
+     ]
+    },
+    {
+     "heading": "Migrations & modernizations",
+     "paragraphs": [
+      "Challenge: Large-scale migrations are high-effort, repetitive, and block teams from delivering features. Itaú faced major efforts that would have consumed months of engineering time.",
+      "Solution:",
+      "CNPJ Compliance : New regulations required adding alphanumeric support to tax IDs across hundreds of thousands of files in 300,000+ repositories, including COBOL and other legacy stacks. Previously considered infeasible to automate, Devin made possible the automation of COBOL changes across all applications, working with multiple tools to simplify and accelerate the process. One team’s SQL Server migration - covering 800 database objects across stored procedures - was completed 5x faster .",
+      ".NET → Java : Itaú needed to migrate 59 legacy .NET backend-for-frontend services to Java. Devin analyzed the .NET services, generated Java equivalents aligned to Itaú’s architecture standards, and consolidated them into just 9 services. By using Devin, the project was completed in 6x less time, weeks instead of months, at 5x lower cost and with a more efficient roadmap and simpler long-term architecture ."
+     ]
+    },
+    {
+     "heading": "Remediating security vulnerabilities automatically",
+     "paragraphs": [
+      "Challenge: Static analysis tools like SonarQube, Fortify, and Veracode flagged a high volume of findings. Managing these alerts manually created operational friction: security teams had to coordinate remediations across many squads, and engineers spent time resolving low-complexity issues that added up across the codebase.",
+      "Solution: Devin was integrated into CI/CD pipelines. When SonarQube or Fortify or Veracode flags an issue, Devin automatically analyzes and fixes it, leaving engineers to review the patch. Now, ~70% of vulnerabilities are resolved automatically , clearing historical backlogs and reducing security risk."
+     ]
+    },
+    {
+     "heading": "Documenting large codebases",
+     "paragraphs": [
+      "Challenge: With 300,000+ repos , Itaú has one of Latin America’s largest software ecosystems - thousands of services across legacy systems, modern microservices, regulatory data flows, and critical financial workloads. In environments of this scale, keeping documentation comprehensive, up to date, and easily discoverable is a continual challenge.",
+      "Solution: Itaú is deploying Devin’s Wiki and Devin Search as part of its knowledge layer across the bank. Devin Wiki generates continuously-updated documentation, documenting API contracts, service boundaries, data models, workflows, and architecture - fully synchronized with code changes and with native Portuguese support. Devin Search enables engineers to ask questions and receive explanations, diagrams, dependency graphs, and history. Now ramping onto new projects is faster, modernization is smoother, troubleshooting is easier, and the bank is less dependent on institutional memory."
+     ]
+    },
+    {
+     "heading": "Designing new systems",
+     "paragraphs": [
+      "Challenge: Designing new integrations or modifying existing services required deep familiarity with legacy codebases, architecture decisions, and data flow constraints. Architectural planning often began with weeks of reverse-engineering, dependency tracing, and meetings to gather context from senior engineers.",
+      "Solution: Engineers use Devin Wiki and Devin Search to navigate architecture and code. Devin generates architecture diagrams, traces data flows, highlights integration and security considerations, and refines system boundaries. What previously took hours of meetings and context gathering now can takes minutes - around 10x faster in some of the most expressive cases .",
+      "This compression of architectural planning exemplifies the bank’s belief that speed is the ultimate competitive advantage - and that AI is essential to achieving it."
+     ]
+    },
+    {
+     "heading": "Code reviews",
+     "paragraphs": [
+      "Challenge: Code reviews ensure functionality, security, and performance, but consume significant engineering time and reduce the speed of delivery.",
+      "Solution: Every PR will soon have a Devin-generated first-pass review paired with a generated wiki entry. Using service tokens and GitHub Actions, Devin operates as a native agent within existing pipelines."
+     ]
+    },
+    {
+     "heading": "Incident triage",
+     "paragraphs": [
+      "Challenge: With thousands of services built over different technology generations, incident signals were not always straightforward to interpret. Engineers often spent significant time navigating legacy code paths and correlating logs to identify root causes, which made triage slower and less predictable in complex scenarios.",
+      "Solution: In one incident, after engineers hit dead ends, Devin analyzed the legacy codebase, proposed five likely failure points, and guided the fix. Bank-wide, Devin-assisted diagnosis is helping engineering teams resolve issues more confidently and with less rework, consistently saving meaningful hours of investigation every month and improving overall incident recovery times."
+     ]
+    },
+    {
+     "heading": "Building a frontend",
+     "paragraphs": [
+      "Challenge: A Treasury backend squad needed a UI for an internal pricing calculator but lacked frontend engineers immediately available to develop the project.",
+      "Solution: Given a written spec, Devin built the UI, integrated existing APIs, added validation and tests, completed reviews, and shipped the feature within one day . The team now maintains the interface without dedicated frontend staffing."
+     ]
+    },
+    {
+     "heading": "Testing",
+     "paragraphs": [
+      "Challenge: Test-writing is critical, but in fast-moving delivery environments it can be challenging to prioritize alongside more time-sensitive engineering tasks.",
+      "Solution: Devin writes tests from a human-provided playbook, and engineers review them for correctness. Test coverage increased from <50% to ~90+% ."
+     ]
+    },
+    {
+     "heading": "What’s next: elevating engineers’ roles",
+     "paragraphs": [
+      "As Devin becomes deeply embedded across Itaú’s engineering organization, the bank is rethinking the nature of engineering work. Engineers are spending more time on architecture, problem framing, and business context, while AI handles routine and repetitive tasks and helps engineers plan complex new projects. This shift reflects Itaú’s broader AI strategy: increasing engineering leverage so teams can deliver meaningful change faster."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "linktree",
+   "url": "https://devin.ai/customers/linktree",
+   "company": "Linktree",
+   "title": "Linktree expands social media platform coverage and ships new features with Devin",
+   "industry": "E-commerce & Creator Economy",
+   "companySize": "Scale-up",
+   "region": "APAC",
+   "about": "Linktree empowers anyone to own, grow, and monetize their digital presence, with 50M+ creators and businesses using it.",
+   "summary": "Linktree ships new social platform integrations same-day by kicking off parallel Devins across five repos, uses the Devin API to orchestrate multi-PR features, and has Devin author ~300 PRs a month on bug fixes and features.",
+   "useCases": [
+    "Feature Development",
+    "Bug Fixes & Ticket Triage",
+    "Workflow Automation & API",
+    "Parallel Agent Fleets",
+    "Prototyping & Exploration"
+   ],
+   "metrics": [
+    {
+     "value": "~300",
+     "label": "PRs authored by Devin in one month (~100 merged)"
+    },
+    {
+     "value": "5",
+     "label": "parallel Devins to ship a cross-repo feature"
+    },
+    {
+     "value": "Same day",
+     "label": "to ship new social platform support"
+    }
+   ],
+   "quotes": [],
+   "sections": [
+    {
+     "heading": "",
+     "paragraphs": [
+      "Linktree's mission is to empower anyone to own, grow, and monetize their digital presence. There are 50M+ creators and businesses using it."
+     ]
+    },
+    {
+     "heading": "Overview",
+     "paragraphs": [
+      "Linktree ’s mission is to empower anyone to own, grow, and monetize their digital presence. There are 50M+ creators and businesses using it. While the product may appear simple, it has lots of rich functionalities and it’s integrated with hundreds of partners to help people grow their audiences, sell products, and streamline their creative processes.",
+      "We at Linktree are optimistic about the power of AI to unlock greater velocity and value for creators, and the engineering team is always seeking the best AI tools available. That’s why we started exploring Devin as soon as it became generally available.",
+      "Over the past month Devin has authored ~300 PRs and merged ~100. Most of these are fixing customer-reported bugs, implementing small features, and prototyping larger features."
+     ]
+    },
+    {
+     "heading": "Devin ships new social media platforms",
+     "paragraphs": [
+      "To support creators, Linktree is continually evaluating what new social media platforms to add. For example, the team recently discussed adding support for RedNote and Lemon8, given their recent rise in popularity. Before Devin it would have taken the team some time to debate the priority and trade-off to take on this task. However, giving it to Devin meant skipping the lengthy prioritization process to simply see what would happen.",
+      "Adding a social platform is conceptually straightforward but it involves a few PRs spanning multiple repos; for example, the database persistence, URL parsing and validation, updating the component library and the UI repos that surface the social icon. Linktree kicked off five Devins, one for each repo and PR.",
+      "The prompt for each Devin is pretty simple:",
+      "In some repos there are quite a few files to update, so we leverage the knowledge feature to teach Devin where to look:",
+      "The team provided some guidance to Devin about the URL format to expect from these platforms, and fixed up an issue with SVG rendering, and shipped it on the same day:"
+     ]
+    },
+    {
+     "heading": "Streamlining with the Devin API",
+     "paragraphs": [
+      "Since Linktree plans to implement many more integrations like this in the future, it’s important to streamline the workflow even more. For example, instead of manually managing multiple Devins for complex changes, the team wanted Devin to be able to compose a series of PRs on its own. After a quick discussion with Cognition team, they shared a Playbook script that leverages the Devin API to automatically spawn multiple Devins to implement the entire feature, which Linktree was able to leverage right away:"
+     ]
+    },
+    {
+     "heading": "What we've learned",
+     "paragraphs": [
+      "For some tasks Devin can nail it in one shot and it feels like magic. But it also struggles with a lot of tasks, so the key is for the team to develop the intuition on what tasks are the best candidates for Devin.",
+      "Once we find a type of common task that works well, we try to operationalize it. For example, Devin has a very good success rate with instrumenting analytics event tracking. We are able to eliminate this significant workload from all feature work by leveraging Devin and keep refining the same prompt.",
+      "Understand what tasks to give Devin can be challenging, but the Linktree team learned it’s about:",
+      "It’s been better to use Devin liberally for tasks that can be completed by an engineer within a couple of hours, rather than overthink the types of tasks to give Devin upfront. Devin usually produces a complete or partially useful PR, and if not then there wasn’t much time scoping and prompting lost.",
+      "Sometimes the team lets Devin work on new features, even though it’s likely to struggle. Devin’s attempted solution could still serve as a useful proof of concept. For example, the team recently needed a cron job in our legacy PHP backend to notify users about expiring social connections. Our limited PHP expertise made scoping the change time-consuming, so we asked Devin to implement it. That attempt led to a productive design discussion after which the team was able to provide more concrete guidance and completed the change.",
+      "Linktree’s main advice on how to work with Devin:"
+     ]
+    },
+    {
+     "heading": "The future with Devin",
+     "paragraphs": [
+      "Linktree is excited about the future as Devin and the AI models continue to improve. Before Devin a lot of these bugs / features wouldn’t have made the cut in our team prioritization / scheduling. Now before spending any time debating about the priority the team asks: Can I just Devin it?"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "litera",
+   "url": "https://devin.ai/customers/litera",
+   "company": "Litera",
+   "title": "With Devin, Litera cut regression cycles by 90%, delivering new products faster than ever",
+   "industry": "Legal Tech",
+   "companySize": "Enterprise",
+   "region": "North America",
+   "about": "Litera provides AI-driven solutions to law firms and corporate legal teams worldwide, with 50+ products and $300M+ in annual revenue.",
+   "summary": "Litera's 'QE Evolution' embedded specialized Devin agents into scrum teams as QE testers, SREs, and DevOps specialists — cutting regression cycles 93%, increasing test coverage 40%, and enabling '250 engineers operating at the speed of a thousand'.",
+   "useCases": [
+    "Testing & QA",
+    "Code Migration & Modernization",
+    "Bug Fixes & Ticket Triage",
+    "DevOps & SRE",
+    "Workflow Automation & API"
+   ],
+   "metrics": [
+    {
+     "value": "93%",
+     "label": "faster regression cycles"
+    },
+    {
+     "value": "40%",
+     "label": "increased test coverage"
+    },
+    {
+     "value": "10x",
+     "label": "team output on QE workflows"
+    },
+    {
+     "value": "5",
+     "label": "major products launched in 3 weeks"
+    }
+   ],
+   "quotes": [],
+   "sections": [
+    {
+     "heading": "",
+     "paragraphs": [
+      "Litera provides trusted solutions to law firms and corporate legal teams worldwide. Their comprehensive suite of AI-driven tools powers and unifies legal workflows across Legal Work & Drafting, Knowledge Management, Business Development, Legal Operations, and Security & Governance."
+     ]
+    },
+    {
+     "heading": "Overview",
+     "paragraphs": [
+      "With Devin, Litera is collapsing engineering silos, accelerating delivery, and transforming roles—helping the legal tech leader ship more products, faster, and move at the speed of a startup more than ever before.",
+      "Litera, a global leader in legal technology, serves thousands of law firms and legal professionals worldwide with solutions that streamline workflows, improve collaboration, and deliver insights at speed. With more than 50 products in market and $300M+ in annual revenue, the company’s rapid growth has brought complexity in engineering with distributed and specialized teams who all needed to respond to growing demands from a competitive marketplace."
+     ]
+    },
+    {
+     "heading": "The Challenge: Scaling Without Slowing Down",
+     "paragraphs": [
+      "As Litera grew, engineering work fragmented across specialized groups: quality engineers, DevOps, site reliability, and development. Cross-team dependencies delayed bug fixes, testing, and deployments, and QE bottlenecks emerged. With 130 quality engineers stretched across dozens of products, minor fixes could sit in the backlog for weeks. Meanwhile, competitive pressure demanded faster delivery of features and AI-driven enhancements, leaving QE under constant strain.",
+      "When CTO Greg Ingino first saw Devin on stage, he immediately recognized its potential: “This is going to be the future of development.” The question wasn’t if they would adopt agent-based development, but how quickly they could make it a reality."
+     ]
+    },
+    {
+     "heading": "The Approach: QE Evolution and the Path to Autonomous Engineering",
+     "paragraphs": [
+      "Litera partnered with Cognition to launch QE Evolution , an initiative to reimagine quality engineering through autonomous AI agents. Rather than treating Devin as a coding assistant, Litera embedded specialized agents directly into scrum teams, replacing traditional handoffs with autonomous execution.",
+      "Working closely with Cognition, the team deconstructed QE functions—test strategy creation, test case development, test execution, automated script creation, and automation triage—then built specialized Devin workflows for each. The goal was to embed specialized skills directly into agile teams and give every engineering manager a “team of Devins” capable of operating as QE testers, SREs, and DevOps specialists simultaneously.",
+      "The deployment of new testing agents has resulted in 40% increased test coverage and 93% faster regression cycles. The team now delivers at 10X the output, a change Ingino described as monumental.",
+      "Within 30 days, Litera more than doubled active Devin usage, reaching 90+ engineers and growing daily. QE staff began upskilling into agent builders and optimization specialists, ultimately laying the path for transitions into higher-value roles like SRE and DevOps as Devin expanded to other products."
+     ]
+    },
+    {
+     "heading": "Beyond QE: Scaling Autonomy Across Engineering",
+     "paragraphs": [
+      "While QE Evolution is the most mature initiative, other teams are pushing Devin into new territory. One developer built an auto-scaling Jira system capable of feeding more than ten tasks to Devin at once, dramatically increasing throughput. Agents now validate feature requests and bug reports for completeness before coding begins, ensuring work is properly scoped. Engineers have even used Devin to create a live adoption and productivity dashboard, tracking sessions, pull request volume, and user trends in real time."
+     ]
+    },
+    {
+     "heading": "Results: Startup Speed at Enterprise Scale",
+     "paragraphs": [
+      "The impact of Devin is being felt across every corner of Litera’s engineering organization. The company launched five major products in just three weeks ahead of its flagship ILTACON event—a pace so fast that competitors have reached out to ask, “What’s going on over there?” Multi-month projects, like 32-bit to 64-bit conversions, now finish in weeks, and high-volume bug triage runs autonomously end-to-end. Some workflows have delivered 5x productivity improvements , enabling what CTO Greg Ingino calls “250 engineers operating at the speed of a thousand.”",
+      "The transformation is as much cultural as it is technical. QE staff are moving from manual testing into higher-value roles such as SRE and DevOps, often as agent builders or optimization specialists. One standout example is Volha , who began as a QE individual contributor and, by leading QE Evolution, rose to acting Director of Quality —now overseeing AI agent development and deployment. To further accelerate adoption, Litera introduced a new role “AI composers” —engineers dedicated entirely to solving problems with Devin and other AI tools, parachuting into teams to disrupt timelines and prove what’s possible. “We’ve seen people not just embrace this technology, but use it to completely reinvent their careers,” says Michele Gough, VP of Quality Engineering.",
+      "The acceleration is clear to customers. “In my career, I’ve never launched so many products in such a short time,” says Cynthia Gumbert, Chief Marketing Officer. “The innovation pace is unmatched. It’s been fun telling our customers literally every few weeks how much more they can accomplish with Litera’s products.”",
+      "This momentum has created what Bill Block, VP, Global AI, Innovation & Architecture, calls the “adoption flywheel”: “Once engineers see they can 10x their output—or stop doing the work they hate—they want in.” Today, Devin is no longer seen as a coding assistant, but as a junior developer, SRE, and QE combined—working autonomously and at scale."
+     ]
+    },
+    {
+     "heading": "Looking Ahead: Next Steps for Engineering with Devin",
+     "paragraphs": [
+      "For Litera, Devin represents more than productivity gains—it’s enabling organizational reinvention. By embedding autonomous agents into every part of engineering, the company is accelerating delivery, and redefining what’s possible in legal tech. They are now expanding agent integration as part of their PE-backed growth strategy, where rapid innovation and competitive differentiation are critical success factors.",
+      "As CTO Greg Ingino puts it: “These results prove that autonomous agents aren’t just tools—they’re team members. We’re not just building software faster; we’re redefining what’s possible when humans and AI work together seamlessly.”"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nubank",
+   "url": "https://devin.ai/customers/nubank",
+   "company": "Nubank",
+   "title": "How Nubank refactors millions of lines of code to improve engineering efficiency with Devin",
+   "industry": "Fintech & Banking",
+   "companySize": "Enterprise",
+   "region": "Latin America",
+   "about": "Nubank is the largest financial technology bank in Latin America, serving over 110 million customers across Brazil, Mexico, and Colombia since its founding in 2013.",
+   "summary": "Nubank used a fleet of fine-tuned Devins to migrate its 6M+ line monolithic ETL into sub-modules, achieving 12x engineering-hour efficiency and 20x+ cost savings — completing in weeks what was planned as an 18-month, 1,000-engineer effort.",
+   "useCases": [
+    "Code Migration & Modernization",
+    "Large-Scale Refactoring",
+    "Parallel Agent Fleets"
+   ],
+   "metrics": [
+    {
+     "value": "12x",
+     "label": "efficiency improvement in engineering hours"
+    },
+    {
+     "value": "20x+",
+     "label": "cost savings"
+    },
+    {
+     "value": "6M+",
+     "label": "lines of code in migrated monolith"
+    },
+    {
+     "value": "4x",
+     "label": "faster per sub-task after fine-tuning (40 min → 10 min)"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "Nubank concluded that there was an urgent need to split up their monolithic ETL repository, amassing over 6 million lines of code, into smaller, more flexible sub-modules.",
+     "attribution": ""
+    },
+    {
+     "text": "Devin provided an easy way to reduce the number of engineering hours for the migration, in a way that was more stable and less prone to human error. Rather than engineers having to work across several files and complete an entire migration task 100%, they could just review Devin’s changes, make minor adjustments, then merge their PR",
+     "attribution": "Jose Carlos Castro, Senior Product Manager"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "Overview",
+     "paragraphs": [
+      "One of Nubank’s most critical, company-wide projects for 2023-2024 was a migration of their core ETL — an 8 year old, multi-million lines of code monolith — to sub-modules. To handle such a large refactor, their only option was a multi-year effort that distributed repetitive refactoring work across over one thousand of their engineers. With Devin, however, this changed: engineers were able to delegate Devin to handle their migrations and achieve a 12x efficiency improvement in terms of engineering hours saved, and over 20x cost savings. Among others, Data, Collections, and Risk business units verified and completed their migrations in weeks instead of months or years."
+     ]
+    },
+    {
+     "heading": "The Problem",
+     "paragraphs": [
+      "Nubank was born into the tradition of centralized ETL FinServ architectures. To date, the monolith architecture had worked well for Nubank — it enabled the developer autonomy and flexibility that carried them through their hypergrowth phases. After 8 years, however, Nubank’s sheer volume of customer growth, as well as geographic and product expansion beyond their original credit card business, led to an entangled, behemoth ETL with countless cross-dependencies and no clear path to continuing to scale.",
+      "For Nubankers, business critical data transformations started taking increasingly long to run, with chains of dependencies as deep as 70 and insufficient formal agreements on who was responsible for maintaining what. As the company continued to grow, it became clear that the ETL would be a primary bottleneck to scale.",
+      "Nubank’s code migration was filled with the monotonous, repetitive work that engineers dread. Moving each data class implementation from one architecture to another while tracing imports correctly, performing multiple delicate refactoring steps, and accounting for any number of edge cases was highly tedious, even to do just once or twice. At Nubank’s scale, however, the total migration scope involved more than 1,000 engineers moving ~100,000 data class implementations over an expected timeline of 18 months.",
+      "In a world where engineering resources are scarce, such large-scale migrations and modernizations become massively expensive, time-consuming projects that distract from any engineering team’s core mission: building better products for customers. Unfortunately, this is the reality for many of the world’s largest organizations."
+     ]
+    },
+    {
+     "heading": "The Decision: an army of Devins to tackle subtasks in parallel",
+     "paragraphs": [
+      "At project outset in 2023, Nubank had no choice but to rely on their engineers to perform code changes manually. Migrating one data class was a highly discretionary task, with multiple variations, edge cases, and ad hoc decision-making — far too complex to be scriptable, but high-volume enough to be a significant manual effort.",
+      "Within weeks of Devin’s launch, Nubank identified a clear opportunity to accelerate their refactor at a fraction of the engineering hours. Migration or large refactoring tasks are often fantastic projects for Devin: after investing a small, fixed cost to teach Devin how to approach sub-tasks, Devin can go and complete the migration autonomously. A human is kept in the loop just to manage the project and approve Devin’s changes."
+     ]
+    },
+    {
+     "heading": "The Solution: Custom ETL Migration Devin",
+     "paragraphs": [
+      "A task of this magnitude, with the vast number of variations that it had, was a ripe opportunity for fine-tuning. The Nubank team helped to collect examples of previous migrations their engineers had done manually, some of which were fed to Devin for fine-tuning. The rest were used to create a benchmark evaluation set. Against this evaluation set, we observed a doubling of Devin’s task completion scores after fine-tuning, as well as a 4x improvement in task speed. Roughly 40 minutes per sub-task dropped to 10, which made the whole migration start to look much cheaper and less time-consuming, allowing the company to devote more energy to new business and new value creation instead.",
+      "Devin contributed to its own speed improvements by building itself classical tools and scripts it would later use on the most common, mechanical components of the migration. For instance, detecting the country extension of a data class (either ‘br’, ‘co’, or ‘mx’) based on its file path was a few-step process for each sub-task. Devin’s script automatically turned this into a single step executable — improvements from which added up immensely across all tens of thousands of sub-tasks.",
+      "There is also a compounding advantage on Devin’s learning. In the first weeks, it was common to see outstanding errors to fix, or small things Devin wasn’t sure how to solve. But as Devin saw more examples and gained familiarity with the task, it started to avoid rabbit holes more often and find faster solutions to previously-seen errors and edge cases. Much like a human engineer, we observed obvious speed and reliability improvements with every day Devin worked on the migration."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ramp",
+   "url": "https://devin.ai/customers/ramp",
+   "company": "Ramp",
+   "title": "Devin fixes tens of thousands of hours of technical debt at Ramp",
+   "industry": "Fintech & Banking",
+   "companySize": "Scale-up",
+   "region": "North America",
+   "about": "Ramp is a financial operations platform combining corporate cards, bill payments, procurement, travel, and treasury — powering tens of billions in purchases annually for 30,000+ businesses.",
+   "summary": "Ramp's small applied-AI team built Devin workflows that clear a different technical-debt backlog every week — automated Airflow failure fixes, feature-flag removal, slow-test optimization, endpoint documentation — saving tens of thousands of engineering hours.",
+   "useCases": [
+    "Technical Debt Cleanup",
+    "Bug Fixes & Ticket Triage",
+    "Documentation & Knowledge",
+    "Testing & QA",
+    "Workflow Automation & API"
+   ],
+   "metrics": [
+    {
+     "value": "10,000s",
+     "label": "of engineering hours saved"
+    },
+    {
+     "value": "80",
+     "label": "merged PRs per week at peak"
+    },
+    {
+     "value": "~50%",
+     "label": "of Airflow-failure PRs mergeable as-is"
+    },
+    {
+     "value": "500+",
+     "label": "legacy endpoints documented"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "It can take several days to remove a single feature flag. We’ve tried scripting it in the past, but only Devin can comprehensively remove the feature flag PLUS fix any breaking tests or other dependencies. In the past month alone this has saved us over 1000 engineering hours.",
+     "attribution": "Rakesh Nori, Software Engineer, Ramp"
+    },
+    {
+     "text": "Having Devin be the first eyes on every Airflow error is a massive time-saver. Half of the time we can merge Devin’s PR as-is, which saves hours of debugging. Even when the solution isn’t perfect, Devin’s change almost always brings us to the solution much faster anyway.",
+     "attribution": "Peyton McCullough, Staff Software Engineer, Ramp"
+    },
+    {
+     "text": "Devin helped automate the process of reducing our test suite local runtime by an entire minute. For every single engineer on the team, that’s up to 20 minutes of dev time back every single day.",
+     "attribution": "Maxim Enis, Software Engineer, Ramp"
+    },
+    {
+     "text": "At Ramp, there’s an internal tracker of Devin use case suggestions that any engineer can contribute to. Every week, our Applied AI team selects and automates the highest impact ones using Devin. Devin has essentially given us a completely new way of eliminating the most tedious technical debt workflows that, until now, were all being done manually.",
+     "attribution": "Rahul Sengottuvelu, Head of Applied AI, Ramp"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "",
+     "paragraphs": [
+      "Ramp is a financial operations platform helping companies save time and money. Their all-in-one platform combines corporate cards, bill payments, procurement and vendor management, travel booking, treasury, and more with built-in controls and intelligence to maximize the impact of every dollar and hour spent. Founded in 2019, Ramp is one of the fastest growing companies in the US, powering tens of billions in purchases annually for over 30,000+ businesses."
+     ]
+    },
+    {
+     "heading": "Overview",
+     "paragraphs": [
+      "As Ramp continues to grow and expand into new product areas, they fight to manage an ever-growing technical backlog. Whether “business-as-usual” work (triaging on-call bugs, fixing broken tests) or “punch-list” tasks (resolving flakey tests or optimizing N+1 queries), the technical debt accumulation quickly began to take time away from the engineering team’s focus on product execution.",
+      "After some experimentation, Ramp found that a very small team of Devin-savvy engineers could be responsible for tens of thousands of engineer hours saved and up to weekly 80 merged PRs, tackling tasks that reached horizontally across the engineering organization. As part of their process, the applied Al team at Ramp built a new Devin workflow to tackle a different technical debt task every week, in some cases integrating the workflow directly into their ongoing SDLC.",
+      "There are three categories of solutions Ramp has implemented using Devin:"
+     ]
+    },
+    {
+     "heading": "The problem: fighting technical debt accumulation",
+     "paragraphs": [
+      "As any codebase grows, so too does the number of rote, repetitive clean-up tasks necessary to pay back larger and larger amounts of technical debt build-up. Typically, these are the types of tasks engineers dread – repetitive, uninteresting maintenance tasks that account for up to 20% of engineering time.",
+      "A test suite full of unoptimized tests, for example, has a clear and direct negative effect on developer velocity. Since most Ramp developers regularly run tests locally as part of their SDLC, any speed improvement to the test suite gets multiplied by hundreds, if not thousands, of executions each day. Accelerating the test suite completion time by an entire minute can quickly add up to thousands of developer hours saved per year.",
+      "Take feature flag removal as another example – hundreds of deprecated feature flags and forked logic across the codebase makes the code slower and less readable. If an engineer is triaging a critical bug and encounters a feature flag, determining if it is still in use requires switching context, investigating the feature flag manager, understanding the code logic, and can add significant time and complexity to an already tedious task.",
+      "Feature flag removal also cannot be solved in a straightforward or scriptable manner. It requires understanding the core logic of the code and identifying all of the potential downstream impacts of removing a code fork. Given many hundreds of feature flags at Ramp, this was starting to become a clear blocker to developer velocity"
+     ]
+    },
+    {
+     "heading": "The solution: one Devin workflow at a time",
+     "paragraphs": [
+      "Given the number of low-hanging-fruit technical debt tasks across the codebase, Ramp deployed Devin to automate one clean-up or optimization task at a time. To do so, they leveraged Devin’s API to trigger multiple Devins in parallel to return completed PRs en masse.",
+      "—Rakesh Nori, Software Engineer, Ramp",
+      "Removing just a single feature flag can be challenging, particularly when the flag affects logic throughout the codebase in a variety of different formats. Identifying all dead code paths, conditionals, and edge cases is not always straightforward and consumes valuable engineering time.",
+      "Devin’s core differentiator here was the ability to run Ramp tests and confirm that core code logic wasn’t affected by the feature flag removal. In certain cases, running the tests and seeing the stack trace was the only way to identify all downstream dependencies and affected tests, meaning that any classical static analysis approach would have been far more difficult to make work.",
+      "As a result, Ramp saw an opportunity to work with Devin to build an easy-to-use feature flag removal system with minimal overhead:"
+     ]
+    },
+    {
+     "heading": "Example worker Devin prompt:",
+     "paragraphs": [
+      "Now, any engineer at Ramp can simply input their feature flag into their internal tool, and Devin will automatically tag them when the PR is completed. Today, Devin is a core piece of internal Ramp tooling that orchestrates and executes tasks that were previously unachievable without a coding agent.",
+      "—Peyton McCullough, Staff Software Engineer, Ramp",
+      "Data Platform is the nexus for a large number of internal systems and teams at Ramp, home to a lot of cross-functional activity and contributions. As a result, things break often. Every morning, Ramp’s Platform Engineering team wakes up to a handful of Airflow errors or failure reports to debug manually. These are time sensitive errors that are often directly related to critical finance services, but the code fixes themselves are usually straightforward. The vast majority of the engineering pain comes from context switching to the error or triaging the site of the bug in the first place.",
+      "So, after early experiments showed promise, Ramp decided to leverage Devin to automate the first pass on every Airflow failure and relieve the pressure on platform engineers. It was an easy implementation: Ramp simply took the Airflow error logs, determined those that made sense for Devin to fix, then triggered Devin via its API to work on a fix. If the CI checks completed successfully for Devin’s fix, Devin would then open a PR and tag the appropriate engineer.",
+      "Instead of a manual debugging process, Ramp’s engineers now simply review and approve a Devin PR that already passes CI. Even in the case where the fix isn’t exactly right, it is almost always in the right ballpark, which will still dramatically accelerate time-to-fix.",
+      "—Maxim Enis, Software Engineer, Ramp",
+      "Ramp was sitting on a backlog of over 100 slow tests and over 500 legacy, undocumented endpoints. In both cases, the team built a prompt for Devin that used an objective validation criteria, which essentially gave Devin a test-driven development workflow. For slow tests, they created a verification script that confirmed Devin’s optimizations maintained identical test coverage. Similarly for endpoint documentation, the script completed only when the expected response types matched Devin’s documented API types."
+     ]
+    },
+    {
+     "heading": "Slow test validation script pseudocode:",
+     "paragraphs": [
+      "Using these validation scripts, Ramp was able to essentially remove all false positives and confidently process their entire backlog through Devin. Even if there were certain tasks that Devin couldn’t complete, the script would not pass and the PR would never get surfaced. This allowed Ramp to parallelize as many Devins as they wanted without fear of being noisy, bottlenecked only by bandwidth for human review.",
+      "This style of use case is one of the most common at Ramp – namely, a Devin workflow that can be applied to every backlog instance of a technical debt use case."
+     ]
+    },
+    {
+     "heading": "Results",
+     "paragraphs": [
+      "—Rahul Sengottuvelu, Head of Applied AI, Ramp",
+      "Devin has saved thousands of hours of engineering work so far in technical debt cleanup across a variety of use cases, dramatically accelerating core product and engineering velocity at Ramp."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "rvtech",
+   "url": "https://devin.ai/customers/rvtech",
+   "company": "RV Tech (Rivian + VW Group)",
+   "title": "How Rivian and VW's Joint Venture Uses AI to Ship the Future of Vehicle Software",
+   "industry": "Automotive",
+   "companySize": "Enterprise",
+   "region": "North America",
+   "about": "RV Tech is a Rivian-Volkswagen Group joint venture (1,600+ employees) building zonal electronic architecture and software for software-defined vehicles at a scale of up to 30 million vehicles.",
+   "summary": "RV Tech uses Devin for autonomous background work on safety-critical vehicle software: a Slackbot triages customer vehicle-access issues (freeing 3-4 engineers), and SIL test generation jumped from 1-2 to 10-15 tests per engineer per day.",
+   "useCases": [
+    "Bug Fixes & Ticket Triage",
+    "Testing & QA",
+    "Workflow Automation & API"
+   ],
+   "metrics": [
+    {
+     "value": "10x",
+     "label": "increase in test generation velocity"
+    },
+    {
+     "value": "3-4",
+     "label": "engineers redirected from support to product work"
+    },
+    {
+     "value": "~100%",
+     "label": "of SIL test code written by Devin in most cases"
+    }
+   ],
+   "quotes": [
+    {
+     "text": "The first thing that really piqued our interest was the culture match with Cognition. We’re a very fast-moving team—we’re lean, very practical, product-focused, and customer-focused.",
+     "attribution": "Arjuna Siva, VP of Infotainment & Connectivity, RV Tech"
+    },
+    {
+     "text": "It’s not a vendor-customer relationship. It’s a true partnership, where we feel that our requests are heard and we’re really at the forefront of what the technology can offer today.",
+     "attribution": "Wassym Bensaid, Co-CEO & CTO, RV Tech"
+    },
+    {
+     "text": "What really makes me excited is this will help us be way more predictable in our execution, deliver software with way higher quality, and dramatically increase the velocity of our engineering team so that we get more and more features to our customers.",
+     "attribution": "Wassym Bensaid, Co-CEO & CTO, RV Tech"
+    }
+   ],
+   "sections": [
+    {
+     "heading": "",
+     "paragraphs": [
+      "RV Tech (Rivian and Volkswagen Group Technologies) is a joint venture founded in November 2024 to develop state-of-the-art zonal electronic architecture and software for software-defined vehicles. The technology will power future Volkswagen Group models on the SSP platform—expected to support up to 30 million vehicles—as well as Rivian's R2, R3, and R3X. The joint venture has grown to more than 1,600 employees across the US, Canada, Sweden, Serbia, and Germany."
+     ]
+    },
+    {
+     "heading": "Overview",
+     "paragraphs": [
+      "Rivian and Volkswagen Group formed RV Tech to build and deploy a shared software-defined vehicle platform—combining Rivian’s proven SDV software and electrical architecture with Volkswagen Group’s global manufacturing scale and brand portfolio. The platform will power vehicles across Volkswagen Group and Rivian’s portfolios, at a scale that could reach 30 million vehicles.",
+      "With the R2 launching in 2026 and the first Volkswagen Group models to follow in 2027, RV Tech invested in AI tooling to accelerate delivery—automating high-volume engineering work and adding new layers of quality assurance to safety-critical code.",
+      "The results have been significant: substantial engineering capacity redirected to product work, and a 10x increase in test generation velocity on propulsion and dynamics software."
+     ]
+    },
+    {
+     "heading": "How the team evaluated AI tools",
+     "paragraphs": [
+      "Arjuna Siva, VP of Infotainment & Connectivity, has been leading the initiative to use generative AI as a force multiplier for the engineering organization.",
+      "RV Tech had adopted several AI coding tools across its workflows, but as the team scaled, they needed a solution that could meet the full scope of enterprise requirements, including support for their existing IDE workflows, a context engine that could handle large legacy codebases, a mature security posture, and dedicated enterprise support.",
+      "After evaluation, they adopted both Windsurf for interactive coding assistance—chosen for its enterprise readiness across all of these dimensions, and Devin for autonomous, background work—tasks that can run without constant human supervision."
+     ]
+    },
+    {
+     "heading": "Results from the rollout",
+     "paragraphs": [
+      "Vehicle Access Ticket Triage",
+      "Vivek Ravi is an engineering manager on the Vehicle Access team, which builds the software that enables vehicle lock, unlock, and start. The team integrates car keys into phone wallets using Bluetooth Low Energy and Ultra-Wideband technology. It is a full-stack team spanning firmware, wireless protocols, cloud infrastructure, mobile app interfaces, and infotainment integration.",
+      "One area where the team spent time was customer-reported vehicle access issues. Before AI tooling, the triage process was manual: an issue comes in from front-line customer support, an on-call engineer picks it up and triages it. Each ticket is time sensitive. At peak periods, this consumes the full capacity of multiple engineers every sprint.",
+      "RV Tech had been close to assigning dedicated engineers for exactly this workload. Instead, the team piloted Devin. A Devin Slackbot gets tagged on an incoming report, extracts the VIN and timestamp, pulls the relevant logs, runs the parsing scripts, and performs first-level triage. Engineers then review Devin’s analysis.",
+      "Devin triage enabled RV Tech to redirect 3-4 engineers from customer support back to product work, meaningfully expanding the team’s capacity for core development.",
+      "Beyond reactive triage, the team sees a second application: proactive fleet monitoring. RV Tech already tracks fleet-wide metrics and can see issues customers never report. Today, the team has no capacity to investigate those failures. With Devin, they plan to pull logs for affected vehicles and run first-level triage automatically, surfacing issues before they become customer complaints.",
+      "SIL Testing",
+      "Brian Harries leads the dynamics and propulsion controls team—all the application software governing how the car drives and handles.",
+      "In automotive, traceability from requirements to code to tests is essential. The traditional process for enforcing that traceability relies heavily on brute-force meetings—systems engineers sitting down with software engineers, going line by line on every requirement, mapping coverage, and reviewing repeatedly.",
+      "Brian’s team has been using Devin to generate SIL test cases. Devin ingests the simulation framework structure, the codebase architecture, and the relevant requirements, then generates test cases that validate the implementation, raises a merge request, iterates until the tests are functional and passing, and submits for review.",
+      "Devin writes approximately 100% of the test code in most cases. The engineering review focuses on verifying that the tests are actually checking the right logic.",
+      "Where an engineer might write one or two tests per day manually, Brian estimates the team can reach 10 to 15 tests per day using Devin.",
+      "The team appreciated how shareable Devin was across the team. One person invested the time to build a playbook with the right context, and then the entire team could use it to generate test cases immediately.",
+      "The impact went beyond speed. In at least one case during the pilot, Devin identified conflicting logic between two requirements, suggesting the requirements themselves needed revision. A human reviewer confirmed the finding.",
+      "Brian described this as the broader opportunity: AI tooling lets the team catch quality issues across the whole V-model in systems engineering—requirements, code, test cases—much faster, without the traditional slow review cycles."
+     ]
+    },
+    {
+     "heading": "What's next",
+     "paragraphs": [
+      "The auto industry’s shift to software-defined vehicles opens up something genuinely new—cars that improve after they leave the factory, new features delivered to millions of vehicles overnight, and a driving experience that gets better over time. RV Tech is pioneering what it takes to deliver on that promise: autonomous software engineering that triages issues, generates test coverage, and scans for regressions, so engineers can focus on building the features that make vehicles better."
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "thecitationgroup",
+   "url": "https://devin.ai/customers/thecitationgroup",
+   "company": "The Citation Group",
+   "title": "How The Citation Group Measures Engineering ROI with Devin",
+   "industry": "Compliance & Risk Services",
+   "companySize": "Enterprise",
+   "region": "Europe",
+   "about": "The Citation Group provides compliance, risk management, and certification technology and services to over 125,000 SMBs across the UK, Canada, Australia, and New Zealand.",
+   "summary": "Citation established trust in AI-generated code by measuring at the PR level — 271 Devin PRs merged at 80% success in 3 months — then scaled to 180+ sessions weekly with structured Jira specs, extending adoption to business analysts and support teams.",
+   "useCases": [
+    "Bug Fixes & Ticket Triage",
+    "Code Migration & Modernization",
+    "Non-Engineer Enablement",
+    "Project Planning"
+   ],
+   "metrics": [
+    {
+     "value": "271",
+     "label": "Devin PRs merged in first 3 months"
+    },
+    {
+     "value": "80%",
+     "label": "PR success rate after senior review"
+    },
+    {
+     "value": "180+",
+     "label": "Devin sessions per week"
+    },
+    {
+     "value": "1,200+",
+     "label": "total sessions recorded in GitHub"
+    }
+   ],
+   "quotes": [],
+   "sections": [
+    {
+     "heading": "",
+     "paragraphs": [
+      "The Citation Group is a leading provider of compliance, risk management, and certification technology and services, spanning everything from HR and Health & Safety to ISO certification and cyber security. They support over 125,000 small and medium-sized businesses across the UK, Canada, Australia, and New Zealand."
+     ]
+    },
+    {
+     "heading": "About The Citation Group",
+     "paragraphs": [
+      "The Citation Group is the leading provider of compliance, risk management, and certification technology and services, supporting over 125,000 small and medium-sized businesses across the UK, Canada, Australia, and New Zealand. Backed by private equity and expanded through acquisition, the company faced the challenge of scaling engineering output while managing legacy systems, distributed teams, and accumulated tech debt."
+     ]
+    },
+    {
+     "heading": "The Challenge: Establishing Trust in AI-Generated Code",
+     "paragraphs": [
+      "Citation’s engineering leaders needed a reliable way to evaluate whether Devin was contributing production-quality work. Traditional metrics, such as sprint velocity, varied too much to isolate Devin’s impact.",
+      "To validate quality, the team initially onboarded Devin to a set of projects and measured quality at the pull-request level. In the first three months, 271 Devin PRs were merged (at an 80% success rate) after senior engineer review.",
+      "“By tracking Devin’s pull requests directly, we finally had a clean, production-level signal of impact.” — Anthony Wray, AI Engineering Lead"
+     ]
+    },
+    {
+     "heading": "Structuring Work for Devin",
+     "paragraphs": [
+      "Citation first onboarded Devin through a series of hackathons run by internal and partner teams. Each team designated a lead to document results and share practices. In these early projects, unstructured prompts often produced inconsistent results, but tasks scoped in Jira with clear requirements — and supplemented by documentation pulled directly into Devin sessions — generated PRs that passed review.",
+      "Three practices proved critical:",
+      "“Once we paired Devin with structured specs, the results became consistent. We built a rinse-and-repeat pattern that engineers could trust,” Wray explained."
+     ]
+    },
+    {
+     "heading": "Use Cases in Practice",
+     "paragraphs": [
+      "Once Devin’s workflow was established, Citation applied it across a range of projects:"
+     ]
+    },
+    {
+     "heading": "Scaling Adoption",
+     "paragraphs": [
+      "Devin is now part of daily engineering practice at Citation. Engineers run more than 180 sessions each week, with over 1,200 sessions recorded in GitHub since rollout. What started as using Devin in scoped hackathon projects has scaled into steady, ongoing use in production across the engineering organization, with adoption also extending to business analysts and support teams.",
+      "“Devin isn’t just another tool. To get value, you have to change your ways of working. Once we did that, it started delivering results we wouldn’t have reached otherwise.” — Anthony Wray, AI Engineering Lead"
+     ]
+    },
+    {
+     "heading": "Looking Ahead",
+     "paragraphs": [
+      "Citation plans to expand Devin’s role in platform modernization and legacy upgrades over the next twelve months. The team is also working on deeper process integration, including automated Jira scoping and standardized specification files to make AI-driven development more predictable.",
+      "For Anthony Wray, the significance goes beyond throughput.",
+      "“The real value is that it forces us to rethink process. You can’t just slap AI on the old way of working. You have to redesign for what’s possible now.” — Anthony Wray, AI Engineering Lead"
+     ]
+    }
+   ]
+  }
+ ]
+}

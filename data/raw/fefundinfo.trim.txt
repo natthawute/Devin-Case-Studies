@@ -1,0 +1,40 @@
+[h1] How FE fundinfo Scaled Eng Capacity with AI-Driven Automation Across 1,800 Repos
+[h2] About the company
+[p] FE fundinfo is a leading financial data company connecting the investment industry in the UK, Europe and Asia Pacific through a single integrated platform, Nexus. Founded in 1996, the group operates in over 15 countries, with more than 1,200 employees and 200+ expert engineers driving innovation.
+[h2] Overview
+[p] FE fundinfo is a leading financial data company connecting the investment industry in the UK, Europe and Asia Pacific through a single integrated platform: Nexus.  With over 1,200 employees across 16 countries, the company processes 311,000 share classes, collects 1.5 million documents monthly and produces over 2.5 million regulatory documents annually, supported by 250+ dedicated data experts. Over 200 expert engineers support 70 product types across approximately 1,800 active code repositories.
+[p] As FE fundinfo’s platform expanded, engineering teams faced mounting pressure from maintenance work, security updates, dependency upgrades, testing coverage gaps, and technical debt remediation. Over time, this work began to crowd out new feature development.
+[p] The team had experimented with AI coding assistants embedded in IDEs, but saw limited productivity gains. While useful for local code suggestions, these tools lacked deep codebase understanding, required frequent developer intervention, and often failed to complete tasks end-to-end.
+[h2] Why Devin
+[p] Richard Thorpe, Head of Engineering at FE fundinfo, decided to pilot Devin — an autonomous AI software engineer designed to understand large codebase and execute work independently.
+[p] The goal was not incremental improvement, but a step-change: offloading engineering toil and enabling the organization to significantly increase engineering capacity.
+[blockquote] “Devin’s understanding of our codebases is substantially better than some other AI systems our teams use. It’s a very nuanced difference until you compare them side by side” Richard Thorpe, Head of Engineering, FE fundinfo
+[p] “Devin’s understanding of our codebases is substantially better than some other AI systems our teams use. It’s a very nuanced difference until you compare them side by side”
+[p] Richard Thorpe, Head of Engineering, FE fundinfo
+[h2] Driving Adoption: A New Engineering Mindset
+[p] Richard quickly realized that success with Devin required more than tool adoption — it required a mindset shift. Engineers needed to evolve from pure executors into coordinators who could effectively delegate work to an AI software engineer.
+[p] To support this transition, Richard developed a scoring system that trained engineers on how to work with Devin. Engineers were measured on dimensions such as:
+[p] This structured approach helped teams learn how to delegate effectively, making Devin adoption a quantifiable skill that could be taught, tracked, and optimized.
+[h2] FE fundinfo’s Approach At A Glance
+[p] AI Use Cases:
+[p] Rollout approach:
+[p] FE fundinfo built a scoring system to train engineers to work effectively with AI software engineers, tracking usage and outcomes.
+[p] Key Outcomes:
+[h2] Results: Unlocking New Engineering Capacity Through Automation
+[p] With Devin in place, FE fundinfo began tackling long-standing backlogs that had accumulated over years. Developers were freed up to focus on new feature development and higher-level system design, while Devin took on engineering toil, including:
+[p] To maximize Devin’s impact, the team built an automation system using Replit that runs Devin “playbooks” across all 1,800 repositories. This system automatically:
+[p] This enabled true end-to-end automation, allowing Devin to complete entire workflows from identification through deployment with minimal human intervention.
+[h2] From Coding to Complete Workflows: Reimagining Software Delivery
+[p] FE fundinfo is now extending Devin beyond coding into the rest of the software development lifecycle, especially project planning.
+[p] QA engineers emerged as some of Devin’s strongest users, leveraging it to transform their testing workflows. One engineer built a tool that saved three days of manual work every two weeks , while others used Devin to convert freeform tests into stable, automatable suites that could run regularly and consistently. These improvements significantly increased testing coverage while reducing manual effort — allowing QA teams to focus on exploratory testing and strategic quality initiatives.
+[p] Richard believes this expansion across different functions and stages of the SDLC will drive further increases in engineering capacity.
+[p] The team now uses Devin not only to implement changes, but also to plan projects. In one emerging workflow, a product owner submits a problem statement, which is then passed to Devin. Devin returns a proposed project plan, identifying which tickets should be tackled by a human and which by Devin itself. A human reviews and approves the plan, after which Devin assigns out tickets and begins execution.
+[p] Richard envisions this approach could compress the SDLC to three core steps :
+[p] Low-risk changes could pass straight to production; medium-complexity work would require human PR review; and high-complexity projects would involve humans in both planning and review.
+[blockquote] “If we can open up the entire pipeline — not just coding — we can unlock more ideas, ship more features and grow the business faster.” Richard Thorpe, Head of Engineering, FE fundinfo
+[p] “If we can open up the entire pipeline — not just coding — we can unlock more ideas, ship more features and grow the business faster.”
+[p] Richard Thorpe, Head of Engineering, FE fundinfo
+[h2] What’s Next: 2-4x Engineering Capacity
+[p] As Devin becomes more deeply embedded across the SDLC, engineering roles at FE fundinfo are shifting from execution to coordination. Developers increasingly partner with Devin: they delegate routine work, focus their own time on the most complex and creative challenges, then review Devin’s output.
+[p] Richard Thorpe believes this new operating model could enable the engineering organization to double, if not quadruple, its output over the next 2-5 years .
+[p] This transformation goes beyond productivity gains. By offloading engineering toil and expanding capacity, FE fundinfo can accelerate feature delivery, reduce technical debt faster, and respond more quickly to market opportunities — strengthening its competitive position in the investment technology space.

@@ -1,0 +1,67 @@
+[h1] How Itaú Deployed AI Across the SDLC at Global-Finance Scale
+[h2] About the company
+[p] Itaú Unibanco is Brazil's largest bank with estimated US$ 500B in assets, over 70 million customers, operations across 18 countries, and one of the largest engineering organizations in Latin America, with over 17,000 people working in tech.
+[h2] Overview
+[p] Itaú’s rollout of Devin represents one of the largest coordinated AI adoptions within a financial institution globally, touching the entire software development lifecycle.
+[blockquote] “In today’s landscape of rapid technological evolution and fierce competition, speed is the ultimate competitive advantage. AI is the critical enabler that allows us to dramatically accelerate our ability to respond to customer needs and deliver innovative solutions faster than ever before, securing a decisive market position for our customers and shareholders. And for that, Devin is an important strategic investment.” Carlos Eduardo Mazzei, CTO at Itaú
+[p] “In today’s landscape of rapid technological evolution and fierce competition, speed is the ultimate competitive advantage. AI is the critical enabler that allows us to dramatically accelerate our ability to respond to customer needs and deliver innovative solutions faster than ever before, securing a decisive market position for our customers and shareholders. And for that, Devin is an important strategic investment.”
+[p] Carlos Eduardo Mazzei, CTO at Itaú
+[h2] Key results & use cases
+[h2] How Itaú evaluated Devin
+[p] Itaú initially attempted traditional A/B testing - comparing teams using Devin against those without. But this approach assumed Devin was a tool you apply to discrete tasks. In practice, teams interacted with Devin much more organically: once they understood its capabilities, they continuously discovered new ways it could support their work.
+[blockquote] “As people get familiar with Devin, they naturally expand how they collaborate with it” Roberto Frossard, Head of Itaú’s Institute of Science and Technology
+[p] “As people get familiar with Devin, they naturally expand how they collaborate with it”
+[p] Roberto Frossard, Head of Itaú’s Institute of Science and Technology
+[p] So Itaú shifted to measuring what happens when teams fully commit. One squad adopted Devin broadly across their workflow and delivered two releases in three months - double what had originally been planned. Engineers were able to tackle long-standing items in the backlog, move faster on complex tasks, and spend more time on higher-impact work that usually gets postponed.
+[blockquote] “For us, the value is in helping our engineers learn faster, explore more paths, and unlock work that normally takes much longer” Roberto Frossard, Head of Itaú’s Institute of Science and Technology
+[p] “For us, the value is in helping our engineers learn faster, explore more paths, and unlock work that normally takes much longer”
+[p] Roberto Frossard, Head of Itaú’s Institute of Science and Technology
+[p] Within five months, demand grew so rapidly that a waitlist of nearly 1,000 developers formed. Nine months later, Itaú and Cognition partnered to expand Devin to everyone working with technology at the bank. Today, 75% of teams use Devin. Even the bank’s CTO, Cadu, uses Devin daily.
+[p] This transformation was enabled by close partnership with Cognition.
+[blockquote] “Working with the Cognition team has been exceptional. Cognition has been able to address super-complex problems at outstanding speed and product quality, backed by a team that is technically outstanding. We are excited to build this future together and to explore new ways to collaborate and learn along the way.” Carlos Eduardo Mazzei, CTO at Itaú
+[p] “Working with the Cognition team has been exceptional. Cognition has been able to address super-complex problems at outstanding speed and product quality, backed by a team that is technically outstanding. We are excited to build this future together and to explore new ways to collaborate and learn along the way.”
+[p] Carlos Eduardo Mazzei, CTO at Itaú
+[blockquote] “The Cognition team is always responsive and ready to dig into technical challenges. Customer-centricity is a core value at Itaú, and Cognition has shown the same commitment by partnering with us to explore new ways of working, enhance developer experience and help us deliver the best products to our customers.” Gabriel Pegorelli, Head of Developer Experience of Itaú
+[p] “The Cognition team is always responsive and ready to dig into technical challenges. Customer-centricity is a core value at Itaú, and Cognition has shown the same commitment by partnering with us to explore new ways of working, enhance developer experience and help us deliver the best products to our customers.”
+[p] Gabriel Pegorelli, Head of Developer Experience of Itaú
+[h2] Deep Dive
+[p] Itaú uses Devin in two ways:
+[blockquote] “Developers at Itaú have been excited by how far Devin can go. We’ve seen it handle problems we initially thought were too complex, especially for teams working across massive codebases where most other products struggle to absorb that amount of context.” Stéfano Georgetti, Product Manager for Emerging Technologies at Itaú
+[p] “Developers at Itaú have been excited by how far Devin can go. We’ve seen it handle problems we initially thought were too complex, especially for teams working across massive codebases where most other products struggle to absorb that amount of context.”
+[p] Stéfano Georgetti, Product Manager for Emerging Technologies at Itaú
+[p] Across the bank, Itaú saw a 20-30% increase in throughput and 10-15% reduction in cycle time , with outsized impact in the use cases below.
+[h2] Migrations & modernizations
+[p] Challenge: Large-scale migrations are high-effort, repetitive, and block teams from delivering features. Itaú faced major efforts that would have consumed months of engineering time.
+[p] Solution:
+[p] CNPJ Compliance : New regulations required adding alphanumeric support to tax IDs across hundreds of thousands of files in 300,000+ repositories, including COBOL and other legacy stacks. Previously considered infeasible to automate, Devin made possible the automation of COBOL changes across all applications, working with multiple tools to simplify and accelerate the process. One team’s SQL Server migration - covering 800 database objects across stored procedures - was completed 5x faster .
+[p] .NET → Java : Itaú needed to migrate 59 legacy .NET backend-for-frontend services to Java. Devin analyzed the .NET services, generated Java equivalents aligned to Itaú’s architecture standards, and consolidated them into just 9 services. By using Devin, the project was completed in 6x less time, weeks instead of months, at 5x lower cost and with a more efficient roadmap and simpler long-term architecture .
+[h2] Remediating security vulnerabilities automatically
+[p] Challenge: Static analysis tools like SonarQube, Fortify, and Veracode flagged a high volume of findings. Managing these alerts manually created operational friction: security teams had to coordinate remediations across many squads, and engineers spent time resolving low-complexity issues that added up across the codebase.
+[p] Solution: Devin was integrated into CI/CD pipelines. When SonarQube or Fortify or Veracode flags an issue, Devin automatically analyzes and fixes it, leaving engineers to review the patch. Now, ~70% of vulnerabilities are resolved automatically , clearing historical backlogs and reducing security risk.
+[h2] Documenting large codebases
+[p] Challenge: With 300,000+ repos , Itaú has one of Latin America’s largest software ecosystems - thousands of services across legacy systems, modern microservices, regulatory data flows, and critical financial workloads. In environments of this scale, keeping documentation comprehensive, up to date, and easily discoverable is a continual challenge.
+[p] Solution: Itaú is deploying Devin’s Wiki and Devin Search as part of its knowledge layer across the bank. Devin Wiki generates continuously-updated documentation, documenting API contracts, service boundaries, data models, workflows, and architecture - fully synchronized with code changes and with native Portuguese support. Devin Search enables engineers to ask questions and receive explanations, diagrams, dependency graphs, and history. Now ramping onto new projects is faster, modernization is smoother, troubleshooting is easier, and the bank is less dependent on institutional memory.
+[h2] Designing new systems
+[p] Challenge: Designing new integrations or modifying existing services required deep familiarity with legacy codebases, architecture decisions, and data flow constraints. Architectural planning often began with weeks of reverse-engineering, dependency tracing, and meetings to gather context from senior engineers.
+[p] Solution: Engineers use Devin Wiki and Devin Search to navigate architecture and code. Devin generates architecture diagrams, traces data flows, highlights integration and security considerations, and refines system boundaries. What previously took hours of meetings and context gathering now can takes minutes - around 10x faster in some of the most expressive cases .
+[blockquote] “In 10–15 minutes, I have a complete architecture proposal I can walk into a meeting with. Others react to it instead of starting from zero.” Abner das Dores, Solutions Architect Lead
+[p] “In 10–15 minutes, I have a complete architecture proposal I can walk into a meeting with. Others react to it instead of starting from zero.”
+[p] Abner das Dores, Solutions Architect Lead
+[p] This compression of architectural planning exemplifies the bank’s belief that speed is the ultimate competitive advantage - and that AI is essential to achieving it.
+[h2] Code reviews
+[p] Challenge: Code reviews ensure functionality, security, and performance, but consume significant engineering time and reduce the speed of delivery.
+[p] Solution: Every PR will soon have a Devin-generated first-pass review paired with a generated wiki entry. Using service tokens and GitHub Actions, Devin operates as a native agent within existing pipelines.
+[h2] Incident triage
+[p] Challenge: With thousands of services built over different technology generations, incident signals were not always straightforward to interpret. Engineers often spent significant time navigating legacy code paths and correlating logs to identify root causes, which made triage slower and less predictable in complex scenarios.
+[p] Solution: In one incident, after engineers hit dead ends, Devin analyzed the legacy codebase, proposed five likely failure points, and guided the fix. Bank-wide, Devin-assisted diagnosis is helping engineering teams resolve issues more confidently and with less rework, consistently saving meaningful hours of investigation every month and improving overall incident recovery times.
+[h2] Building a frontend
+[p] Challenge: A Treasury backend squad needed a UI for an internal pricing calculator but lacked frontend engineers immediately available to develop the project.
+[p] Solution: Given a written spec, Devin built the UI, integrated existing APIs, added validation and tests, completed reviews, and shipped the feature within one day . The team now maintains the interface without dedicated frontend staffing.
+[h2] Testing
+[p] Challenge: Test-writing is critical, but in fast-moving delivery environments it can be challenging to prioritize alongside more time-sensitive engineering tasks.
+[p] Solution: Devin writes tests from a human-provided playbook, and engineers review them for correctness. Test coverage increased from <50% to ~90+% .
+[h2] What’s next: elevating engineers’ roles
+[p] As Devin becomes deeply embedded across Itaú’s engineering organization, the bank is rethinking the nature of engineering work. Engineers are spending more time on architecture, problem framing, and business context, while AI handles routine and repetitive tasks and helps engineers plan complex new projects. This shift reflects Itaú’s broader AI strategy: increasing engineering leverage so teams can deliver meaningful change faster.
+[blockquote] “You have to think of it as a companion, not just a tool.” Roberto Frossard, Head of Itaú’s Institute of Science and Technology (ICTi)
+[p] “You have to think of it as a companion, not just a tool.”
+[p] Roberto Frossard, Head of Itaú’s Institute of Science and Technology (ICTi)
