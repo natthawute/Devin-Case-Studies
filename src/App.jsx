@@ -127,50 +127,29 @@ function Explorer() {
         </div>
       </section>
 
-      <section className="facet">
-        <h2>By use case</h2>
-        <div className="chips">
-          {useCaseCounts.map(([name, n]) => (
-            <Chip
-              key={name}
-              active={useCase === name}
-              onClick={() => setUseCase(useCase === name ? null : name)}
-              label={name}
-              count={n}
-            />
-          ))}
-        </div>
-      </section>
+      <FacetBars
+        title="By use case"
+        counts={useCaseCounts}
+        selected={useCase}
+        onSelect={(name) => setUseCase(useCase === name ? null : name)}
+        limit={8}
+      />
 
-      <section className="facet">
-        <h2>By industry</h2>
-        <div className="chips">
-          {industryCounts.map(([name, n]) => (
-            <Chip
-              key={name}
-              active={industry === name}
-              onClick={() => setIndustry(industry === name ? null : name)}
-              label={`${INDUSTRY_ICONS[name] || ''} ${name}`}
-              count={n}
-            />
-          ))}
-        </div>
-      </section>
+      <FacetSection
+        title="By industry"
+        counts={industryCounts}
+        selected={industry}
+        onSelect={(name) => setIndustry(industry === name ? null : name)}
+        getLabel={(name) => `${INDUSTRY_ICONS[name] || ''} ${name}`}
+        limit={5}
+      />
 
-      <section className="facet">
-        <h2>By company size</h2>
-        <div className="chips">
-          {sizeCounts.map(([name, n]) => (
-            <Chip
-              key={name}
-              active={size === name}
-              onClick={() => setSize(size === name ? null : name)}
-              label={name}
-              count={n}
-            />
-          ))}
-        </div>
-      </section>
+      <FacetSection
+        title="By company size"
+        counts={sizeCounts}
+        selected={size}
+        onSelect={(name) => setSize(size === name ? null : name)}
+      />
 
       <section className="results">
         <div className="results-bar">
@@ -219,6 +198,76 @@ function Stat({ value, label }) {
       <div className="stat-value">{value}</div>
       <div className="stat-label">{label}</div>
     </div>
+  )
+}
+
+function FacetSection({ title, counts, selected, onSelect, getLabel, limit }) {
+  const [expanded, setExpanded] = useState(false)
+  const collapsed = limit && !expanded
+  const visible = collapsed
+    ? counts.filter(([name], i) => i < limit || name === selected)
+    : counts
+  const hidden = counts.length - visible.length
+  return (
+    <section className="facet">
+      <h2>{title}</h2>
+      <div className="chips">
+        {visible.map(([name, n]) => (
+          <Chip
+            key={name}
+            active={selected === name}
+            onClick={() => onSelect(name)}
+            label={getLabel ? getLabel(name) : name}
+            count={n}
+          />
+        ))}
+        {collapsed && hidden > 0 && (
+          <button className="chip toggle" onClick={() => setExpanded(true)}>
+            +{hidden} more
+          </button>
+        )}
+        {limit && expanded && (
+          <button className="chip toggle" onClick={() => setExpanded(false)}>
+            show less
+          </button>
+        )}
+      </div>
+    </section>
+  )
+}
+
+function FacetBars({ title, counts, selected, onSelect, limit }) {
+  const [expanded, setExpanded] = useState(false)
+  const max = counts.length ? counts[0][1] : 1
+  const visible =
+    limit && !expanded
+      ? counts.filter(([name], i) => i < limit || name === selected)
+      : counts
+  const hidden = counts.length - visible.length
+  return (
+    <section className="facet">
+      <h2>{title}</h2>
+      <div className="bars">
+        {visible.map(([name, n]) => (
+          <button
+            key={name}
+            className={`bar-row${selected === name ? ' active' : ''}`}
+            onClick={() => onSelect(name)}
+          >
+            <span className="bar-label">{name}</span>
+            <span className="bar-track">
+              <span className="bar-fill" style={{ width: `${(n / max) * 100}%` }} />
+            </span>
+            <span className="bar-count">{n}</span>
+          </button>
+        ))}
+      </div>
+      {limit && (hidden > 0 || expanded) && (
+        <button className="bars-toggle" onClick={() => setExpanded(!expanded)}>
+          {expanded ? 'show less ▲' : `+${hidden} more ▼`}
+        </button>
+      )}
+    </section>
   )
 }
 
