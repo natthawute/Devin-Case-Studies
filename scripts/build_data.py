@@ -55,9 +55,23 @@ def parse(path):
                 current = {"heading": "", "paragraphs": []}
                 sections.append(current)
             current["paragraphs"].append(text)
-    attributions = {q["attribution"] for q in quotes if q["attribution"]}
+    def norm_credit(t):
+        return re.sub(r"^[\s—–-]+", "", t).strip()
+
+    attributions = {norm_credit(q["attribution"]) for q in quotes if q["attribution"]}
+
+    def is_credit_line(p):
+        n = norm_credit(p)
+        if n in attributions:
+            return True
+        return (
+            bool(re.match(r"^\s*[—–-]", p))
+            and len(n) < 80
+            and not re.search(r"[.!?]$", n)
+        )
+
     for s in sections:
-        s["paragraphs"] = [p for p in s["paragraphs"] if p not in attributions]
+        s["paragraphs"] = [p for p in s["paragraphs"] if not is_credit_line(p)]
     sections = [s for s in sections if s["paragraphs"]]
     return sections, quotes
 
