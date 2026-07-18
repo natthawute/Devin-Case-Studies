@@ -73,7 +73,6 @@ export default function App() {
 function Explorer() {
   const [useCase, setUseCase] = useState(null)
   const [industry, setIndustry] = useState(null)
-  const [size, setSize] = useState(null)
   const [query, setQuery] = useState('')
 
   const filtered = useMemo(
@@ -82,19 +81,17 @@ function Explorer() {
         (c) =>
           (!useCase || c.useCases.includes(useCase)) &&
           (!industry || c.industry === industry) &&
-          (!size || c.companySize === size) &&
           (!query ||
             (c.company + ' ' + c.title + ' ' + c.summary)
               .toLowerCase()
               .includes(query.toLowerCase())),
       ),
-    [useCase, industry, size, query],
+    [useCase, industry, query],
   )
 
   const useCaseCounts = countBy(cases, (c) => c.useCases)
   const industryCounts = countBy(cases, (c) => c.industry)
-  const sizeCounts = countBy(cases, (c) => c.companySize)
-  const anyFilter = useCase || industry || size || query
+  const anyFilter = useCase || industry || query
 
   return (
     <main>
@@ -127,29 +124,23 @@ function Explorer() {
         </div>
       </section>
 
-      <FacetBars
-        title="By use case"
-        counts={useCaseCounts}
-        selected={useCase}
-        onSelect={(name) => setUseCase(useCase === name ? null : name)}
-        limit={8}
-      />
+      <div className="facet-columns">
+        <FacetBars
+          title="By use case"
+          counts={useCaseCounts}
+          selected={useCase}
+          onSelect={(name) => setUseCase(useCase === name ? null : name)}
+          limit={10}
+        />
 
-      <FacetSection
-        title="By industry"
-        counts={industryCounts}
-        selected={industry}
-        onSelect={(name) => setIndustry(industry === name ? null : name)}
-        getLabel={(name) => `${INDUSTRY_ICONS[name] || ''} ${name}`}
-        limit={5}
-      />
-
-      <FacetSection
-        title="By company size"
-        counts={sizeCounts}
-        selected={size}
-        onSelect={(name) => setSize(size === name ? null : name)}
-      />
+        <FacetBars
+          title="By industry"
+          counts={industryCounts}
+          selected={industry}
+          onSelect={(name) => setIndustry(industry === name ? null : name)}
+          getLabel={(name) => `${INDUSTRY_ICONS[name] || ''} ${name}`}
+        />
+      </div>
 
       <section className="results">
         <div className="results-bar">
@@ -201,42 +192,7 @@ function Stat({ value, label }) {
   )
 }
 
-function FacetSection({ title, counts, selected, onSelect, getLabel, limit }) {
-  const [expanded, setExpanded] = useState(false)
-  const collapsed = limit && !expanded
-  const visible = collapsed
-    ? counts.filter(([name], i) => i < limit || name === selected)
-    : counts
-  const hidden = counts.length - visible.length
-  return (
-    <section className="facet">
-      <h2>{title}</h2>
-      <div className="chips">
-        {visible.map(([name, n]) => (
-          <Chip
-            key={name}
-            active={selected === name}
-            onClick={() => onSelect(name)}
-            label={getLabel ? getLabel(name) : name}
-            count={n}
-          />
-        ))}
-        {collapsed && hidden > 0 && (
-          <button className="chip toggle" onClick={() => setExpanded(true)}>
-            +{hidden} more
-          </button>
-        )}
-        {limit && expanded && (
-          <button className="chip toggle" onClick={() => setExpanded(false)}>
-            show less
-          </button>
-        )}
-      </div>
-    </section>
-  )
-}
-
-function FacetBars({ title, counts, selected, onSelect, limit }) {
+function FacetBars({ title, counts, selected, onSelect, getLabel, limit }) {
   const [expanded, setExpanded] = useState(false)
   const max = counts.length ? counts[0][1] : 1
   const visible =
@@ -254,7 +210,7 @@ function FacetBars({ title, counts, selected, onSelect, limit }) {
             className={`bar-row${selected === name ? ' active' : ''}`}
             onClick={() => onSelect(name)}
           >
-            <span className="bar-label">{name}</span>
+            <span className="bar-label">{getLabel ? getLabel(name) : name}</span>
             <span className="bar-track">
               <span className="bar-fill" style={{ width: `${(n / max) * 100}%` }} />
             </span>
@@ -268,14 +224,6 @@ function FacetBars({ title, counts, selected, onSelect, limit }) {
         </button>
       )}
     </section>
-  )
-}
-
-function Chip({ active, onClick, label, count }) {
-  return (
-    <button className={`chip${active ? ' active' : ''}`} onClick={onClick}>
-      {label} <span className="chip-count">{count}</span>
-    </button>
   )
 }
 
