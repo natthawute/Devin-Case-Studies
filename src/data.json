@@ -253,8 +253,7 @@
      "heading": "Overview",
      "paragraphs": [
       "Bilt was founded in 2021 to help users earn rewards on monthly rent payments. In February 2025, Bilt rolled out Devin across the engineering team to help accelerate development. Initially, the Bilt team used Devin for one-shot, simple engineering tasks but they quickly realized Devin’s deep understanding of their codebase made it a meaningful contributor to more complex projects.",
-      "Today, Devin works alongside Bilt’s engineering team as a true collaborator:",
-      "— Will Laughlin, VP Engineering"
+      "Today, Devin works alongside Bilt’s engineering team as a true collaborator:"
      ]
     },
     {
@@ -264,16 +263,9 @@
      ]
     },
     {
-     "heading": "Scaling Devin from one-off tasks to core engineering partner",
-     "paragraphs": [
-      "— Cole Weis, Software Engineer"
-     ]
-    },
-    {
      "heading": "From one-shot tasks to more complex workflows and projects",
      "paragraphs": [
       "Devin’s deep understanding of the Bilt codebase meant that the team could quickly ramp Devin up on more complex implementations that touched multiple repositories.",
-      "— Haseeb Javed, Software Engineer",
       "The Bilt team is now delegating major code modernization projects, devops workflows, design-to-code, and product operations use cases to Devin. For example, the team created a GCP playbook to standardize instructions on how to navigate and pull the logs from Google Cloud. Devin now investigates GCP issues and proposes a first-pass fix. In many cases, Devin has “one-shotted” complex DevOps problems that would traditionally require significant engineering time.",
       "Image: Devin reviewing error logs using Bilt’s GCP playbook.",
       "Another workflow the Bilt team is working on with Devin is turning Figma designs into code. Russell, Frontend Engineer at Bilt, connected Devin to the Figma API, enabling it to download design files and generate functional frontend code using the company’s component library. This approach empowers designers to create high-fidelity prototypes in actual code rather than static Figma mockups.",
@@ -285,7 +277,6 @@
      "heading": "Breaking through \"Coder's Block\"",
      "paragraphs": [
       "One of Devin’s most valuable contributions so far at Bilt has been reducing the friction of getting started on any project. Rather than procrastinating on tasks or starting on projects from scratch, engineers now delegate the initial implementation to Devin.",
-      "– Will Laughlin, VP Engineering",
       "The workflow typically follows one of two paths:",
       "This iterative approach to working with Devin has allowed Bilt’s engineers ship 10x faster, leaning into their iterative engineering culture – break things down into small pieces, ship fast and deliver daily value."
      ]
@@ -332,18 +323,6 @@
    ],
    "quotes": [],
    "sections": [
-    {
-     "heading": "",
-     "paragraphs": [
-      "Crossmint provides developer tools that help companies bring their applications, projects, and agents onchain. At the heart of their open-source initiatives is GOAT SDK, a community-owned library that enables AI agents to interact with blockchain tools."
-     ]
-    },
-    {
-     "heading": "Overview",
-     "paragraphs": [
-      "Crossming provides developer tools that help companies bring their applications, projects, and agents onchain. At the heart of our open-source initiatives is GOAT SDK , a community-owned library that enables AI agents to interact with blockchain tools—from making stablecoin payments to trading in decentralized markets, and more."
-     ]
-    },
     {
      "heading": "The Challenge",
      "paragraphs": [
@@ -441,12 +420,6 @@
     }
    ],
    "sections": [
-    {
-     "heading": "",
-     "paragraphs": [
-      "Evinova is a separate health tech company within the AstraZeneca group that delivers intelligently designed digital and AI-native solutions to biopharma companies and contract research organizations to optimize the entire clinical development lifecycle from end to end."
-     ]
-    },
     {
      "heading": "The Challenge",
      "paragraphs": [
@@ -661,8 +634,7 @@
     {
      "heading": "How Gumroad Uses Devin",
      "paragraphs": [
-      "Devin is an integral part of Gumroad’s workflow support members of the engineering, product, customer support and marketing teams:",
-      "– Seth Thompson, Software Engineer, Iffy"
+      "Devin is an integral part of Gumroad’s workflow support members of the engineering, product, customer support and marketing teams:"
      ]
     },
     {
@@ -688,7 +660,6 @@
     {
      "heading": "Handing off the technical busywork to Devin",
      "paragraphs": [
-      "– Raul Popadineți, Senior Software Engineer, Flexile",
       "Raul, working on Flexile – Gumroad’s payroll and equity system for contractors – leverages Devin for a variety of rote tasks, from removing unnecessary code to fixing build failures (notably, Devin fixed a failing build in Flexile’s production environment while Raul was commuting to the office). This allows him to work on other priority projects while Devin handles general code maintenance.",
       "Devin has also taken on tasks members of the marketing and support teams would usually escalate to engineering. Maddie from Marketing regularly makes updates to the website and simply kicks off a Devin session to complete tasks like copy changes. For Andie in Support, Devin is the default assistant when investigating user-reported bugs. In one support case, Devin was provided with the support ticket in the prompt and found an underlying currency conversion bug that broke their refund process. Devin helped pinpoint the exact issue and part of the code and proposed a draft resolution."
      ]
@@ -765,19 +736,11 @@
    ],
    "sections": [
     {
-     "heading": "",
-     "paragraphs": [
-      "Hamming is an automated QA platform for voice AI agents. Their platform provides comprehensive testing, monitoring, and debugging tools that help teams identify and proactively fix issues and failures in voice AI agents before they reach customers."
-     ]
-    },
-    {
      "heading": "Making tasks \"Devinable\"",
      "paragraphs": [
       "For Hamming, speed is everything. As one of the fastest-moving engineering teams in the world, they measure their success by how much they can ship per week. With Devin contributing 25% of their total code volume and ranking as a top contributor alongside their best engineers, Hamming has redefined what engineering velocity looks like in the age of AI agents.",
-      "—Sumanyu Sharma, Founder & CEO, Hamming",
       "To ship fast in a complex codebase without adding bugs, Hamming developed a systematic methodology for identifying and creating “Devinable” tasks—well-bounded, clearly specified work with objective deliverables that Devin can execute with high accuracy.",
       "With this framework, the Hamming team was able to delegate increasingly complex tasks to Devin that would otherwise take up engineering time (such as rebuilding large parts of their codebase).",
-      "—Sumanyu",
       "Identifying “Devinable” tasks was just the beginning. Hamming realized that to truly leverage Devin’s capabilities, they needed to rethink their approach to software engineering. This led to a transformation in how they structure their codebase:",
       "1. Writing for AI agents, not just humans Hamming inverted the traditional approach to software development. Instead of writing code primarily for human consumption, they optimized their codebase for AI agents to understand, manipulate, and test.",
       "2. Functional over object-oriented They shifted toward functional programming patterns, recognizing that states are harder for both LLMs and humans to visualize and reason about.",
@@ -839,12 +802,6 @@
    ],
    "quotes": [],
    "sections": [
-    {
-     "heading": "",
-     "paragraphs": [
-      "Hippo is a technology-native insurance platform, driving growth across owned and partner MGAs — empowering customers to protect what matters most."
-     ]
-    },
     {
      "heading": "Overview",
      "paragraphs": [
@@ -945,12 +902,6 @@
     }
    ],
    "sections": [
-    {
-     "heading": "",
-     "paragraphs": [
-      "Itaú Unibanco is Brazil's largest bank with estimated US$ 500B in assets, over 70 million customers, operations across 18 countries, and one of the largest engineering organizations in Latin America, with over 17,000 people working in tech."
-     ]
-    },
     {
      "heading": "Overview",
      "paragraphs": [
@@ -1073,12 +1024,6 @@
    ],
    "quotes": [],
    "sections": [
-    {
-     "heading": "",
-     "paragraphs": [
-      "Linktree's mission is to empower anyone to own, grow, and monetize their digital presence. There are 50M+ creators and businesses using it."
-     ]
-    },
     {
      "heading": "Overview",
      "paragraphs": [
@@ -1369,7 +1314,6 @@
      "heading": "The solution: one Devin workflow at a time",
      "paragraphs": [
       "Given the number of low-hanging-fruit technical debt tasks across the codebase, Ramp deployed Devin to automate one clean-up or optimization task at a time. To do so, they leveraged Devin’s API to trigger multiple Devins in parallel to return completed PRs en masse.",
-      "—Rakesh Nori, Software Engineer, Ramp",
       "Removing just a single feature flag can be challenging, particularly when the flag affects logic throughout the codebase in a variety of different formats. Identifying all dead code paths, conditionals, and edge cases is not always straightforward and consumes valuable engineering time.",
       "Devin’s core differentiator here was the ability to run Ramp tests and confirm that core code logic wasn’t affected by the feature flag removal. In certain cases, running the tests and seeing the stack trace was the only way to identify all downstream dependencies and affected tests, meaning that any classical static analysis approach would have been far more difficult to make work.",
       "As a result, Ramp saw an opportunity to work with Devin to build an easy-to-use feature flag removal system with minimal overhead:"
@@ -1379,11 +1323,9 @@
      "heading": "Example worker Devin prompt:",
      "paragraphs": [
       "Now, any engineer at Ramp can simply input their feature flag into their internal tool, and Devin will automatically tag them when the PR is completed. Today, Devin is a core piece of internal Ramp tooling that orchestrates and executes tasks that were previously unachievable without a coding agent.",
-      "—Peyton McCullough, Staff Software Engineer, Ramp",
       "Data Platform is the nexus for a large number of internal systems and teams at Ramp, home to a lot of cross-functional activity and contributions. As a result, things break often. Every morning, Ramp’s Platform Engineering team wakes up to a handful of Airflow errors or failure reports to debug manually. These are time sensitive errors that are often directly related to critical finance services, but the code fixes themselves are usually straightforward. The vast majority of the engineering pain comes from context switching to the error or triaging the site of the bug in the first place.",
       "So, after early experiments showed promise, Ramp decided to leverage Devin to automate the first pass on every Airflow failure and relieve the pressure on platform engineers. It was an easy implementation: Ramp simply took the Airflow error logs, determined those that made sense for Devin to fix, then triggered Devin via its API to work on a fix. If the CI checks completed successfully for Devin’s fix, Devin would then open a PR and tag the appropriate engineer.",
       "Instead of a manual debugging process, Ramp’s engineers now simply review and approve a Devin PR that already passes CI. Even in the case where the fix isn’t exactly right, it is almost always in the right ballpark, which will still dramatically accelerate time-to-fix.",
-      "—Maxim Enis, Software Engineer, Ramp",
       "Ramp was sitting on a backlog of over 100 slow tests and over 500 legacy, undocumented endpoints. In both cases, the team built a prompt for Devin that used an objective validation criteria, which essentially gave Devin a test-driven development workflow. For slow tests, they created a verification script that confirmed Devin’s optimizations maintained identical test coverage. Similarly for endpoint documentation, the script completed only when the expected response types matched Devin’s documented API types."
      ]
     },
@@ -1397,7 +1339,6 @@
     {
      "heading": "Results",
      "paragraphs": [
-      "—Rahul Sengottuvelu, Head of Applied AI, Ramp",
       "Devin has saved thousands of hours of engineering work so far in technical debt cleanup across a variety of use cases, dramatically accelerating core product and engineering velocity at Ramp."
      ]
     }
@@ -1533,12 +1474,6 @@
    ],
    "quotes": [],
    "sections": [
-    {
-     "heading": "",
-     "paragraphs": [
-      "The Citation Group is a leading provider of compliance, risk management, and certification technology and services, spanning everything from HR and Health & Safety to ISO certification and cyber security. They support over 125,000 small and medium-sized businesses across the UK, Canada, Australia, and New Zealand."
-     ]
-    },
     {
      "heading": "About The Citation Group",
      "paragraphs": [

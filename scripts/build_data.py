@@ -55,9 +55,23 @@ def parse(path):
                 current = {"heading": "", "paragraphs": []}
                 sections.append(current)
             current["paragraphs"].append(text)
-    attributions = {q["attribution"] for q in quotes if q["attribution"]}
+    def norm_credit(t):
+        return re.sub(r"^[\s—–-]+", "", t).strip()
+
+    attributions = {norm_credit(q["attribution"]) for q in quotes if q["attribution"]}
+
+    def is_credit_line(p):
+        n = norm_credit(p)
+        if n in attributions:
+            return True
+        return (
+            bool(re.match(r"^\s*[—–-]", p))
+            and len(n) < 80
+            and not re.search(r"[.!?]$", n)
+        )
+
     for s in sections:
-        s["paragraphs"] = [p for p in s["paragraphs"] if p not in attributions]
+        s["paragraphs"] = [p for p in s["paragraphs"] if not is_credit_line(p)]
     sections = [s for s in sections if s["paragraphs"]]
     return sections, quotes
 
@@ -77,12 +91,17 @@ for slug, meta in META.items():
     path = os.path.join(SRC_DIR, f"{slug}.trim.txt")
     sections, quotes = parse(path)
     about = meta.get("about", "")
-    about_prefix = about[:80]
+    about_words = set(re.findall(r"\w+", about.lower()))
+
+    def is_about_dup(p):
+        if not about_words:
+            return False
+        words = set(re.findall(r"\w+", p.lower()))
+        overlap = len(about_words & words) / len(about_words)
+        return overlap > 0.7 and len(p) < len(about) * 2
+
     for s in sections:
-        s["paragraphs"] = [
-            p for p in s["paragraphs"]
-            if not (about_prefix and p.startswith(about_prefix))
-        ]
+        s["paragraphs"] = [p for p in s["paragraphs"] if not is_about_dup(p)]
     sections = [s for s in sections if s["paragraphs"]]
     cases.append({
         "slug": slug,
