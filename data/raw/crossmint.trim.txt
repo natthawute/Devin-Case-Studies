@@ -1,0 +1,26 @@
+[h1] Scaling Open Source Development of GOAT with Devin
+[h2] About the company
+[p] Crossmint provides developer tools that help companies bring their applications, projects, and agents onchain. At the heart of their open-source initiatives is GOAT SDK, a community-owned library that enables AI agents to interact with blockchain tools.
+[h2] Overview
+[p] Crossming provides developer tools that help companies bring their applications, projects, and agents onchain. At the heart of our open-source initiatives is GOAT SDK , a community-owned library that enables AI agents to interact with blockchain tools—from making stablecoin payments to trading in decentralized markets, and more.
+[h2] The Challenge
+[p] As maintainers of GOAT SDK, we faced a classic scaling challenge. The library requires constant integration work to keep pace with new protocols and dApps entering the ecosystem. Despite having an active community of developers, the integration backlog was growing faster than our contributors could handle. We needed a solution that could scale our development efforts while maintaining code quality.
+[h2] Enter Devin
+[p] When Cognition provided us with Devin credits as part of their Open Source Initiative, we saw an opportunity to test an innovative hypothesis: Could we leverage AI to scale our open-source development while allowing human developers to focus on higher-order challenges?
+[h2] Implementation and Results
+[p] The results have been remarkable. During our initial trial, Devin quickly became our #1 contributor by PR count (it merged 8 PRs, with the next contributor at 4). The majority of its contributions were high-quality and successfully merged. Two notable examples include:
+[p] Adding support for DEXScreener plugin
+[p] Link to session :
+[p] Implementing Sui blockchain integration
+[p] Link to session :
+[p] What’s particularly impressive is Devin’s ability to work with minimal context—often requiring just a link to integration documentation to produce working code.
+[h2] What we learned about working with Devin
+[p] Through our experience, we’ve identified three critical factors for success with Devin:
+[p] Proper Training: Ensure Devin has sufficient knowledge of your repository and workflows when starting a new task. The keys to achieving this are: (1) doing this iteratively (starting with easier tasks and spending time after each to build Devin’s knowledge), and (2) patience: not assuming that if Devin made a mistake it won’t be able to learn from it.
+[p] Clear Task Context: Provide sufficient background information and specific goals
+[p] Validation Planning: Establish clear criteria for success upfront
+[h2] What not to do with Devin
+[p] The most common mistake we’ve observed is overestimating Devin’s capabilities, setting unrealistic expectations, and getting disappointed when it doesn’t work as expected. Developers have a tendency to approach Devin as a “superhuman” entity, which leads to:
+[h2] Ramping Devin Up
+[p] While it’s still in early stages, we’re optimistic about Devin’s role in scaling our repository sustainably. This allows our human contributors to focus on critical areas where they add the most value:
+[p] By leveraging Devin for routine integration work, we’re creating a more efficient development ecosystem that benefits both our maintainers and the broader open-source community.

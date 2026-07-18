@@ -1,0 +1,24 @@
+[h1] Linktree expands social media platform coverage and ships new features with Devin
+[h2] About the company
+[p] Linktree's mission is to empower anyone to own, grow, and monetize their digital presence. There are 50M+ creators and businesses using it.
+[h2] Overview
+[p] Linktree ’s mission is to empower anyone to own, grow, and monetize their digital presence. There are 50M+ creators and businesses using it. While the product may appear simple, it has lots of rich functionalities and it’s integrated with hundreds of partners to help people grow their audiences, sell products, and streamline their creative processes.
+[p] We at Linktree are optimistic about the power of AI to unlock greater velocity and value for creators, and the engineering team is always seeking the best AI tools available. That’s why we started exploring Devin as soon as it became generally available.
+[p] Over the past month Devin has authored ~300 PRs and merged ~100. Most of these are fixing customer-reported bugs, implementing small features, and prototyping larger features.
+[h2] Devin ships new social media platforms
+[p] To support creators, Linktree is continually evaluating what new social media platforms to add. For example, the team recently discussed adding support for RedNote and Lemon8, given their recent rise in popularity. Before Devin it would have taken the team some time to debate the priority and trade-off to take on this task. However, giving it to Devin meant skipping the lengthy prioritization process to simply see what would happen.
+[p] Adding a social platform is conceptually straightforward but it involves a few PRs spanning multiple repos; for example, the database persistence, URL parsing and validation, updating the component library and the UI repos that surface the social icon. Linktree kicked off five Devins, one for each repo and PR.
+[p] The prompt for each Devin is pretty simple:
+[p] In some repos there are quite a few files to update, so we leverage the knowledge feature to teach Devin where to look:
+[p] The team provided some guidance to Devin about the URL format to expect from these platforms, and fixed up an issue with SVG rendering, and shipped it on the same day:
+[h2] Streamlining with the Devin API
+[p] Since Linktree plans to implement many more integrations like this in the future, it’s important to streamline the workflow even more. For example, instead of manually managing multiple Devins for complex changes, the team wanted Devin to be able to compose a series of PRs on its own. After a quick discussion with Cognition team, they shared a Playbook script that leverages the Devin API to automatically spawn multiple Devins to implement the entire feature, which Linktree was able to leverage right away:
+[h2] What we've learned
+[p] For some tasks Devin can nail it in one shot and it feels like magic. But it also struggles with a lot of tasks, so the key is for the team to develop the intuition on what tasks are the best candidates for Devin.
+[p] Once we find a type of common task that works well, we try to operationalize it. For example, Devin has a very good success rate with instrumenting analytics event tracking. We are able to eliminate this significant workload from all feature work by leveraging Devin and keep refining the same prompt.
+[p] Understand what tasks to give Devin can be challenging, but the Linktree team learned it’s about:
+[p] It’s been better to use Devin liberally for tasks that can be completed by an engineer within a couple of hours, rather than overthink the types of tasks to give Devin upfront. Devin usually produces a complete or partially useful PR, and if not then there wasn’t much time scoping and prompting lost.
+[p] Sometimes the team lets Devin work on new features, even though it’s likely to struggle. Devin’s attempted solution could still serve as a useful proof of concept. For example, the team recently needed a cron job in our legacy PHP backend to notify users about expiring social connections. Our limited PHP expertise made scoping the change time-consuming, so we asked Devin to implement it. That attempt led to a productive design discussion after which the team was able to provide more concrete guidance and completed the change.
+[p] Linktree’s main advice on how to work with Devin:
+[h2] The future with Devin
+[p] Linktree is excited about the future as Devin and the AI models continue to improve. Before Devin a lot of these bugs / features wouldn’t have made the cut in our team prioritization / scheduling. Now before spending any time debating about the priority the team asks: Can I just Devin it?

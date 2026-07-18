@@ -1,0 +1,45 @@
+[h1] Devin helps Bilt engineers overcome coder's block and accelerate development across complex projects
+[h2] About the company
+[p] Bilt helps renters earn rewards on rent payments. Their platform allows users to earn points and build credit with no fees. Points can be redeemed for travel, fitness classes, rent credits, and more. Bilt has partnered with major real estate owners to create the Bilt Rewards Alliance, a network of over 3 million rental units.
+[h2] Overview
+[p] Bilt was founded in 2021 to help users earn rewards on monthly rent payments. In February 2025, Bilt rolled out Devin across the engineering team to help accelerate development. Initially, the Bilt team used Devin for one-shot, simple engineering tasks but they quickly realized Devin’s deep understanding of their codebase made it a meaningful contributor to more complex projects.
+[p] Today, Devin works alongside Bilt’s engineering team as a true collaborator:
+[blockquote] “Devin has gotten me back into coding. As an engineering leader, I got into this field to build things, and Devin has made that experience great again by handling the tedious parts.” — Will Laughlin, VP Engineering
+[p] “Devin has gotten me back into coding. As an engineering leader, I got into this field to build things, and Devin has made that experience great again by handling the tedious parts.”
+[p] — Will Laughlin, VP Engineering
+[h2] How Bilt uses Devin
+[p] Devin supports Bilt’s technical teams across a range of functions:
+[h2] Scaling Devin from one-off tasks to core engineering partner
+[blockquote] “I use Devin for most implementations — at the very least to get started. The only things I don’t start with Devin are tasks that require 90% business context and 10% code changes.” — Cole Weis, Software Engineer
+[p] “I use Devin for most implementations — at the very least to get started. The only things I don’t start with Devin are tasks that require 90% business context and 10% code changes.”
+[p] — Cole Weis, Software Engineer
+[h2] Timeline
+[h2] From one-shot tasks to more complex workflows and projects
+[p] Devin’s deep understanding of the Bilt codebase meant that the team could quickly ramp Devin up on more complex implementations that touched multiple repositories.
+[blockquote] “Devin gets unfairly pigeon-holed as only being able to handle small tasks. But it’s excellent at explaining cross-repository interactions that would take a long time to figure out manually. Devin’s been super useful in helping implement features that span multiple repos.” — Haseeb Javed, Software Engineer
+[p] “Devin gets unfairly pigeon-holed as only being able to handle small tasks. But it’s excellent at explaining cross-repository interactions that would take a long time to figure out manually. Devin’s been super useful in helping implement features that span multiple repos.”
+[p] — Haseeb Javed, Software Engineer
+[p] The Bilt team is now delegating major code modernization projects, devops workflows, design-to-code, and product operations use cases to Devin. For example, the team created a GCP playbook to standardize instructions on how to navigate and pull the logs from Google Cloud. Devin now investigates GCP issues and proposes a first-pass fix. In many cases, Devin has “one-shotted” complex DevOps problems that would traditionally require significant engineering time.
+[p] Image: Devin reviewing error logs using Bilt’s GCP playbook.
+[p] Another workflow the Bilt team is working on with Devin is turning Figma designs into code. Russell, Frontend Engineer at Bilt, connected Devin to the Figma API, enabling it to download design files and generate functional frontend code using the company’s component library. This approach empowers designers to create high-fidelity prototypes in actual code rather than static Figma mockups.
+[p] Image: Devin building a dummy component from Bilt’s design library.
+[p] Along with daily summarizer which recaps codebase updates every week, the Bilt team has built out creative workflows and use cases that lean on Devin’s strengths: working in mature, complex repositories.
+[h2] Breaking through "Coder's Block"
+[p] One of Devin’s most valuable contributions so far at Bilt has been reducing the friction of getting started on any project. Rather than procrastinating on tasks or starting on projects from scratch, engineers now delegate the initial implementation to Devin.
+[blockquote] “You can use Devin as a starter to-do list. Even if you’re not sure what you want to implement and write Devin a vague prompt, it’ll do some of the upfront thinking for you and helps you get out of that coder’s block.” – Will Laughlin, VP Engineering
+[p] “You can use Devin as a starter to-do list. Even if you’re not sure what you want to implement and write Devin a vague prompt, it’ll do some of the upfront thinking for you and helps you get out of that coder’s block.”
+[p] – Will Laughlin, VP Engineering
+[p] The workflow typically follows one of two paths:
+[p] This iterative approach to working with Devin has allowed Bilt’s engineers ship 10x faster, leaning into their iterative engineering culture – break things down into small pieces, ship fast and deliver daily value.
+[blockquote] “Multitasking is a lot more approachable with Devin. You can use the gaps in your schedule with Devin, and you can actually ship code when it would have otherwise been unproductive buffer time.” — Will Laughlin, VP Engineering
+[p] “Multitasking is a lot more approachable with Devin. You can use the gaps in your schedule with Devin, and you can actually ship code when it would have otherwise been unproductive buffer time.”
+[p] — Will Laughlin, VP Engineering
+[h2] Bilt's Advice to teams onboarding Devin
+[p] Start with clear acceptance criteria: Break down problems and establish clear goals before involving Devin. You can use Ask Devin to help with the scoping part of the task.
+[p] Make your codebase AI-friendly:
+[p] Be creative: Experiment with new workflows (e.g. DevOps, Figma-to-code), and lean on features like playbooks and Ask Devin to delegate more complex projects to Devin.
+[blockquote] “Devin has made tedious tasks less involved. You get more joy out of the sheer act of coding because all the things you need to do around coding like test writing are handled, and you can move faster to the next big problem.” — Haseeb Javed, Software Engineer
+[p] “Devin has made tedious tasks less involved. You get more joy out of the sheer act of coding because all the things you need to do around coding like test writing are handled, and you can move faster to the next big problem.”
+[p] — Haseeb Javed, Software Engineer
+[h2] Ready to start working with Devin?
+[p] Start working with Devin today – sign up for the Core or Team plan . Plug Devin into Slack, Linear and GitHub; watch ideas turn into merged PRs on your commute to work.

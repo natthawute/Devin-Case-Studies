@@ -1,0 +1,247 @@
+{
+  "nubank": {
+    "company": "Nubank",
+    "title": "How Nubank refactors millions of lines of code to improve engineering efficiency with Devin",
+    "industry": "Fintech & Banking",
+    "companySize": "Enterprise",
+    "region": "Latin America",
+    "about": "Nubank is the largest financial technology bank in Latin America, serving over 110 million customers across Brazil, Mexico, and Colombia since its founding in 2013.",
+    "summary": "Nubank used a fleet of fine-tuned Devins to migrate its 6M+ line monolithic ETL into sub-modules, achieving 12x engineering-hour efficiency and 20x+ cost savings — completing in weeks what was planned as an 18-month, 1,000-engineer effort.",
+    "useCases": ["Code Migration & Modernization", "Large-Scale Refactoring", "Parallel Agent Fleets"],
+    "metrics": [
+      {"value": "12x", "label": "efficiency improvement in engineering hours"},
+      {"value": "20x+", "label": "cost savings"},
+      {"value": "6M+", "label": "lines of code in migrated monolith"},
+      {"value": "4x", "label": "faster per sub-task after fine-tuning (40 min → 10 min)"}
+    ]
+  },
+  "gumroad": {
+    "company": "Gumroad",
+    "title": "How Devin Became Gumroad's #1 Contributor with 1,500+ Merged PRs",
+    "industry": "E-commerce & Creator Economy",
+    "companySize": "Startup",
+    "region": "North America",
+    "about": "Gumroad is an e-commerce platform that empowers creators to engage and sell products directly to their supporters, founded by Sahil Lavingia in 2011.",
+    "summary": "Devin became Gumroad's #1 code contributor within 4 months, merging 1,583 PRs at an >85% merge rate while supporting engineering, product, marketing, and support teams via Slack and GitHub.",
+    "useCases": ["Feature Development", "Bug Fixes & Ticket Triage", "Non-Engineer Enablement", "CI/CD & Build Fixes"],
+    "metrics": [
+      {"value": "1,583", "label": "PRs merged in 4 months"},
+      {"value": ">85%", "label": "merge rate"},
+      {"value": "#1", "label": "contributor across Gumroad repos"}
+    ]
+  },
+  "itau": {
+    "company": "Itaú Unibanco",
+    "title": "How Itaú Deployed AI Across the SDLC at Global-Finance Scale",
+    "industry": "Fintech & Banking",
+    "companySize": "Enterprise",
+    "region": "Latin America",
+    "about": "Itaú Unibanco is Brazil's largest bank with ~US$500B in assets, 70M+ customers, operations in 18 countries, and over 17,000 people working in tech.",
+    "summary": "One of the largest coordinated AI adoptions in global finance: 75% of Itaú's teams use Devin across migrations, security remediation, documentation, architecture design, code review, incident triage, and testing — driving 20-30% higher throughput.",
+    "useCases": ["Code Migration & Modernization", "Security & Vulnerability Remediation", "Documentation & Knowledge", "Testing & QA", "Incident Response", "Feature Development", "Code Review"],
+    "metrics": [
+      {"value": "20-30%", "label": "increase in throughput bank-wide"},
+      {"value": "~70%", "label": "of security vulnerabilities resolved automatically"},
+      {"value": "6x", "label": "faster .NET → Java migration at 5x lower cost"},
+      {"value": "<50% → ~90%+", "label": "test coverage improvement"},
+      {"value": "75%", "label": "of teams use Devin"}
+    ]
+  },
+  "angellist": {
+    "company": "AngelList",
+    "title": "How AngelList Completed a Redshift-to-Snowflake Migration 5.2x Faster with Devin",
+    "industry": "Fintech & Banking",
+    "companySize": "Scale-up",
+    "region": "North America",
+    "about": "AngelList is one of the largest fund-administration platforms in venture capital, with $171B in assets on platform across 25,000 funds and syndicates.",
+    "summary": "A single data engineer, two months into the job, migrated 14,000 Metabase cards from Redshift to Snowflake with 20 parallel Devin agents — finishing 5.2x faster than estimated and avoiding 3-4 additional hires.",
+    "useCases": ["Code Migration & Modernization", "Data Engineering", "Parallel Agent Fleets", "Architecture & System Design"],
+    "metrics": [
+      {"value": "5.2x", "label": "faster than the no-Devin estimate"},
+      {"value": "14,000", "label": "Metabase cards migrated"},
+      {"value": "20", "label": "Devin agents running in parallel at peak"},
+      {"value": "3 weeks", "label": "to migrate all cards"}
+    ]
+  },
+  "ramp": {
+    "company": "Ramp",
+    "title": "Devin fixes tens of thousands of hours of technical debt at Ramp",
+    "industry": "Fintech & Banking",
+    "companySize": "Scale-up",
+    "region": "North America",
+    "about": "Ramp is a financial operations platform combining corporate cards, bill payments, procurement, travel, and treasury — powering tens of billions in purchases annually for 30,000+ businesses.",
+    "summary": "Ramp's small applied-AI team built Devin workflows that clear a different technical-debt backlog every week — automated Airflow failure fixes, feature-flag removal, slow-test optimization, endpoint documentation — saving tens of thousands of engineering hours.",
+    "useCases": ["Technical Debt Cleanup", "Bug Fixes & Ticket Triage", "Documentation & Knowledge", "Testing & QA", "Workflow Automation & API"],
+    "metrics": [
+      {"value": "10,000s", "label": "of engineering hours saved"},
+      {"value": "80", "label": "merged PRs per week at peak"},
+      {"value": "~50%", "label": "of Airflow-failure PRs mergeable as-is"},
+      {"value": "500+", "label": "legacy endpoints documented"}
+    ]
+  },
+  "linktree": {
+    "company": "Linktree",
+    "title": "Linktree expands social media platform coverage and ships new features with Devin",
+    "industry": "E-commerce & Creator Economy",
+    "companySize": "Scale-up",
+    "region": "APAC",
+    "about": "Linktree empowers anyone to own, grow, and monetize their digital presence, with 50M+ creators and businesses using it.",
+    "summary": "Linktree ships new social platform integrations same-day by kicking off parallel Devins across five repos, uses the Devin API to orchestrate multi-PR features, and has Devin author ~300 PRs a month on bug fixes and features.",
+    "useCases": ["Feature Development", "Bug Fixes & Ticket Triage", "Workflow Automation & API", "Parallel Agent Fleets", "Prototyping & Exploration"],
+    "metrics": [
+      {"value": "~300", "label": "PRs authored by Devin in one month (~100 merged)"},
+      {"value": "5", "label": "parallel Devins to ship a cross-repo feature"},
+      {"value": "Same day", "label": "to ship new social platform support"}
+    ]
+  },
+  "litera": {
+    "company": "Litera",
+    "title": "With Devin, Litera cut regression cycles by 90%, delivering new products faster than ever",
+    "industry": "Legal Tech",
+    "companySize": "Enterprise",
+    "region": "North America",
+    "about": "Litera provides AI-driven solutions to law firms and corporate legal teams worldwide, with 50+ products and $300M+ in annual revenue.",
+    "summary": "Litera's 'QE Evolution' embedded specialized Devin agents into scrum teams as QE testers, SREs, and DevOps specialists — cutting regression cycles 93%, increasing test coverage 40%, and enabling '250 engineers operating at the speed of a thousand'.",
+    "useCases": ["Testing & QA", "Code Migration & Modernization", "Bug Fixes & Ticket Triage", "DevOps & SRE", "Workflow Automation & API"],
+    "metrics": [
+      {"value": "93%", "label": "faster regression cycles"},
+      {"value": "40%", "label": "increased test coverage"},
+      {"value": "10x", "label": "team output on QE workflows"},
+      {"value": "5", "label": "major products launched in 3 weeks"}
+    ]
+  },
+  "evinova": {
+    "company": "Evinova",
+    "title": "How Evinova accelerates regulated software delivery with Devin",
+    "industry": "Health & Life Sciences",
+    "companySize": "Enterprise",
+    "region": "Europe",
+    "about": "Evinova is a health tech company within the AstraZeneca group delivering digital and AI-native solutions to optimize the clinical development lifecycle, operating in a GxP-regulated environment.",
+    "summary": "In a GxP-regulated environment, Evinova uses Devin to draft regulatory documents (URS, DR plans) at ~90% accuracy in minutes instead of 35-40 hours, run an 'AutoFixer' bug-triage playbook 4x daily, and compress migrations and test automation timelines from quarters to weeks.",
+    "useCases": ["Security & Vulnerability Remediation", "Regulatory & Compliance Docs", "Bug Fixes & Ticket Triage", "Code Migration & Modernization", "Testing & QA", "Documentation & Knowledge"],
+    "metrics": [
+      {"value": "35-40 hrs → minutes", "label": "to draft regulatory documents at ~90% accuracy"},
+      {"value": "79", "label": "bugs attempted by AutoFixer in 22 days (half merged clean)"},
+      {"value": "3 components in 1.5 days", "label": "vs ~5 days each for stack migration"},
+      {"value": "Quarters → weeks", "label": "to reach near-complete test automation coverage"}
+    ]
+  },
+  "fefundinfo": {
+    "company": "FE fundinfo",
+    "title": "How FE fundinfo Scaled Eng Capacity with AI-Driven Automation Across 1,800 Repos",
+    "industry": "Fintech & Banking",
+    "companySize": "Enterprise",
+    "region": "Europe",
+    "about": "FE fundinfo is a leading financial data company connecting the investment industry across the UK, Europe and Asia Pacific, with 1,200+ employees and 200+ engineers across ~1,800 active repositories.",
+    "summary": "FE fundinfo deployed Devin across 1,800 repos to offload maintenance, dependency upgrades, and testing — building a scoring system to teach engineers delegation, automating end-to-end workflows, and targeting 2-4x engineering capacity.",
+    "useCases": ["Technical Debt Cleanup", "Testing & QA", "Workflow Automation & API", "Code Migration & Modernization", "Project Planning"],
+    "metrics": [
+      {"value": "1,800", "label": "active repositories covered"},
+      {"value": "2-4x", "label": "projected engineering capacity increase"},
+      {"value": "3 days / 2 weeks", "label": "of manual QA work saved by one Devin-built tool"}
+    ]
+  },
+  "hamming": {
+    "company": "Hamming",
+    "title": "Devin contributes 25% of total code volume at Hamming",
+    "industry": "AI & Developer Tools",
+    "companySize": "Startup",
+    "region": "North America",
+    "about": "Hamming is an automated QA platform for voice AI agents, providing testing, monitoring, and debugging tools to catch failures before they reach customers.",
+    "summary": "Hamming developed a methodology for identifying 'Devinable' tasks and restructured its codebase for AI agents (functional, self-documenting, test-driven) — with Devin now contributing 25% of total code volume and fixing customer issues same-day.",
+    "useCases": ["Feature Development", "Bug Fixes & Ticket Triage", "Prototyping & Exploration", "Testing & QA"],
+    "metrics": [
+      {"value": "25%", "label": "of total code volume contributed by Devin"},
+      {"value": "Same day", "label": "customer-reported issues shipped to prod"},
+      {"value": "Top contributor", "label": "alongside their best engineers"}
+    ]
+  },
+  "bilt": {
+    "company": "Bilt",
+    "title": "Devin helps Bilt engineers overcome coder's block and accelerate development",
+    "industry": "Fintech & Banking",
+    "companySize": "Scale-up",
+    "region": "North America",
+    "about": "Bilt helps renters earn rewards on rent payments, partnering with major real estate owners in a network of over 3 million rental units.",
+    "summary": "Bilt engineers use Devin as a collaborator for cross-repo features, GCP DevOps triage via playbooks, Figma-to-code workflows, and beating 'coder's block' — shipping 10x faster with an iterative culture.",
+    "useCases": ["Feature Development", "DevOps & SRE", "Design-to-Code", "Prototyping & Exploration", "Documentation & Knowledge"],
+    "metrics": [
+      {"value": "10x", "label": "faster shipping with iterative Devin workflows"},
+      {"value": "Multi-repo", "label": "feature implementations delegated to Devin"}
+    ]
+  },
+  "crossmint": {
+    "company": "Crossmint (GOAT SDK)",
+    "title": "Scaling Open Source Development of GOAT with Devin",
+    "industry": "Web3 & Blockchain",
+    "companySize": "Startup",
+    "region": "North America",
+    "about": "Crossmint provides developer tools to bring applications and agents onchain; GOAT SDK is its community-owned library enabling AI agents to interact with blockchain tools.",
+    "summary": "Devin became the #1 contributor by PR count to the open-source GOAT SDK, handling routine protocol integrations (DEXScreener, Sui) with minimal context so human maintainers could focus on higher-order work.",
+    "useCases": ["Open Source Maintenance", "Feature Development"],
+    "metrics": [
+      {"value": "#1", "label": "contributor by PR count during trial"},
+      {"value": "8 PRs", "label": "merged (next contributor: 4)"}
+    ]
+  },
+  "ahead": {
+    "company": "AHEAD",
+    "title": "From Writing Code to Designing Systems: How AHEAD Unlocked 8x-40x Faster Engineering",
+    "industry": "IT Services & Consulting",
+    "companySize": "Enterprise",
+    "region": "North America",
+    "about": "AHEAD is a technology services company that advises, implements, and manages cloud, data, and security solutions for enterprise clients across healthcare, finance, and manufacturing.",
+    "summary": "AHEAD ran a 'client zero' pilot across 8 production use cases (Terraform, Snowflake, Go, Salesforce, MuleSoft, Azure, dbt), got Devin fully productive in 2 days with 8x-40x time savings, and turned the playbooks into a client-facing AI development practice.",
+    "useCases": ["DevOps & SRE", "Feature Development", "Testing & QA", "CI/CD & Build Fixes", "Workflow Automation & API"],
+    "metrics": [
+      {"value": "8x-40x", "label": "time savings vs manual baselines"},
+      {"value": "2 days", "label": "for Devin to become fully productive"},
+      {"value": "3 APIs in 1 day", "label": "vs 4 weeks previously (MuleSoft)"}
+    ]
+  },
+  "hippo": {
+    "company": "Hippo",
+    "title": "Building the Future of Insurance with Hippo",
+    "industry": "Insurance",
+    "companySize": "Enterprise",
+    "region": "North America",
+    "about": "Hippo is a technology-native insurance platform driving growth across owned and partner MGAs, empowering customers to protect what matters most.",
+    "summary": "Hippo deploys Devin across its in-house engineering organization to build and test insurance software that holds up across all fifty states without multiplying manual effort — freeing engineers for product and risk work.",
+    "useCases": ["Testing & QA", "Feature Development", "Regulatory & Compliance Docs"],
+    "metrics": [
+      {"value": "50 states", "label": "of regulatory complexity handled without multiplying manual effort"},
+      {"value": "~90%", "label": "potential cut in testing/defect-resolution cycles (McKinsey est. for agentic AI)"}
+    ]
+  },
+  "rvtech": {
+    "company": "RV Tech (Rivian + VW Group)",
+    "title": "How Rivian and VW's Joint Venture Uses AI to Ship the Future of Vehicle Software",
+    "industry": "Automotive",
+    "companySize": "Enterprise",
+    "region": "North America",
+    "about": "RV Tech is a Rivian-Volkswagen Group joint venture (1,600+ employees) building zonal electronic architecture and software for software-defined vehicles at a scale of up to 30 million vehicles.",
+    "summary": "RV Tech uses Devin for autonomous background work on safety-critical vehicle software: a Slackbot triages customer vehicle-access issues (freeing 3-4 engineers), and SIL test generation jumped from 1-2 to 10-15 tests per engineer per day.",
+    "useCases": ["Bug Fixes & Ticket Triage", "Testing & QA", "Workflow Automation & API"],
+    "metrics": [
+      {"value": "10x", "label": "increase in test generation velocity"},
+      {"value": "3-4", "label": "engineers redirected from support to product work"},
+      {"value": "~100%", "label": "of SIL test code written by Devin in most cases"}
+    ]
+  },
+  "thecitationgroup": {
+    "company": "The Citation Group",
+    "title": "How The Citation Group Measures Engineering ROI with Devin",
+    "industry": "Compliance & Risk Services",
+    "companySize": "Enterprise",
+    "region": "Europe",
+    "about": "The Citation Group provides compliance, risk management, and certification technology and services to over 125,000 SMBs across the UK, Canada, Australia, and New Zealand.",
+    "summary": "Citation established trust in AI-generated code by measuring at the PR level — 271 Devin PRs merged at 80% success in 3 months — then scaled to 180+ sessions weekly with structured Jira specs, extending adoption to business analysts and support teams.",
+    "useCases": ["Bug Fixes & Ticket Triage", "Code Migration & Modernization", "Non-Engineer Enablement", "Project Planning"],
+    "metrics": [
+      {"value": "271", "label": "Devin PRs merged in first 3 months"},
+      {"value": "80%", "label": "PR success rate after senior review"},
+      {"value": "180+", "label": "Devin sessions per week"},
+      {"value": "1,200+", "label": "total sessions recorded in GitHub"}
+    ]
+  }
+}
