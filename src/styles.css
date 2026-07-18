@@ -327,6 +327,22 @@ h1, h2, h3, .brand, .stat-value, .card-company, .metric-value, .card-metric-valu
   font-weight: 600;
 }
 
+.filter-pill {
+  background: var(--otter);
+  border: 2px solid var(--ink);
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 5px 13px;
+  cursor: pointer;
+  font-size: 12.5px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+.filter-pill:hover {
+  background: var(--otter-soft);
+}
+
 .clear-btn {
   background: var(--ink);
   border: 2px solid var(--ink);
@@ -440,8 +456,17 @@ h1, h2, h3, .brand, .stat-value, .card-company, .metric-value, .card-metric-valu
   border-radius: 999px;
   font-size: 11px;
   font-weight: 600;
+  font-family: 'Inter', sans-serif;
   padding: 3px 10px;
   color: var(--ink);
+}
+
+button.tag {
+  cursor: pointer;
+}
+
+button.tag:hover {
+  background: var(--otter-soft);
 }
 
 .tag.more {

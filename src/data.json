@@ -51,12 +51,6 @@
    ],
    "sections": [
     {
-     "heading": "",
-     "paragraphs": [
-      "AHEAD is a technology services company that advises, implements, and manages cloud, data, and security solutions for enterprise clients across healthcare, finance, and manufacturing industries."
-     ]
-    },
-    {
      "heading": "Client Zero",
      "paragraphs": [
       "AHEAD ran a pilot with the company’s own internal engineering organization as client zero, with defined use cases, baselines, and success criteria. The pilot covered eight high-impact production use cases spanning Terraform, Snowflake, Go, Salesforce, MuleSoft, Azure, and dbt. Devin became fully productive within two business days, delivering 8x to 40x time savings measured against manual baselines.",
@@ -553,12 +547,6 @@
    ],
    "sections": [
     {
-     "heading": "",
-     "paragraphs": [
-      "FE fundinfo is a leading financial data company connecting the investment industry in the UK, Europe and Asia Pacific through a single integrated platform, Nexus. Founded in 1996, the group operates in over 15 countries, with more than 1,200 employees and 200+ expert engineers driving innovation."
-     ]
-    },
-    {
      "heading": "Overview",
      "paragraphs": [
       "As FE fundinfo’s platform expanded, engineering teams faced mounting pressure from maintenance work, security updates, dependency upgrades, testing coverage gaps, and technical debt remediation. Over time, this work began to crowd out new feature development.",
@@ -663,12 +651,6 @@
     }
    ],
    "sections": [
-    {
-     "heading": "",
-     "paragraphs": [
-      "Gumroad is an e-commerce platform that empowers creators to engage and sell products directly to their supporters. It was founded by Sahil Lavingia in 2011. Since then, Gumroad has developed multiple products like Flexile and Iffy that enable creators and founders to do more."
-     ]
-    },
     {
      "heading": "Overview",
      "paragraphs": [

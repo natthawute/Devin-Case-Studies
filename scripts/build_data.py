@@ -77,8 +77,12 @@ for slug, meta in META.items():
     path = os.path.join(SRC_DIR, f"{slug}.trim.txt")
     sections, quotes = parse(path)
     about = meta.get("about", "")
+    about_prefix = about[:80]
     for s in sections:
-        s["paragraphs"] = [p for p in s["paragraphs"] if p != about]
+        s["paragraphs"] = [
+            p for p in s["paragraphs"]
+            if not (about_prefix and p.startswith(about_prefix))
+        ]
     sections = [s for s in sections if s["paragraphs"]]
     cases.append({
         "slug": slug,

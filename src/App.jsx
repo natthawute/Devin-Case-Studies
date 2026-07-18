@@ -89,8 +89,25 @@ function Explorer() {
     [useCase, industry, query],
   )
 
-  const useCaseCounts = countBy(cases, (c) => c.useCases)
-  const industryCounts = countBy(cases, (c) => c.industry)
+  const matchQuery = (c) =>
+    !query ||
+    (c.company + ' ' + c.title + ' ' + c.summary)
+      .toLowerCase()
+      .includes(query.toLowerCase())
+  const allUseCaseCounts = countBy(cases, (c) => c.useCases)
+  const allIndustryCounts = countBy(cases, (c) => c.industry)
+  const useCaseCounts = countBy(
+    cases.filter((c) => (!industry || c.industry === industry) && matchQuery(c)),
+    (c) => c.useCases,
+  )
+  const industryCounts = countBy(
+    cases.filter((c) => (!useCase || c.useCases.includes(useCase)) && matchQuery(c)),
+    (c) => c.industry,
+  )
+  if (useCase && !useCaseCounts.some(([n]) => n === useCase))
+    useCaseCounts.push([useCase, 0])
+  if (industry && !industryCounts.some(([n]) => n === industry))
+    industryCounts.push([industry, 0])
   const anyFilter = useCase || industry || query
 
   return (
@@ -114,8 +131,8 @@ function Explorer() {
           </p>
           <div className="stats">
             <Stat value={cases.length} label="case studies" />
-            <Stat value={industryCounts.length} label="industries" />
-            <Stat value={useCaseCounts.length} label="use-case categories" />
+            <Stat value={allIndustryCounts.length} label="industries" />
+            <Stat value={allUseCaseCounts.length} label="use-case categories" />
             <Stat
               value={cases.reduce((n, c) => n + c.quotes.length, 0)}
               label="customer quotes"
@@ -154,23 +171,32 @@ function Explorer() {
           <span className="results-count">
             {filtered.length} of {cases.length} case studies
           </span>
+          {useCase && (
+            <button className="filter-pill" onClick={() => setUseCase(null)}>
+              {useCase} ✕
+            </button>
+          )}
+          {industry && (
+            <button className="filter-pill" onClick={() => setIndustry(null)}>
+              {INDUSTRY_ICONS[industry] || ''} {industry} ✕
+            </button>
+          )}
           {anyFilter && (
             <button
               className="clear-btn"
               onClick={() => {
                 setUseCase(null)
                 setIndustry(null)
-                setSize(null)
                 setQuery('')
               }}
             >
-              Clear filters ✕
+              Clear all ✕
             </button>
           )}
         </div>
         <div className="grid">
           {filtered.map((c) => (
-            <Card key={c.slug} c={c} />
+            <Card key={c.slug} c={c} onTag={setUseCase} />
           ))}
           {filtered.length === 0 && (
             <div className="empty">
@@ -228,7 +254,7 @@ function FacetBars({ title, counts, selected, onSelect, getLabel, limit }) {
   )
 }
 
-function Card({ c }) {
+function Card({ c, onTag }) {
   const headline = c.metrics[0]
   return (
     <a className="card" href={`#/case/${c.slug}`}>
@@ -250,9 +276,16 @@ function Card({ c }) {
       <p className="card-summary">{c.summary}</p>
       <div className="card-tags">
         {c.useCases.slice(0, 3).map((u) => (
-          <span key={u} className="tag">
+          <button
+            key={u}
+            className="tag"
+            onClick={(e) => {
+              e.preventDefault()
+              onTag(u)
+            }}
+          >
             {u}
-          </span>
+          </button>
         ))}
         {c.useCases.length > 3 && (
           <span className="tag more">+{c.useCases.length - 3}</span>
