@@ -333,18 +333,6 @@
    "quotes": [],
    "sections": [
     {
-     "heading": "",
-     "paragraphs": [
-      "Crossmint provides developer tools that help companies bring their applications, projects, and agents onchain. At the heart of their open-source initiatives is GOAT SDK, a community-owned library that enables AI agents to interact with blockchain tools."
-     ]
-    },
-    {
-     "heading": "Overview",
-     "paragraphs": [
-      "Crossming provides developer tools that help companies bring their applications, projects, and agents onchain. At the heart of our open-source initiatives is GOAT SDK , a community-owned library that enables AI agents to interact with blockchain tools—from making stablecoin payments to trading in decentralized markets, and more."
-     ]
-    },
-    {
      "heading": "The Challenge",
      "paragraphs": [
       "As maintainers of GOAT SDK, we faced a classic scaling challenge. The library requires constant integration work to keep pace with new protocols and dApps entering the ecosystem. Despite having an active community of developers, the integration backlog was growing faster than our contributors could handle. We needed a solution that could scale our development efforts while maintaining code quality."
@@ -441,12 +429,6 @@
     }
    ],
    "sections": [
-    {
-     "heading": "",
-     "paragraphs": [
-      "Evinova is a separate health tech company within the AstraZeneca group that delivers intelligently designed digital and AI-native solutions to biopharma companies and contract research organizations to optimize the entire clinical development lifecycle from end to end."
-     ]
-    },
     {
      "heading": "The Challenge",
      "paragraphs": [
@@ -765,12 +747,6 @@
    ],
    "sections": [
     {
-     "heading": "",
-     "paragraphs": [
-      "Hamming is an automated QA platform for voice AI agents. Their platform provides comprehensive testing, monitoring, and debugging tools that help teams identify and proactively fix issues and failures in voice AI agents before they reach customers."
-     ]
-    },
-    {
      "heading": "Making tasks \"Devinable\"",
      "paragraphs": [
       "For Hamming, speed is everything. As one of the fastest-moving engineering teams in the world, they measure their success by how much they can ship per week. With Devin contributing 25% of their total code volume and ranking as a top contributor alongside their best engineers, Hamming has redefined what engineering velocity looks like in the age of AI agents.",
@@ -839,12 +815,6 @@
    ],
    "quotes": [],
    "sections": [
-    {
-     "heading": "",
-     "paragraphs": [
-      "Hippo is a technology-native insurance platform, driving growth across owned and partner MGAs — empowering customers to protect what matters most."
-     ]
-    },
     {
      "heading": "Overview",
      "paragraphs": [
@@ -945,12 +915,6 @@
     }
    ],
    "sections": [
-    {
-     "heading": "",
-     "paragraphs": [
-      "Itaú Unibanco is Brazil's largest bank with estimated US$ 500B in assets, over 70 million customers, operations across 18 countries, and one of the largest engineering organizations in Latin America, with over 17,000 people working in tech."
-     ]
-    },
     {
      "heading": "Overview",
      "paragraphs": [
@@ -1073,12 +1037,6 @@
    ],
    "quotes": [],
    "sections": [
-    {
-     "heading": "",
-     "paragraphs": [
-      "Linktree's mission is to empower anyone to own, grow, and monetize their digital presence. There are 50M+ creators and businesses using it."
-     ]
-    },
     {
      "heading": "Overview",
      "paragraphs": [
@@ -1533,12 +1491,6 @@
    ],
    "quotes": [],
    "sections": [
-    {
-     "heading": "",
-     "paragraphs": [
-      "The Citation Group is a leading provider of compliance, risk management, and certification technology and services, spanning everything from HR and Health & Safety to ISO certification and cyber security. They support over 125,000 small and medium-sized businesses across the UK, Canada, Australia, and New Zealand."
-     ]
-    },
     {
      "heading": "About The Citation Group",
      "paragraphs": [
