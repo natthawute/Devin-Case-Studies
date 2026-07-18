@@ -55,6 +55,9 @@ def parse(path):
                 current = {"heading": "", "paragraphs": []}
                 sections.append(current)
             current["paragraphs"].append(text)
+    attributions = {q["attribution"] for q in quotes if q["attribution"]}
+    for s in sections:
+        s["paragraphs"] = [p for p in s["paragraphs"] if p not in attributions]
     sections = [s for s in sections if s["paragraphs"]]
     return sections, quotes
 
@@ -73,6 +76,10 @@ cases = []
 for slug, meta in META.items():
     path = os.path.join(SRC_DIR, f"{slug}.trim.txt")
     sections, quotes = parse(path)
+    about = meta.get("about", "")
+    for s in sections:
+        s["paragraphs"] = [p for p in s["paragraphs"] if p != about]
+    sections = [s for s in sections if s["paragraphs"]]
     cases.append({
         "slug": slug,
         "url": f"https://devin.ai/customers/{slug}",

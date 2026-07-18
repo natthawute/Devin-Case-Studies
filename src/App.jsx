@@ -49,7 +49,8 @@ export default function App() {
     <div className="app">
       <header className="topbar">
         <a href="#/" className="brand">
-          <span className="brand-mark">◆</span> Devin Case Studies
+          <img className="brand-logo" src="mascot.png" alt="Devin the otter" />
+          Devin Case Studies
         </a>
         <a
           className="source-link"
@@ -62,6 +63,7 @@ export default function App() {
       </header>
       {detail ? <Detail c={detail} /> : <Explorer />}
       <footer className="footer">
+        <img src="mascot.png" alt="" />
         Data extracted from public case studies at devin.ai/customers.
       </footer>
     </div>
@@ -97,19 +99,31 @@ function Explorer() {
   return (
     <main>
       <section className="hero">
-        <h1>How teams use Devin in production</h1>
-        <p className="hero-sub">
-          {cases.length} customer case studies, organized by use case and company type.
-          Pick a lens below to drill down into the actual stories.
-        </p>
-        <div className="stats">
-          <Stat value={cases.length} label="case studies" />
-          <Stat value={industryCounts.length} label="industries" />
-          <Stat value={useCaseCounts.length} label="use-case categories" />
-          <Stat
-            value={cases.reduce((n, c) => n + c.quotes.length, 0)}
-            label="customer quotes"
+        <div className="hero-mascot-wrap">
+          <img
+            className="hero-mascot"
+            src="mascot.png"
+            alt="Devin the otter mascot"
           />
+          <span className="hero-badge">hi, I'm Devin!</span>
+        </div>
+        <div className="hero-copy">
+          <h1>
+            How teams use <em>Devin</em> in production
+          </h1>
+          <p className="hero-sub">
+            {cases.length} customer case studies, organized by use case and company
+            type. Pick a lens below to drill down into the actual stories.
+          </p>
+          <div className="stats">
+            <Stat value={cases.length} label="case studies" />
+            <Stat value={industryCounts.length} label="industries" />
+            <Stat value={useCaseCounts.length} label="use-case categories" />
+            <Stat
+              value={cases.reduce((n, c) => n + c.quotes.length, 0)}
+              label="customer quotes"
+            />
+          </div>
         </div>
       </section>
 
@@ -188,7 +202,10 @@ function Explorer() {
             <Card key={c.slug} c={c} />
           ))}
           {filtered.length === 0 && (
-            <p className="empty">No case studies match these filters.</p>
+            <div className="empty">
+              <img src="mascot.png" alt="" />
+              <span>Devin couldn't find a match — try clearing some filters.</span>
+            </div>
           )}
         </div>
       </section>
